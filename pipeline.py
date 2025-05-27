@@ -4,6 +4,12 @@ from langchain_core.messages import HumanMessage
 import re
 import spacy
 from sentence_transformers import SentenceTransformer, util
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import torch
+import torch.nn.functional as F
+import nltk
+
+from nltk.tokenize import sent_tokenize
 
 from llm_setup import llm  # LLM interface
 
@@ -119,14 +125,15 @@ Use the following steps to reason about the score:
 {steps}
 
 ## Final Answer Format
-At the end of your response, return your final score and justification **in this exact format** (do not deviate):
+At the end of your response, return your final score and justification of the score **in this exact format and wording** (do not deviate):
 
 Final Faithfulness Score: <a number from 1 to 5>  
 Final Justification: <a short explanation, no Markdown formatting>
 
-## Example
-Final Faithfulness Score: 4.5  
-Final Justification: The explanation accurately reflects most of the evidence but misses one key detail that affects the conclusion.
+Example:
+Final Faithfulness Score: 3 
+Final Justification: This piece of evidence was not found in the evidence provided ... 
+
 
 Now begin your evaluation.
             
@@ -276,9 +283,9 @@ def G_eval_existing_file(file: str, one_time_cot, existing):
         score_justification = ""
         evaluation_count = []
         try:
-            while len(evaluation_count) < 5:
+            while len(evaluation_count) < 2:
                 # Call LLM through LangChain
-                print(f"{len(evaluation_count)+1}/5")
+                print(f"{len(evaluation_count) + 1}/3")
                 response = llm.invoke([HumanMessage(content=prompt)])
                 llm_response = response.content.strip()
                 # Try to extract label and justification
@@ -293,7 +300,7 @@ def G_eval_existing_file(file: str, one_time_cot, existing):
                     score = '-5'
                     score_justification = "Did not find it"
 
-            score = sum(float(item[0]) for item in evaluation_count)/len(evaluation_count)
+            score = sum(float(item[0]) for item in evaluation_count) / len(evaluation_count)
             print(f"Score {score} at {count}/{len(data)}")
 
         except Exception as e:
@@ -315,10 +322,11 @@ def G_eval_existing_file(file: str, one_time_cot, existing):
         scores.append(record)
         all_scores.append(record_2)
         if count % 50 == 0:
-            with open(f"evaluations/{filtered_file_name}_while_loop_final_scores_backup.json", "w", encoding="utf-8") as f:
+            with open(f"evaluations/{filtered_file_name}_while_loop_final_scores_backup_2.json", "w",
+                      encoding="utf-8") as f:
                 json.dump(scores, f, indent=2)
 
-            with open(f"evaluations/{filtered_file_name}_set_scores_backup.json", "w", encoding="utf-8") as f:
+            with open(f"evaluations/{filtered_file_name}_set_scores_backup_2.json", "w", encoding="utf-8") as f:
                 json.dump(all_scores, f, indent=2)
 
     # Save evaluation records
@@ -342,6 +350,96 @@ def G_eval_score_probability(scores):
         float: Placeholder return value
     """
     return 0
+
+
+def score_sentence_against_chunks(sentence, evidence_chunks, model, tokenizer):
+    faithful_count = 0
+    total_confidence = 0
+
+    for chunk in evidence_chunks:
+        inputs = tokenizer(chunk, sentence, return_tensors="pt", truncation=True, max_length=512)
+        with torch.no_grad():
+            logits = model(**inputs).logits
+            probs = F.softmax(logits, dim=1)
+            label = torch.argmax(probs).item()
+            confidence = probs[0][1].item()
+
+        if label == 1:
+            faithful_count += 1
+            total_confidence += confidence
+
+    return faithful_count > 0, total_confidence / len(evidence_chunks)
+
+
+def factcc_score_by_sentence(evidence, explanation, model, tokenizer):
+    explanation_sentences = sent_tokenize(explanation)
+    evidence_tokens = tokenizer.tokenize(evidence)
+
+    sentence_scores = []
+    for sentence in explanation_sentences:
+        print(sentence)
+        sentence_tokens = tokenizer.tokenize(sentence)
+        remaining_tokens = 512 - len(sentence_tokens) - 3
+        if remaining_tokens <= 0:
+            continue
+
+        chunks = [evidence_tokens[i:i + remaining_tokens]
+                  for i in range(0, len(evidence_tokens), remaining_tokens)]
+        evidence_chunks = [tokenizer.convert_tokens_to_string(chunk) for chunk in chunks]
+
+        is_faithful, avg_conf = score_sentence_against_chunks(sentence, evidence_chunks, model, tokenizer)
+        sentence_scores.append((is_faithful, avg_conf))
+
+    if not sentence_scores:
+        return {"label": "not_entailment", "confidence": 0.0}
+
+    faithful_sentences = [s for s in sentence_scores if s[0]]
+    label = "entailment" if len(faithful_sentences) >= len(sentence_scores) / 2 else "not_entailment"
+    avg_confidence = sum([s[1] for s in faithful_sentences]) / len(sentence_scores)
+
+    return {"label": label, "confidence": round(avg_confidence, 4)}
+
+
+def fact_cc_evaluation_pipeline(file):
+    model_name = "manueldeprada/FactCC"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForSequenceClassification.from_pretrained(model_name)
+    model.eval()
+    with open(f"{file}.json", "r",
+              encoding="utf-8") as f:
+        data = json.load(f)
+    scores = []
+    for item in data:
+        evidence = item['evidence']
+        explanation = item['justification']
+        score = factcc_score_by_sentence(evidence, explanation, model, tokenizer)
+        result = {'claim': item['claim'],
+                  "justification": explanation,
+                  "score": score['label'],
+                  "score_confidence": score['confidence']}
+        scores.append(result)
+    filtered_file_name = file.replace('/', "_")
+    with open(f"evaluations/factCC/{filtered_file_name}.json", "w",
+              encoding="utf-8") as f:
+        json.dump(scores, f, indent=2)
+
+
+# def fact_cc_score(evidence, explanation, model, tokenizer):
+#     input_text = f"{evidence} </s> {explanation}"
+#     inputs = tokenizer(input_text, return_tensors="pt", truncation=True, max_length=512)
+#
+#     with torch.no_grad():
+#         outputs = model(**inputs)
+#         logits = outputs.logits
+#         probs = F.softmax(logits, dim=1)
+#
+#     label_idx = torch.argmax(probs, dim=1).item()
+#     label_map = ["not_entailment", "entailment"]  # label 0: unfaithful, 1: faithful
+#
+#     return {
+#         "label": label_map[label_idx],
+#         "confidence": round(probs[0][label_idx].item(), 4)
+#     }
 
 
 def explanations_pipeline():
@@ -447,13 +545,13 @@ def ground_truth_comparison_pipeline(type, file, limit):
         data_gen = json.load(f)
     count = 0
     for i in range(len(data)):
-        count+=1
-        if count>limit:
+        count += 1
+        if count > limit:
             break
         gen = data_gen[i]['justification']
         true = data[i]['justification']
         diff_score = compute_score(true, gen, 0.5)
-        metric_score = float(data_gen[i]['score'])/5
+        metric_score = float(data_gen[i]['score']) / 5
 
 
 def main_generation_pipeline_full():
@@ -468,12 +566,14 @@ def main_pipeline_existing_explanations(file):
     """
        Main entry point for running the evaluation pipeline on an existing file.
        """
-    G_eval_existing_file(file, True, True)
-    G_eval_existing_file("Datasets/QuanTemp/PolitiFact/combined/combined_test", True, True)
-
+    # G_eval_existing_file(file, True, True)
+    fact_cc_evaluation_pipeline("Datasets/QuanTemp/PolitiFact/combined/combined_test")
+    fact_cc_evaluation_pipeline(file)
+    # G_eval_existing_file("Datasets/QuanTemp/PolitiFact/combined/combined_test", True, True)
 
 
 def main():
+
     # Your main logic here
     main_pipeline_existing_explanations("generated_explanations/explanations_test_number_8")
 

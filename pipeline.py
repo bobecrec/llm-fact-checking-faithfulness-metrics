@@ -3,8 +3,8 @@ import numpy as np
 from langchain_core.messages import HumanMessage
 import re
 from llm_setup import llm  # LLM interface
-from factCC_methods import fact_cc_evaluation_pipeline
-from geval_methods import G_eval_existing_file,G_eval_prompt
+from factCC_implementation import fact_cc_evaluation_pipeline
+from geval_implementation import G_eval_existing_file,G_eval_prompt
 
 
 def generate_explanations(data_type, prompt: "", number: 0, limit: np.inf):
@@ -124,8 +124,8 @@ def evaluation_pipeline(explanations):
     Args:
         explanations (List[dict]): Explanation records to be evaluated.
     """
-    G_eval_prompt(explanations, 0, True, "")
-    fact_cc_evaluation_pipeline("",explanations)
+    G_eval_prompt(explanations, True)
+    fact_cc_evaluation_pipeline("", explanations)
 
 
 def main_generation_pipeline_full():
@@ -140,15 +140,16 @@ def main_pipeline_existing_explanations(file):
     """
        Main entry point for running the evaluation pipeline on an existing file.
        """
-    G_eval_existing_file(file, True, True)
-    fact_cc_evaluation_pipeline(file)
+    # G_eval_existing_file(file, True, True)
+    fact_cc_evaluation_pipeline(file, [])
 
 
 def main():
     # Your main logic here
     main_pipeline_existing_explanations("generated_explanations/explanations_test_number_8")
-    # main_pipeline_existing_explanations("Datasets/QuanTemp/PolitiFact/combined/combined_test")
-    # explanations_pipeline()
+    main_pipeline_existing_explanations("Datasets/QuanTemp/PolitiFact/combined/combined_test")
+    main_pipeline_existing_explanations("generated_explanations/explanations_generated_fault")
+
 
 if __name__ == "__main__":
     main()

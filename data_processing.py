@@ -6,6 +6,19 @@ import pandas as pd
 from scipy.stats import pearsonr, spearmanr
 
 
+def read_json_utf(file):
+    with open(f"{file}", "r",
+              encoding="utf-8") as f:
+        data = json.load(f)
+    return data
+
+
+def write_json_utf(file, data):
+    with open(f"{file}", "w",
+              encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+
 def g_eval_true_gen_relation(scores, scores_gen, additional, filename):
     # Initialize bin labels and counters
     bin_labels = ["Higher Score for Politifact", "Lower Score for Politifact", "Equal Score"]
@@ -151,9 +164,8 @@ def g_eval_pie_chart_valid_scores(scores, temperature, filename):
 
 
 def g_eval_compare_faithfulness_score_with_accuracy(scores, explanation_file):
-    with open(f"generated_explanations/{explanation_file}.json", "r",
-              encoding="utf-8") as f:
-        explanations = json.load(f)
+
+    explanations = read_json_utf(f"generated_explanations/{explanation_file}.json")
     data = []
     for i in range(len(explanations)):
         correct = explanations[i]['generated_label'] == explanations[i]['original_label']
@@ -187,10 +199,7 @@ def g_eval_compare_faithfulness_score_with_accuracy(scores, explanation_file):
 
 
 def factCC_score_analysis(filename):
-    with open(f"{filename}.json", "r",
-              encoding="utf-8") as f:
-        scores = json.load(f)
-
+    scores = read_json_utf(f"{filename}.json")
     for score in scores:
         score_confidence = score['score_confidence']
         if score_confidence < 0.5:
@@ -205,12 +214,10 @@ def factCC_score_analysis(filename):
 
 
 def factCC_score_plot(filename, name):
-    with open(f"{filename}.json", "r",
-              encoding="utf-8") as f:
-        scores = json.load(f)
+    scores = read_json_utf(f"{filename}.json")
 
     bin_labels = ['Faithful', 'Unfaithful']
-    bin_counts = [0,0]
+    bin_counts = [0, 0]
     for score in scores:
         if score['score'] == 1:
             bin_counts[0] += 1
@@ -228,10 +235,9 @@ def factCC_score_plot(filename, name):
     plt.savefig(f"plots/factCC/{name}_explanations_histogram.png", dpi=300)  # You can change dpi or format
     plt.show()
 
+
 def factCC_g_eval_correlation(factcc_scores, geval_scores_default: [], name):
-
-    geval_scores = [(s-1)/4 for s in geval_scores_default]
-
+    geval_scores = [(s - 1) / 4 for s in geval_scores_default]
 
     # Pearson (linear similarity)
     pearson_corr, _ = pearsonr(factcc_scores, geval_scores)
@@ -264,33 +270,18 @@ def factCC_g_eval_correlation(factcc_scores, geval_scores_default: [], name):
 
 
 def main():
-    with open(f"evaluations/G-Eval/Datasets_QuanTemp_PolitiFact_combined_combined_test_while_loop_final_scores.json",
-              "r",
-              encoding="utf-8") as f:
-        data = json.load(f)
-
-    # Extract scores
+    data = read_json_utf(
+        "evaluations/G-Eval/Datasets_QuanTemp_PolitiFact_combined_combined_test_while_loop_final_scores.json")
     scores = [float(item['score']) for item in data]
 
-    with open(f"evaluations/G-Eval/generated_explanations_explanations_test_number_8_while_loop_final_scores_updated.json",
-              "r",
-              encoding="utf-8") as f:
-        data_gen = json.load(f)
-
+    data_gen = read_json_utf(
+        "evaluations/G-Eval/generated_explanations_explanations_test_number_8_while_loop_final_scores_updated.json")
     scores_gen = [float(item['score']) for item in data_gen]
 
-    with open(f"evaluations/factCC/Datasets_QuanTemp_PolitiFact_combined_combined_test.json",
-              "r",
-              encoding="utf-8") as f:
-        data = json.load(f)
-
+    data = read_json_utf("evaluations/factCC/Datasets_QuanTemp_PolitiFact_combined_combined_test.json")
     scores_cc = [float(item['score_confidence']) for item in data]
 
-    with open(f"evaluations/factCC/generated_explanations_explanations_test_number_8.json",
-              "r",
-              encoding="utf-8") as f:
-        data_gen = json.load(f)
-
+    data_gen = read_json_utf("evaluations/factCC/generated_explanations_explanations_test_number_8.json")
     scores_gen_cc = [float(item['score_confidence']) for item in data_gen]
 
     #
@@ -300,11 +291,12 @@ def main():
     #                        "explanations_test_number_8", True)
     # g_eval_true_gen_relation(scores, scores_gen, "", "while_loop_comparison")
     # g_eval_compare_faithfulness_score_with_accuracy(scores_gen, "explanations_test_number_8")
-    factCC_score_plot("evaluations/factCC/Datasets_QuanTemp_PolitiFact_combined_combined_test", "Politifact")
-    factCC_score_plot("evaluations/factCC/generated_explanations_explanations_test_number_8", "Generated")
-    factCC_score_plot("evaluations/factCC/generated_explanations_explanations_generated_fault", "Generated Faulty")
-    factCC_g_eval_correlation(scores_cc , scores, "Politifact")
-    factCC_g_eval_correlation(scores_gen_cc, scores_gen, "Generated")
+    # factCC_score_plot("evaluations/factCC/Datasets_QuanTemp_PolitiFact_combined_combined_test", "Politifact")
+    # factCC_score_plot("evaluations/factCC/generated_explanations_explanations_test_number_8", "Generated")
+    # factCC_score_plot("evaluations/factCC/generated_explanations_explanations_generated_fault", "Generated Faulty")
+    # factCC_g_eval_correlation(scores_cc, scores, "Politifact")
+    # factCC_g_eval_correlation(scores_gen_cc, scores_gen, "Generated")
+
 
 if __name__ == "__main__":
     main()

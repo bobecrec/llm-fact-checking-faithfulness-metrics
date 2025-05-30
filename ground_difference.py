@@ -6,16 +6,47 @@ from sentence_transformers import SentenceTransformer, util
 
 
 def extract_facts(text, nlp):
+    """
+       Splits the input text into individual factual units using spaCy sentence segmentation.
+
+       Args:
+           text (str): The input paragraph or justification text.
+           nlp (spacy.Language): Loaded spaCy model for NLP parsing.
+
+       Returns:
+           List[str]: A list of non-empty sentences/facts.
+       """
     doc = nlp(text)
     return [sent.text.strip() for sent in doc.sents if len(sent.text.strip()) > 0]
 
 
 def normalized_tokens(text, nlp):
+    """
+        Normalizes text by extracting lowercase lemmatized tokens, filtering out stopwords and punctuation.
+
+        Args:
+            text (str): Input sentence.
+            nlp (spacy.Language): spaCy model.
+
+        Returns:
+            List[str]: Normalized tokens for overlap comparison.
+        """
     doc = nlp(text)
     return [token.lemma_.lower() for token in doc if token.is_alpha and not token.is_stop]
 
 
 def compute_score(true, gen, alpha):
+    """
+       Computes a combined score between two sets of justifications using F1 lexical overlap and semantic similarity.
+
+       Args:
+           true (str): Ground truth (e.g., journalist-written) explanation.
+           gen (str): LLM-generated explanation.
+           alpha (float): Weighting factor between F1 (lexical) and embedding (semantic) score.
+
+       Returns:
+           float: Weighted similarity score between true and generated explanations.
+       """
     # Load models
     nlp = spacy.load("en_core_web_sm")
     model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -28,6 +59,17 @@ def compute_score(true, gen, alpha):
 
 
 def compute_f1_score(true, gen, nlp):
+    """
+       Computes the F1 score of token-level overlap between two lists of sentences.
+
+       Args:
+           true (List[str]): Reference (ground truth) facts.
+           gen (List[str]): Generated facts.
+           nlp (spacy.Language): spaCy model.
+
+       Returns:
+           float: F1 lexical overlap score.
+       """
     gold_tokens = set()
     gen_tokens = set()
     for fact in true:
@@ -42,6 +84,17 @@ def compute_f1_score(true, gen, nlp):
 
 
 def compute_semantic_embedding(true, gen, model):
+    """
+       Computes average maximum cosine similarity from each generated sentence to any true sentence.
+
+       Args:
+           true (List[str]): Reference sentences.
+           gen (List[str]): Generated sentences.
+           model (SentenceTransformer): Sentence-BERT model.
+
+       Returns:
+           float: Average maximum cosine similarity.
+       """
     if not true or not gen:
         return 0.0
     gold_emb = model.encode(true, convert_to_tensor=True)
@@ -51,12 +104,19 @@ def compute_semantic_embedding(true, gen, model):
     return float(best_matches.mean())
 
 
-def ground_truth_comparison_pipeline(type, file, limit):
+def ground_truth_comparison_pipeline(data_type, file, limit):
     """
-    Loads ground truth ruling data for later comparison with model-generated justifications.
-    This will allow faithfulness gap analysis between human and machine-generated explanations.
-    """
-    with open(f"Datasets/QuanTemp/PolitiFact/combined/combined_{type}.json", "r",
+       Main comparison loop between human-written and generated explanations.
+
+       Args:
+           data_type (str): Dataset split data_type (e.g., 'test').
+           file (str): Path to the generated explanations JSON file.
+           limit (int): Number of examples to process (useful for quick testing).
+
+       Produces:
+           CSV file of human vs generated explanations with computed similarity scores.
+       """
+    with open(f"Datasets/QuanTemp/PolitiFact/combined/combined_{data_type}.json", "r",
               encoding="utf-8") as f:
         data = json.load(f)
 
@@ -84,8 +144,10 @@ def ground_truth_comparison_pipeline(type, file, limit):
     # Save to CSV
     df.to_csv("explanation_comparison/explanation_comparison.csv", index=False)
 
+
 def main():
-    ground_truth_comparison_pipeline('test',"generated_explanations/explanations_test_number_8.json", 10000)
+    ground_truth_comparison_pipeline('test', "generated_explanations/explanations_test_number_8.json", 10000)
+
 
 if __name__ == "__main__":
     main()

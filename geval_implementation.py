@@ -1,23 +1,22 @@
 import json
 from langchain_core.messages import HumanMessage
 import re
-
-
 from llm_setup import llm  # LLM interface
-
 
 
 def build_faithfulness_prompt(claim, evidence, explanation, one_time_cot, steps):
     """
-    Constructs a prompt for an LLM to evaluate the faithfulness of a given explanation.
+    Constructs a prompt for evaluating the faithfulness of an explanation using an LLM.
 
     Args:
-        claim (str): The factual claim being checked.
-        evidence (str): Supporting or contradicting evidence.
-        explanation (str): The model-generated explanation to be evaluated.
+        claim (str): The claim under fact-checking.
+        evidence (str): Supporting/contradicting evidence for the claim.
+        explanation (str): Model-generated explanation to be evaluated.
+        one_time_cot (bool): If True, uses provided reasoning steps for CoT; else generates steps inline.
+        steps (str): Step-by-step reasoning instructions if CoT is pre-generated.
 
     Returns:
-        str: A formatted prompt string for use in LLM evaluation.
+        str: A formatted prompt to be sent to the LLM.
     """
 
     prompt = f"""
@@ -53,40 +52,51 @@ Final Justification: This piece of evidence was not found in the evidence provid
 Now begin your evaluation.
 
             """ if one_time_cot else f"""
-            You are a faithfulness evaluator.
+You are a faithfulness evaluator.
 
-            Task: Evaluate the *faithfulness* of the following explanation based on the provided claim and evidence.
+## Task
+Evaluate the *faithfulness* of the following explanation based on the provided claim and evidence.
 
-            Claim: {claim}
-            Evidence: {evidence}
-            Explanation: {explanation}
+- **Claim:** {claim}
+- **Evidence:** {evidence}
+- **Explanation:** {explanation}
 
-            Evaluation Criteria:
-            - A score from 1 (not faithful at all) to 5 (fully faithful), decimals allowed.
-            - Faithfulness means the explanation should be based *only* on the evidence and should not hallucinate 
-            or omit critical facts. It should correctly interpret the evidence and draw 
-            meaningful and logical conclusions that support the label.
+## Evaluation Criteria
+- Faithfulness means the explanation should be based *only* on the provided information in the evidence entry above.
+- It must **not** hallucinate facts not present in the evidence. The facts used must be present in the provided evidence.
+- An explanation that is factually correct but irrelevant to the evidence is NOT faithful.
+- Give a **score from 1 to 5**, where 1 = not faithful at all, and 5 = fully faithful. Decimals are allowed.
 
-            Generate Evaluation Steps yourself (3–5) and after performing all the steps, give a response in the format below.
+Generate 3-5 steps for the execution of this task yourself, perform every generate step and give a final answer in the format below:
 
-            Your final justification should outline why you gve this score and what were some of the most important factors that affected your score (eg. evidence used, wording, structure, logic).
-            Please respond in this format (Do not use this formatting anywhere in your answer except for the final score and 
-            justification to allow for processing):
-            Final Faithfulness Score: <1–5> Final Justification: <Short explanation>
+## Final Answer Format
+At the end of your response, return your final score and justification of the score **in this exact format and wording** (do not deviate):
+
+Final Faithfulness Score: <a number from 1 to 5>  
+Final Justification: <a short explanation, no Markdown formatting>
+
+Example:
+Final Faithfulness Score: 3 
+Final Justification: This piece of evidence was not found in the evidence provided ... 
+
+
+Now begin your evaluation.
             """
     return prompt
 
 
-def G_eval_prompt(explanations, number: 0, one_time_cot, file: ""):
+def G_eval_prompt(explanations, one_time_cot):
     """
-    Builds and stores prompts for evaluating the faithfulness of each explanation using G-EVAL-style format.
+    Generates faithfulness evaluations for a list of explanations using G-Eval-style prompting.
+    Optionally includes CoT steps.
 
     Args:
-        explanations (List[dict]): List of explanation records from generate_explanations().
-        number (int): Used to distinguish output files.
+        explanations (List[dict]): A list of explanation dicts with keys: 'claim', 'evidence', 'justification'.
+        one_time_cot (bool): Whether to generate one CoT set of steps for reuse.
     """
-    scores = []
 
+    scores = []
+    llm_response_cot = ""
     if one_time_cot:
         cot_prompt = """
         You are a faithfulness evaluator.
@@ -151,8 +161,18 @@ def G_eval_prompt(explanations, number: 0, one_time_cot, file: ""):
 
 
 def G_eval_existing_file(file: str, one_time_cot, existing):
+    """
+       Evaluate explanations from a file using G-Eval prompts.
+       Uses multiple evaluations (n=2) per explanation to get average score and backup saves.
+
+       Args:
+           file (str): Path (without .json) to the file containing explanations.
+           one_time_cot (bool): Whether to use shared CoT steps.
+           existing (bool): If True, loads existing CoT steps from file instead of generating.
+       """
     scores = []
     all_scores = []
+    llm_response_cot = ""
     if one_time_cot and not existing:
         cot_prompt = """
             You are a faithfulness evaluator.
@@ -172,11 +192,11 @@ def G_eval_existing_file(file: str, one_time_cot, existing):
         llm_response_cot = response.content.strip()
 
     if existing:
-        with open(f"evaluations/cot_steps.json", "r", encoding="utf-8") as f:
+        with open(f"evaluations/G-Eval/cot_steps.json", "r", encoding="utf-8") as f:
             data = json.load(f)
         llm_response_cot = data[0]['steps']
     else:
-        with open(f"evaluations/cot_steps.json", "w", encoding="utf-8") as f:
+        with open(f"evaluations/G-Eval/cot_steps.json", "w", encoding="utf-8") as f:
             json.dump([{'steps': llm_response_cot}], f, indent=2)
 
     with open(f"{file}.json",
@@ -193,8 +213,7 @@ def G_eval_existing_file(file: str, one_time_cot, existing):
             one_time_cot, llm_response_cot
         )
         count += 1
-        # Placeholder score and justification (real LLM call not yet added)
-        score = ""
+
         score_justification = ""
         evaluation_count = []
         try:
@@ -252,6 +271,7 @@ def G_eval_existing_file(file: str, one_time_cot, existing):
         json.dump(all_scores, f, indent=2)
 
     print("Generated and Saved ALL G-Eval scores")
+
 
 def G_eval_score_probability(scores):
     """

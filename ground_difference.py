@@ -100,7 +100,7 @@ def compute_semantic_embedding(true, gen, model):
     gold_emb = model.encode(true, convert_to_tensor=True)
     gen_emb = model.encode(gen, convert_to_tensor=True)
     sim_matrix = util.cos_sim(gen_emb, gold_emb)
-    best_matches = sim_matrix.max(dim=1).values  # best match for each gen fact
+    best_matches = sim_matrix.max(dim=1).values
     return float(best_matches.mean())
 
 

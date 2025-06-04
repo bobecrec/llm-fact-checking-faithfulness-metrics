@@ -1,9 +1,13 @@
+import itertools
 import json
+from itertools import combinations
 
+import numpy as np
+import pandas
 from matplotlib import pyplot as plt
 import seaborn as sns
 import pandas as pd
-from scipy.stats import pearsonr, spearmanr
+from scipy.stats import pearsonr, spearmanr, zscore
 
 
 def read_json_utf(file):
@@ -163,109 +167,363 @@ def g_eval_pie_chart_valid_scores(scores, temperature, filename):
     plt.show()
 
 
-def g_eval_compare_faithfulness_score_with_accuracy(scores, explanation_file):
-
-    explanations = read_json_utf(f"generated_explanations/{explanation_file}.json")
+def compare_faithfulness_score_with_accuracy(scores, accuracy, metric, file_name):
     data = []
-    for i in range(len(explanations)):
-        correct = explanations[i]['generated_label'] == explanations[i]['original_label']
+    for i in range(len(scores)):
         data.append({
             'Faithfulness Score': scores[i],
-            'Label Correct': 'Correct' if correct else 'Incorrect'
+            'Label Correct': "Accuracy" if accuracy[i] else "Inaccuracy"
         })
 
     df = pd.DataFrame(data)
 
     # Boxplot
     sns.boxplot(x='Label Correct', y='Faithfulness Score', data=df)
-    plt.title('Faithfulness Score vs. Label Accuracy')
+
+    # Calculate and annotate mean for each group
+    grouped = df.groupby('Label Correct')['Faithfulness Score'].mean().reset_index()
+    for i, row in grouped.iterrows():
+        plt.scatter(i, row['Faithfulness Score'], color='red', marker='D', s=60, label='Mean' if i == 0 else "")
+        plt.text(i, row['Faithfulness Score'] + 0.01, f"{row['Faithfulness Score']:.2f}",
+                 ha='center', va='bottom', fontsize=9, color='red')
+
+    plt.title(f'Faithfulness Score vs. Label Accuracy for {metric}')
     plt.ylabel('Faithfulness Score')
     plt.xlabel('Prediction Accuracy')
-    filtered_file_name = explanation_file.replace('/', "_")
-    plt.savefig(f"plots/accuracy_to_faithfulness/{filtered_file_name}", dpi=300)  # You can change dpi or format
-    plt.show()
 
-    # Compute correctness list (1 = correct, 0 = incorrect)
-    label_correctness = [
-        1 if e['generated_label'] == e['original_label'] else 0
-        for e in explanations
-    ]
+    # Avoid duplicate legend entries
+    handles, labels = plt.gca().get_legend_handles_labels()
+    if 'Mean' in labels:
+        plt.legend([handles[labels.index('Mean')]], ['Mean'], loc='best')
 
-    # Pearson correlation
-    correlation, p_value = pearsonr(label_correctness, scores)
-
-    print(f"Pearson correlation: {correlation:.3f}")
-    print(f"P-value: {p_value:.5f}")
-
-
-def factCC_score_analysis(filename):
-    scores = read_json_utf(f"{filename}.json")
-    for score in scores:
-        score_confidence = score['score_confidence']
-        if score_confidence < 0.5:
-            score['score'] = 0 if score['score'] == "entailment" else 1
-            score['score_confidence'] = 1 - score_confidence
-        else:
-            score['score'] = 1 if score['score'] == "entailment" else 0
-
-    with open(f"{filename}_updated.json", "w",
-              encoding="utf-8") as f:
-        json.dump(scores, f, indent=2)
-
-
-def factCC_score_plot(filename, name):
-    scores = read_json_utf(f"{filename}.json")
-
-    bin_labels = ['Faithful', 'Unfaithful']
-    bin_counts = [0, 0]
-    for score in scores:
-        if score['score'] == 1:
-            bin_counts[0] += 1
-        else:
-            bin_counts[1] += 1
-
-    # # Plot histogram as a bar chart
-    plt.figure(figsize=(8, 5))
-    plt.bar(bin_labels, bin_counts, color='skyblue', edgecolor='black')
-    plt.xlabel("Faithfulness Label")
-    plt.ylabel("Count")
-    plt.title(f"FactCC Classification of {name} Explanations")
-    plt.grid(axis='y')
-    plt.tight_layout()
-    plt.savefig(f"plots/factCC/{name}_explanations_histogram.png", dpi=300)  # You can change dpi or format
+    plt.savefig(f"plots/accuracy_to_faithfulness/{metric}", dpi=300)
     plt.show()
 
 
-def factCC_g_eval_correlation(factcc_scores, geval_scores_default: [], name):
-    geval_scores = [(s - 1) / 4 for s in geval_scores_default]
+def score_correlation(scores_metric_one, scores_metric_two, metric_one, metric_two, dataset, original_labels, accuracy):
+    # geval_scores = [(s - 1) / 4 for s in geval_scores_default]
+    #
+    # # Pearson (linear similarity)
+    # pearson_corr, _ = pearsonr(factcc_scores, geval_scores)
+    #
+    # # Spearman (rank similarity)
+    # spearman_corr, _ = spearmanr(factcc_scores, geval_scores)
+    #
+    # print(f"Pearson correlation: {pearson_corr:.4f}")
+    # print(f"Spearman correlation: {spearman_corr:.4f}")
 
-    # Pearson (linear similarity)
-    pearson_corr, _ = pearsonr(factcc_scores, geval_scores)
+    if metric_one == "G-Eval":
+        scores_metric_one = [(s - 1) / 4 for s in scores_metric_one]
 
-    # Spearman (rank similarity)
-    spearman_corr, _ = spearmanr(factcc_scores, geval_scores)
+    if metric_two == 'G-Eval':
+        scores_metric_two = [(s - 1) / 4 for s in scores_metric_two]
 
-    print(f"Pearson correlation: {pearson_corr:.4f}")
-    print(f"Spearman correlation: {spearman_corr:.4f}")
-
-    plt.hist(factcc_scores, bins=20, alpha=0.5, label='FactCC')
-    plt.hist(geval_scores, bins=20, alpha=0.5, label='G-EVAL')
+    plt.hist(scores_metric_one, bins=20, alpha=0.5, label=metric_one)
+    plt.hist(scores_metric_two, bins=20, alpha=0.5, label=metric_two)
     plt.xlabel("Faithfulness Score")
     plt.ylabel("Count")
-    plt.title("Score Distribution: FactCC vs G-EVAL")
+    plt.title(f"Score Distribution: {metric_one} vs {metric_two} for {dataset} Explanations")
     plt.legend()
     plt.grid(True)
-    plt.savefig(f"plots/factCC/g_eval_correlation_histogram_{name}.png", dpi=300)  # You can change dpi or format
+    plt.savefig(f"plots/correlation_between_metrics/correlation_{metric_one}_{metric_two}.png",
+                dpi=300)  # You can change dpi or format
     plt.show()
 
     # Scatterplot for pairwise agreement
-    plt.scatter(factcc_scores, geval_scores, alpha=0.6)
-    plt.plot([0, 1], [0, 1], color='red', linestyle='--')  # line of perfect agreement
-    plt.xlabel("FactCC Score")
-    plt.ylabel("G-EVAL Score")
-    plt.title("Faithfulness Score Agreement")
+    label_colors = {
+        "True": "green",
+        "False": "red",
+        "Conflicting": "gold"  # yellow-like
+    }
+    colors = [label_colors.get(label, "gray") for label in original_labels]
+
+    plt.figure(figsize=(6, 6))
+    plt.scatter(scores_metric_one, scores_metric_two, c=colors, alpha=0.6)
+    plt.plot([0, 1], [0, 1], color='black', linestyle='--')  # perfect agreement line
+    plt.xlabel(f"{metric_one} Score")
+    plt.ylabel(f"{metric_two} Score")
+    plt.title(f"Faithfulness Score Agreement Between {metric_one} and {metric_two} for {dataset} Explanations")
     plt.grid(True)
-    plt.savefig(f"plots/factCC/g_eval_correlation_scatter_{name}.png", dpi=300)  # You can change dpi or format
+
+    # Custom legend
+    from matplotlib.lines import Line2D
+    legend_elements = [
+        Line2D([0], [0], marker='o', color='w', label='True', markerfacecolor='green', markersize=8),
+        Line2D([0], [0], marker='o', color='w', label='False', markerfacecolor='red', markersize=8),
+        Line2D([0], [0], marker='o', color='w', label='Half-True', markerfacecolor='gold', markersize=8),
+
+    ]
+    plt.legend(handles=legend_elements, title="Original label", loc='best')
+
+    plt.savefig(f"plots/correlation_between_metrics/correlation_scatter_{metric_one}_{metric_two}_{dataset}.png",
+                dpi=300)
+    plt.show()
+
+
+def compare_to_diff(scores, scores_cc, scores_uni, scores_qags, similarity_scores):
+    scores = [(s - 1) / 4 for s in scores]
+    metrics = {
+        "G-Eval": scores,
+        "FactCC": scores_cc,
+        "UniEval": scores_uni,
+        "QAGs": scores_qags
+    }
+
+    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+    axes = axes.flatten()
+
+    for i, (metric, metric_scores) in enumerate(metrics.items()):
+        ax = axes[i]
+        sns.regplot(x=similarity_scores, y=metric_scores, ax=ax, scatter_kws={'alpha': 0.5})
+        corr, _ = pearsonr(similarity_scores, metric_scores)
+        ax.set_title(f"{metric} (r = {corr:.2f})")
+        ax.set_xlabel("Similarity to Expert Explanation")
+        ax.set_ylabel("Faithfulness Score")
+
+    plt.tight_layout()
+    plt.savefig("plots/similarity_vs_faithfulness_all_metrics.png", dpi=300)
+    plt.show()
+
+
+def correlation_matrix(geval_scores, factcc_scores, unieval_scores, qags_scores, similarity_scores):
+    geval_scores = [(s - 1) / 4 for s in geval_scores]
+
+    scores_dict = {
+        'G-Eval': geval_scores,
+        'FactCC': factcc_scores,
+        'UniEval': unieval_scores,
+        'QAGs': qags_scores,
+        'Similarity': similarity_scores
+    }
+
+    # Create metric list
+    metrics = list(scores_dict.keys())
+
+    # Initialize correlation matrices
+    pearson_matrix = pd.DataFrame(index=metrics, columns=metrics)
+    spearman_matrix = pd.DataFrame(index=metrics, columns=metrics)
+
+    # Fill correlation values
+    for m1, m2 in itertools.product(metrics, repeat=2):
+        if m1 == m2:
+            pearson_matrix.loc[m1, m2] = 1.0
+            spearman_matrix.loc[m1, m2] = 1.0
+        else:
+            p_corr, _ = pearsonr(scores_dict[m1], scores_dict[m2])
+            s_corr, _ = spearmanr(scores_dict[m1], scores_dict[m2])
+            pearson_matrix.loc[m1, m2] = round(p_corr, 4)
+            spearman_matrix.loc[m1, m2] = round(s_corr, 4)
+
+    # Save correlation matrices as CSVs
+    pearson_matrix.to_csv("correlation_matrix_pearson_z_score.csv")
+    spearman_matrix.to_csv("correlation_matrix_spearman_z_score.csv")
+
+    # Convert values to float for heatmap plotting
+    pearson_matrix = pearson_matrix.astype(float)
+    spearman_matrix = spearman_matrix.astype(float)
+
+    # Plot heatmaps
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(pearson_matrix, annot=True, cmap="coolwarm", vmin=-1, vmax=1, square=True, linewidths=.5)
+    plt.title("Pearson Correlation Matrix Between Metrics")
+    plt.tight_layout()
+    plt.savefig("plots/correlation_matrix_pearson_heatmap_z_score.png", dpi=300)
+    plt.show()
+
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(spearman_matrix, annot=True, cmap="coolwarm", vmin=-1, vmax=1, square=True, linewidths=.5)
+    plt.title("Spearman Correlation Matrix Between Metrics")
+    plt.tight_layout()
+    plt.savefig("plots/correlation_matrix_spearman_heatmap_z_score.png", dpi=300)
+    plt.show()
+
+
+def experiment_unrelated_sentences(geval_scores, factcc_scores, unieval_scores, qags_scores):
+    one_sentence_unieval = read_json_utf(
+        "evaluations/UniEval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_1_sentences_unieval.json")
+    scores_one_unieval = [s['score'] for s in one_sentence_unieval]
+
+    two_sentence_unieval = read_json_utf(
+        "evaluations/UniEval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_2_sentences_unieval.json")
+    scores_two_unieval = [s['score'] for s in two_sentence_unieval]
+
+    three_sentence_unieval = read_json_utf(
+        "evaluations/UniEval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_3_sentences_unieval.json")
+    scores_three_unieval = [s['score'] for s in three_sentence_unieval]
+
+    one_sentence_factcc = read_json_utf(
+        "evaluations/FactCC/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_1_sentences.json_full_sentences_updated_FA.json")
+    scores_one_factcc = [s['score'] for s in one_sentence_factcc]
+
+    two_sentence_factcc = read_json_utf(
+        "evaluations/FactCC/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_2_sentences.json_full_sentences_updated_FA.json")
+    scores_two_factcc = [s['score'] for s in two_sentence_factcc]
+
+    three_sentence_factcc = read_json_utf(
+        "evaluations/FactCC/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_3_sentences.json_full_sentences_updated_FA.json")
+    scores_three_factcc = [s['score'] for s in three_sentence_factcc]
+
+    one_sentence_qags = read_json_utf(
+        "evaluations/QAGs/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_1_sentences__qags.json")
+    scores_one_qags = [s['score'] for s in one_sentence_qags]
+
+    two_sentence_qags = read_json_utf(
+        "evaluations/QAGs/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_2_sentences__qags.json")
+    scores_two_qags = [s['score'] for s in two_sentence_qags]
+
+    three_sentence_qags = read_json_utf(
+        "evaluations/QAGs/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_3_sentences__qags.json")
+    scores_three_qags = [s['score'] for s in three_sentence_qags]
+
+    one_sentence_geval = read_json_utf(
+        "evaluations/G-Eval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_2_sentences.json_while_loop_final_scores.json")
+    scores_one_geval = [(s['score']-1)/4 for s in one_sentence_geval]
+
+    two_sentence_geval = read_json_utf(
+        "evaluations/G-Eval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_2_sentences.json_while_loop_final_scores.json")
+    scores_two_geval = [(s['score']-1)/4 for s in two_sentence_geval]
+
+    three_sentence_geval = read_json_utf(
+        "evaluations/G-Eval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_3_sentences.json_while_loop_final_scores.json")
+    scores_three_geval = [(s['score']-1)/4 for s in three_sentence_geval]
+
+    geval_scores = [(s-1)/4 for s in geval_scores]
+
+    score_levels = {
+        0: {'UniEval': unieval_scores, "FactCC": factcc_scores, "QAGs": qags_scores, "G-Eval": geval_scores},
+        1: {'UniEval': scores_one_unieval, "FactCC": scores_one_factcc, "QAGs": scores_one_qags, "G-Eval": scores_one_geval },
+        2: {'UniEval': scores_two_unieval, "FactCC": scores_two_factcc, "QAGs": scores_two_qags, "G-Eval": scores_two_geval},
+        3: {'UniEval': scores_three_unieval, "FactCC": scores_three_factcc, "QAGs": scores_three_qags, "G-Eval": scores_three_geval},
+    }
+
+    metrics = ['FactCC', 'UniEval', "QAGs", "G-Eval"]
+    x = [0, 1, 2, 3]  # Number of unrelated sentences
+
+    # Compute average scores per level per metric
+    avg_scores = {metric: [np.mean(score_levels[n][metric]) for n in x] for metric in metrics}
+    std_devs = {metric: [np.std(score_levels[n][metric]) for n in x] for metric in metrics}
+
+    # Plot
+    plt.figure(figsize=(8, 5))
+    for metric in metrics:
+        plt.errorbar(x, avg_scores[metric], yerr=std_devs[metric], label=metric, marker='o', capsize=5)
+
+    plt.xlabel("Number of Unrelated Sentences Added")
+    plt.ylabel("Average Faithfulness Score")
+    plt.title("Impact of Unrelated Sentences on Metric Faithfulness Score")
+    plt.xticks(x)
+    plt.grid(True)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("plots/targeted_tests/unrelated/unrelated_sentences_score_drop.png", dpi=300)
+    plt.show()
+
+    plt.figure(figsize=(8, 5))
+    for metric in metrics:
+        plt.plot(x, avg_scores[metric], label=metric, marker='o', linewidth=2)
+
+    plt.xlabel("Number of Unrelated Sentences")
+    plt.ylabel("Faithfulness Score")
+    plt.title("Drop in Faithfulness Score by Metric with Unrelated Sentences")
+    plt.xticks(x)
+    plt.grid(True)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("plots/targeted_tests/unrelated/unrelated_sentences_line_only.png", dpi=300)
+    plt.show()
+
+def experiment_unsupported_sentences(geval_scores, factcc_scores, unieval_scores, qags_scores):
+    one_sentence_unieval = read_json_utf(
+        "evaluations/UniEval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_1_unieval.json")
+    scores_one_unieval = [s['score'] for s in one_sentence_unieval]
+
+    two_sentence_unieval = read_json_utf(
+        "evaluations/UniEval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_2_unieval.json")
+    scores_two_unieval = [s['score'] for s in two_sentence_unieval]
+
+    three_sentence_unieval = read_json_utf(
+        "evaluations/UniEval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_3_unieval.json")
+    scores_three_unieval = [s['score'] for s in three_sentence_unieval]
+
+    one_sentence_factcc = read_json_utf(
+        "evaluations/FactCC/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_1.json_full_sentences_updated_FA.json")
+    scores_one_factcc = [s['score'] for s in one_sentence_factcc]
+
+    two_sentence_factcc = read_json_utf(
+        "evaluations/FactCC/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_2.json_full_sentences_updated_FA.json")
+    scores_two_factcc = [s['score'] for s in two_sentence_factcc]
+
+    three_sentence_factcc = read_json_utf(
+        "evaluations/FactCC/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_3.json_full_sentences_updated_FA.json")
+    scores_three_factcc = [s['score'] for s in three_sentence_factcc]
+
+    one_sentence_qags = read_json_utf(
+        "evaluations/QAGs/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_1__qags.json")
+    scores_one_qags = [s['score'] for s in one_sentence_qags]
+
+    two_sentence_qags = read_json_utf(
+        "evaluations/QAGs/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_2__qags.json")
+    scores_two_qags = [s['score'] for s in two_sentence_qags]
+
+    three_sentence_qags = read_json_utf(
+        "evaluations/QAGs/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_unsupported_sentences_3__qags.json")
+    scores_three_qags = [s['score'] for s in three_sentence_qags]
+
+    # one_sentence_geval = read_json_utf(
+    #     "evaluations/G-Eval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_2_sentences.json_while_loop_final_scores.json")
+    # scores_one_geval = [(s['score']-1)/4 for s in one_sentence_geval]
+    #
+    # two_sentence_geval = read_json_utf(
+    #     "evaluations/G-Eval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_2_sentences.json_while_loop_final_scores.json")
+    # scores_two_geval = [(s['score']-1)/4 for s in two_sentence_geval]
+    #
+    # three_sentence_geval = read_json_utf(
+    #     "evaluations/G-Eval/exp_capture_faults/generated_explanations_exp_capture_faults_explanations_with_noise_3_sentences.json_while_loop_final_scores.json")
+    # scores_three_geval = [(s['score']-1)/4 for s in three_sentence_geval]
+    #
+    # geval_scores = [(s-1)/4 for s in geval_scores]
+
+    score_levels = {
+        0: {'UniEval': unieval_scores, "FactCC": factcc_scores, "QAGs": qags_scores},
+        1: {'UniEval': scores_one_unieval, "FactCC": scores_one_factcc, "QAGs": scores_one_qags},
+        2: {'UniEval': scores_two_unieval, "FactCC": scores_two_factcc, "QAGs": scores_two_qags},
+        3: {'UniEval': scores_three_unieval, "FactCC": scores_three_factcc, "QAGs": scores_three_qags},
+    }
+
+    metrics = ['FactCC', 'UniEval', "QAGs"]
+    x = [0, 1, 2, 3]  # Number of unrelated sentences
+
+    # Compute average scores per level per metric
+    avg_scores = {metric: [np.mean(score_levels[n][metric]) for n in x] for metric in metrics}
+    std_devs = {metric: [np.std(score_levels[n][metric]) for n in x] for metric in metrics}
+
+    # Plot
+    plt.figure(figsize=(8, 5))
+    for metric in metrics:
+        plt.errorbar(x, avg_scores[metric], yerr=std_devs[metric], label=metric, marker='o', capsize=5)
+
+    plt.xlabel("Number of Unrelated Sentences Added")
+    plt.ylabel("Average Faithfulness Score")
+    plt.title("Impact of Unrelated Sentences on Metric Faithfulness Score")
+    plt.xticks(x)
+    plt.grid(True)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("plots/targeted_tests/unsupported/unsupported_sentences_score_drop.png", dpi=300)
+    plt.show()
+
+    plt.figure(figsize=(8, 5))
+    for metric in metrics:
+        plt.plot(x, avg_scores[metric], label=metric, marker='o', linewidth=2)
+
+    plt.xlabel("Number of Unrelated Sentences")
+    plt.ylabel("Faithfulness Score")
+    plt.title("Drop in Faithfulness Score by Metric with Unrelated Sentences")
+    plt.xticks(x)
+    plt.grid(True)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("plots/targeted_tests/unsupported/unsupported_sentences_line_only.png", dpi=300)
     plt.show()
 
 
@@ -278,25 +536,70 @@ def main():
         "evaluations/G-Eval/generated_explanations_explanations_test_number_8_while_loop_final_scores_updated.json")
     scores_gen = [float(item['score']) for item in data_gen]
 
-    data = read_json_utf("evaluations/factCC/Datasets_QuanTemp_PolitiFact_combined_combined_test.json")
+    data = read_json_utf(
+        "evaluations/factCC/Datasets_QuanTemp_PolitiFact_combined_combined_test.json_full_sentences_updated_FA.json")
     scores_cc = [float(item['score_confidence']) for item in data]
 
-    data_gen = read_json_utf("evaluations/factCC/generated_explanations_explanations_test_number_8.json")
+    data_gen = read_json_utf(
+        "evaluations/factCC/generated_explanations_explanations_test_number_8.json_full_sentences_updated_FA.json")
     scores_gen_cc = [float(item['score_confidence']) for item in data_gen]
 
-    #
-    # g_eval_pie_chart_valid_scores(scores_gen, "at 0.4 Temperature", "0.4_temp_valid_scores.png")
-    # g_eval_histogram_score_ranges(scores,"of Politifact Rulings", "while_loop_distribution_politifact", "", False)
-    # g_eval_histogram_score_ranges(scores_gen, "", "while_loop_distribution_with_percentage_accuracy",
-    #                        "explanations_test_number_8", True)
-    # g_eval_true_gen_relation(scores, scores_gen, "", "while_loop_comparison")
-    # g_eval_compare_faithfulness_score_with_accuracy(scores_gen, "explanations_test_number_8")
-    # factCC_score_plot("evaluations/factCC/Datasets_QuanTemp_PolitiFact_combined_combined_test", "Politifact")
-    # factCC_score_plot("evaluations/factCC/generated_explanations_explanations_test_number_8", "Generated")
-    # factCC_score_plot("evaluations/factCC/generated_explanations_explanations_generated_fault", "Generated Faulty")
-    # factCC_g_eval_correlation(scores_cc, scores, "Politifact")
-    # factCC_g_eval_correlation(scores_gen_cc, scores_gen, "Generated")
+    data = read_json_utf('evaluations/UniEval/Datasets_QuanTemp_PolitiFact_combined_combined_test_unieval.json')
+    scores_uni = [float(item['score']) for item in data]
 
+    data_gen = read_json_utf("evaluations/UniEval/generated_explanations_explanations_test_number_8_unieval.json")
+    scores_gen_uni = [float(item['score']) for item in data_gen]
+
+    data = read_json_utf("evaluations/QAGs/Datasets_QuanTemp_PolitiFact_combined_combined_test__qags.json")
+    scores_qags = [float(item['score']) for item in data]
+
+    data_gen = read_json_utf("evaluations/QAGs/generated_explanations_explanations_test_number_8__qags.json")
+    scores_gen_qags = [float(item['score']) for item in data_gen]
+
+    data = read_json_utf("generated_explanations/explanations_test_number_8.json")
+    data_accuracy = [True if item['original_label'] == item["generated_label"] else False for item in data]
+    original_labels = [item['original_label'] for item in data]
+
+    df = pandas.read_csv("explanation_comparison/explanation_comparison.csv")
+    diff_scores = df['objective_difference']
+
+    #
+    # compare_faithfulness_score_with_accuracy(scores_gen, data_accuracy, "G-Eval", "")
+    # compare_faithfulness_score_with_accuracy(scores_gen_cc, data_accuracy, "FactCC", "")
+    # compare_faithfulness_score_with_accuracy(scores_gen_uni, data_accuracy, "UniEval", "")
+    # compare_faithfulness_score_with_accuracy(scores_gen_qags, data_accuracy, "QAGS", "")
+    #
+    # metric_scores = {
+    #     "G-Eval": scores,
+    #     "FactCC": scores_cc,
+    #     "UniEval": scores_uni,
+    #     "QAGs": scores_qags,
+    # }
+    #
+    # # Loop through all combinations of two different metrics
+    # for (metric_one, metric_two) in combinations(metric_scores.keys(), 2):
+    #     scores_metric_one = metric_scores[metric_one]
+    #     scores_metric_two = metric_scores[metric_two]
+    #
+    #     # Call your method
+    #     score_correlation(scores_metric_one, scores_metric_two, metric_one, metric_two, 'Politifact', original_labels, data_accuracy)
+    #
+    # metric_scores = {
+    #     "G-Eval": scores_gen,
+    #     "FactCC": scores_gen_cc,
+    #     "UniEval": scores_gen_uni,
+    #     "QAGs": scores_gen_qags,
+    # }
+    # for (metric_one, metric_two) in combinations(metric_scores.keys(), 2):
+    #     scores_metric_one = metric_scores[metric_one]
+    #     scores_metric_two = metric_scores[metric_two]
+    #
+    #     # Call your method
+    #     score_correlation(scores_metric_one, scores_metric_two, metric_one, metric_two, 'Generated', original_labels, data_accuracy)
+    #
+    # compare_to_diff(scores_gen, scores_gen_cc, scores_gen_uni, scores_gen_qags, diff_scores)
+    # correlation_matrix(scores_gen, scores_gen_cc, scores_gen_uni, scores_gen_qags, diff_scores)
+    experiment_unsupported_sentences(scores_gen, scores_gen_cc,scores_gen_uni, scores_gen_qags)
 
 if __name__ == "__main__":
     main()

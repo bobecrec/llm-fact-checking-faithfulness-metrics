@@ -1,8 +1,11 @@
 import json
 from langchain_core.messages import HumanMessage
 import re
-from llm_setup import llm  # LLM interface
 
+from tqdm import tqdm
+
+from llm_setup import llm  # LLM interface
+from data_processing import read_json_utf,write_json_utf
 
 def build_faithfulness_prompt(claim, evidence, explanation, one_time_cot, steps):
     """
@@ -108,6 +111,7 @@ def G_eval_prompt(explanations, one_time_cot):
         - Faithfulness means the explanation should be based *only* on the evidence and should not hallucinate 
         or omit critical facts. It should correctly interpret the evidence and draw 
         meaningful and logical conclusions that support the label.
+        - Give a **score from 1 to 5**, where 1 = not faithful at all, and 5 = fully faithful. Decimals are allowed.
 
         Generate Evaluation Steps to perform this task. Provide just the steps so they can be followed by an LLM later.
         """
@@ -192,20 +196,15 @@ def G_eval_existing_file(file: str, one_time_cot, existing):
         llm_response_cot = response.content.strip()
 
     if existing:
-        with open(f"evaluations/G-Eval/cot_steps.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
+        data = read_json_utf(f"evaluations/G-Eval/cot_steps.json")
         llm_response_cot = data[0]['steps']
     else:
-        with open(f"evaluations/G-Eval/cot_steps.json", "w", encoding="utf-8") as f:
-            json.dump([{'steps': llm_response_cot}], f, indent=2)
+        write_json_utf(f"evaluations/G-Eval/cot_steps.json",[{'steps': llm_response_cot}] )
 
-    with open(f"{file}.json",
-              "r",
-              encoding="utf-8") as f:
-        data = json.load(f)
+    data = read_json_utf(file)
     count = 0
     filtered_file_name = file.replace('/', "_")
-    for explanation in data:
+    for explanation in tqdm(data,desc=f"Evaluating {file} with G-Eval"):
         prompt = build_faithfulness_prompt(
             explanation['claim'],
             explanation['evidence'],
@@ -256,19 +255,13 @@ def G_eval_existing_file(file: str, one_time_cot, existing):
         scores.append(record)
         all_scores.append(record_2)
         if count % 50 == 0:
-            with open(f"evaluations/{filtered_file_name}_while_loop_final_scores_backup_2.json", "w",
-                      encoding="utf-8") as f:
-                json.dump(scores, f, indent=2)
+            write_json_utf(f"evaluations/G-Eval/exp_capture_faults/{filtered_file_name}_while_loop_final_scores_backup.json", scores)
+            write_json_utf(f"evaluations/G-Eval/exp_capture_faults/{filtered_file_name}_set_scores_backup.json", all_scores)
 
-            with open(f"evaluations/{filtered_file_name}_set_scores_backup_2.json", "w", encoding="utf-8") as f:
-                json.dump(all_scores, f, indent=2)
 
     # Save evaluation records
-    with open(f"evaluations/{filtered_file_name}_while_loop_final_scores.json", "w", encoding="utf-8") as f:
-        json.dump(scores, f, indent=2)
-
-    with open(f"evaluations/{filtered_file_name}_set_scores.json", "w", encoding="utf-8") as f:
-        json.dump(all_scores, f, indent=2)
+    write_json_utf(f"evaluations/G-Eval/exp_capture_faults/{filtered_file_name}_while_loop_final_scores.json", scores)
+    write_json_utf(f"evaluations/G-Eval/exp_capture_faults/{filtered_file_name}_set_scores.json", all_scores)
 
     print("Generated and Saved ALL G-Eval scores")
 

@@ -140,15 +140,19 @@ def main_pipeline_existing_explanations(file):
     """
        Main entry point for running the evaluation pipeline on an existing file.
        """
-    # G_eval_existing_file(file, True, True)
-    fact_cc_evaluation_pipeline(file, [])
+    G_eval_existing_file(file, True, True)
+    # fact_cc_evaluation_pipeline(file, [])
 
 
 def main():
     # Your main logic here
-    main_pipeline_existing_explanations("generated_explanations/explanations_test_number_8")
-    main_pipeline_existing_explanations("Datasets/QuanTemp/PolitiFact/combined/combined_test")
-    main_pipeline_existing_explanations("generated_explanations/explanations_generated_fault")
+    file_one_sentence = "generated_explanations/exp_capture_faults/explanations_with_noise_1_sentences.json"
+    file_two_sentence = "generated_explanations/exp_capture_faults/explanations_with_noise_2_sentences.json"
+    file_three_sentence = "generated_explanations/exp_capture_faults/explanations_with_noise_3_sentences.json"
+
+    main_pipeline_existing_explanations(file_one_sentence)
+    main_pipeline_existing_explanations(file_two_sentence)
+    main_pipeline_existing_explanations(file_three_sentence)
 
 
 if __name__ == "__main__":

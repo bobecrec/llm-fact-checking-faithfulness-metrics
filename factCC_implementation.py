@@ -1,10 +1,12 @@
 import json
 
 import numpy as np
+from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import torch.nn.functional as f
 from nltk.tokenize import sent_tokenize
+from data_processing import read_json_utf,write_json_utf
 
 
 def score_sentence_against_chunks(sentence, evidence_chunks, model, tokenizer):
@@ -27,27 +29,27 @@ def score_sentence_against_chunks(sentence, evidence_chunks, model, tokenizer):
     faithfulness_confidence = 0
 
     for chunk in evidence_chunks:
-        print("\nNext Chunk of Evidence !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n")
-        print(chunk)
+        # print("\nNext Chunk of Evidence !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n")
+        # print(chunk)
         inputs = tokenizer(chunk, sentence, return_tensors="pt", truncation=True, max_length=512)
         with torch.no_grad():
             logits = model(**inputs).logits
             probs = f.softmax(logits, dim=1)
             label = torch.argmax(probs).item()
-            confidence = probs[0][1].item()
+            confidence = probs[0][label].item()
 
         if label == 1:
             faithful_count += 1
             faithfulness_confidence = max(faithfulness_confidence, confidence)
 
         total_confidence.append(confidence)
+
     label = faithful_count > 0 and faithfulness_confidence > 0.5
-    confidence = 0
+
     if label == 1:
         confidence = faithfulness_confidence
     else:
         confidence = np.average(total_confidence)
-
     return label, confidence
 
 
@@ -117,13 +119,17 @@ def factcc_score_by_sentence(evidence, explanation, model, tokenizer):
     if not sentence_scores:
         return {"label": 0, "confidence": 0.0}
 
-    faithful_confidence = sum([s[1] for s in sentence_scores if s[0]])
-    unfaithful_confidence = sum([s[1] for s in sentence_scores if not s[0]])
-    label = 1 if faithful_confidence > unfaithful_confidence else 0
+    faithful_confidence = [s[1] for s in sentence_scores if s[0]]
+    unfaithful_confidence = [s[1] for s in sentence_scores if not s[0]]
 
-    avg_confidence = max(faithful_confidence, unfaithful_confidence) / len(sentence_scores)
+    precision = len(faithful_confidence) / len(sentence_scores)
+    FA = np.mean(faithful_confidence) if faithful_confidence else 0.0
+    UD = np.mean(1 - np.array(unfaithful_confidence)) if unfaithful_confidence else 0.0
 
-    return {"label": label, "confidence": round(avg_confidence, 4)}
+    final_faithfulness = (precision * FA) + ((1 - precision) * UD)
+    label = 1 if final_faithfulness > 0.5 else 0
+
+    return {"label": label, "confidence": round(final_faithfulness, 4)}
 
 
 def fact_cc_evaluation_pipeline(file, explanations: []):
@@ -142,15 +148,13 @@ def fact_cc_evaluation_pipeline(file, explanations: []):
     model = AutoModelForSequenceClassification.from_pretrained(model_name)
     model.eval()
     if file != "":
-        with open(f"{file}.json", "r",
-                  encoding="utf-8") as f_explanation:
-            data = json.load(f_explanation)
+        data = read_json_utf(file)
     else:
         data = explanations
 
     filtered_file_name = file.replace('/', "_")
     scores = []
-    for i in range(len(data)):
+    for i in tqdm(range(len(data)), desc=f"Evaluating {file} with FactCC"):
         evidence = data[i]['evidence']
         explanation = data[i]['justification']
         score_extract = factcc_score_by_sentence(evidence, explanation, model, tokenizer)
@@ -163,13 +167,17 @@ def fact_cc_evaluation_pipeline(file, explanations: []):
                   "score_confidence": score_confidence}
         scores.append(result)
 
-    with open(f"evaluations/factCC/{filtered_file_name}_full_sentences_confidence_based.json", "w",
-              encoding="utf-8") as f_explanation:
-        json.dump(scores, f_explanation, indent=2)
+    write_json_utf(f"evaluations/factCC/exp_capture_faults/{filtered_file_name}_full_sentences_updated_FA.json", scores)
 
 
 def main():
-    fact_cc_evaluation_pipeline("", [])
+    file_one_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_1.json"
+    file_two_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_2.json"
+    file_three_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_3.json"
+    fact_cc_evaluation_pipeline(file_one_sentence, [])
+    fact_cc_evaluation_pipeline(file_two_sentence, [])
+    fact_cc_evaluation_pipeline(file_three_sentence, [])
+
 
 
 if __name__ == "__main__":

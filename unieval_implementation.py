@@ -31,7 +31,7 @@ def unieval_pipeline(task, file):
     explanations = read_json_utf(file)
     evaluator = get_evaluator(task)
     scores = []
-    for item in tqdm(explanations, desc="Evaluating explanations with UniEval"):
+    for item in tqdm(explanations, desc=f"Evaluating explanations {file} with UniEval"):
         claim = item['claim']
         evidence = item['evidence']
         justification = item['justification']
@@ -43,17 +43,20 @@ def unieval_pipeline(task, file):
 
     filtered_file = file.replace('/', "_")
     filtered_file_name = filtered_file.replace('.json', "_")
-    write_json_utf(f"evaluations/UniEval/{filtered_file_name}unieval.json", scores)
+    write_json_utf(f"evaluations/UniEval/exp_capture_faults/{filtered_file_name}unieval.json", scores)
 
 
 def main():
-    # file = "generated_explanations/explanations_test_number_8.json"
-    file_politifact = "Datasets/QuanTemp/PolitiFact/combined/combined_test.json"
-    file_faulty = "generated_explanations/explanations_generated_fault.json"
+    # # file = "generated_explanations/explanations_test_number_8.json"
+    # file_politifact = "Datasets/QuanTemp/PolitiFact/combined/combined_test.json"
+    # file_faulty = "generated_explanations/explanations_generated_fault.json"
+    file_one_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_1.json"
+    file_two_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_2.json"
+    file_three_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_3.json"
     task = 'fact'
-    # unieval_pipeline(task, file)
-    unieval_pipeline(task, file_politifact)
-    unieval_pipeline(task,file_faulty)
+    unieval_pipeline(task, file_one_sentence)
+    unieval_pipeline(task, file_two_sentence)
+    unieval_pipeline(task, file_three_sentence)
 
 if __name__ == "__main__":
     main()

@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from tqdm import tqdm
 from transformers import AutoTokenizer
@@ -7,56 +8,86 @@ from UniEval.metric.evaluator import get_evaluator
 from data_processing import read_json_utf, write_json_utf
 from factCC_implementation import chunk_evidence_by_sentences
 
+# Token accounting constants
 FIXED_LENGTH_TOKEN = 20
 FIXED_MAX_TOKENS = 1024
 
 
 def unieval_fact_consistency_score(evidence, explanation, evaluator, tokenizer):
+    """
+    Computes factual consistency score for a single explanation using UniEval.
 
+    Args:
+        evidence (str): Gold reference text.
+        explanation (str): LLM-generated justification or claim.
+        evaluator (Evaluator): UniEval evaluator instance.
+        tokenizer (AutoTokenizer): Tokenizer to compute remaining length.
+
+    Returns:
+        float: Mean factual consistency score across evidence chunks.
+    """
     remaining_tokens = FIXED_MAX_TOKENS - FIXED_LENGTH_TOKEN - len(tokenizer.tokenize(explanation))
-    # a list of source documents
     src_list = chunk_evidence_by_sentences(evidence, tokenizer, remaining_tokens)
-    # a list of model outputs (claims) to be evaluataed
-    output_list = [explanation]*len(src_list)
+    output_list = [explanation] * len(src_list)
 
     data = convert_to_json(output_list=output_list, src_list=src_list)
-
-    # Get factual consistency scores
     eval_scores = evaluator.evaluate(data, print_result=False)
+
     return np.average([s['consistency'] for s in eval_scores])
 
 
 def unieval_pipeline(task, file):
+    """
+    Runs UniEval factual consistency scoring on a JSON dataset.
+
+    Args:
+        task (str): Task type (e.g., 'fact') to configure UniEval.
+        file (str): Path to input JSON file with claim, evidence, and justification.
+
+    Output:
+        Saves a JSON file with factual consistency scores under `evaluations/UniEval/`.
+    """
     tokenizer = AutoTokenizer.from_pretrained('MingZhong/unieval-fact')
-    explanations = read_json_utf(file)
     evaluator = get_evaluator(task)
+    explanations = read_json_utf(file)
+
     scores = []
     for item in tqdm(explanations, desc=f"Evaluating explanations {file} with UniEval"):
         claim = item['claim']
         evidence = item['evidence']
         justification = item['justification']
         score = unieval_fact_consistency_score(evidence, justification, evaluator, tokenizer)
-        result = {'claim': claim,
-                  "justification": justification,
-                  "score": score}
-        scores.append(result)
+        accurate = item["original_label"].lower().replace("_", ' ') == item['generated_label'].lower()
 
-    filtered_file = file.replace('/', "_")
-    filtered_file_name = filtered_file.replace('.json', "_")
-    write_json_utf(f"evaluations/UniEval/exp_capture_faults/{filtered_file_name}unieval.json", scores)
+        scores.append({
+            'claim': claim,
+            "justification": justification,
+            "score": score,
+            'accuracy': accurate
+        })
+
+    filtered_file_name = file.replace('/', "_").replace('.json', "_")
+    output_path = f"evaluations/UniEval/{filtered_file_name}unieval.json"
+
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    write_json_utf(output_path, scores)
 
 
 def main():
-    # # file = "generated_explanations/explanations_test_number_8.json"
-    # file_politifact = "Datasets/QuanTemp/PolitiFact/combined/combined_test.json"
-    # file_faulty = "generated_explanations/explanations_generated_fault.json"
-    file_one_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_1.json"
-    file_two_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_2.json"
-    file_three_sentence = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_3.json"
+    """
+    Main function to run UniEval evaluation on multiple multi-hop datasets.
+    """
     task = 'fact'
-    unieval_pipeline(task, file_one_sentence)
-    unieval_pipeline(task, file_two_sentence)
-    unieval_pipeline(task, file_three_sentence)
+    file_two_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_2hops_.json"
+    file_three_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_3hops_.json"
+    file_four_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_4hops_.json"
+
+    unieval_pipeline(task, file_two_hops)
+    unieval_pipeline(task, file_three_hops)
+    unieval_pipeline(task, file_four_hops)
+
 
 if __name__ == "__main__":
     main()

@@ -172,7 +172,7 @@ def compare_faithfulness_score_with_accuracy(scores, accuracy, metric, file_name
     for i in range(len(scores)):
         data.append({
             'Faithfulness Score': scores[i],
-            'Label Correct': "Accuracy" if accuracy[i] else "Inaccuracy"
+            'Label Correct': "Accurate" if accuracy[i] else "Inaccurate"
         })
 
     df = pd.DataFrame(data)
@@ -563,9 +563,66 @@ def main():
     df = pandas.read_csv("explanation_comparison/explanation_comparison.csv")
     diff_scores = df['objective_difference']
 
+    # g_eval_hover = read_json_utf("")
+
+    # Read QAGs scores
+    qags_hover_two = read_json_utf(
+        "evaluations/QAGs/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_2hops__qags.json")
+    scores_qags_hover_two = [float(item['score']) for item in qags_hover_two]
+
+    qags_hover_three = read_json_utf(
+        "evaluations/QAGs/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_3hops__qags.json")
+    scores_qags_hover_three = [float(item['score']) for item in qags_hover_three]
+
+    qags_hover_four = read_json_utf(
+        "evaluations/QAGs/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_4hops__qags.json")
+    scores_qags_hover_four = [float(item['score']) for item in qags_hover_four]
+
+    # Read UniEval scores
+    unieval_hover_two = read_json_utf(
+        "evaluations/UniEval/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_2hops__unieval.json")
+    scores_unieval_hover_two = [float(item['score']) for item in unieval_hover_two]
+
+    unieval_hover_three = read_json_utf(
+        "evaluations/UniEval/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_3hops__unieval.json")
+    scores_unieval_hover_three = [float(item['score']) for item in unieval_hover_three]
+
+    unieval_hover_four = read_json_utf(
+        "evaluations/UniEval/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_4hops__unieval.json")
+    scores_unieval_hover_four = [float(item['score']) for item in unieval_hover_four]
+
+    # Read FactCC scores
+    factcc_hover_two = read_json_utf(
+        "evaluations/factCC/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_2hops_.json_full_sentences_updated_FA.json")
+    scores_factcc_hover_two = [float(item['score']) for item in factcc_hover_two]
+
+    factcc_hover_three = read_json_utf(
+        "evaluations/factCC/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_3hops_.json_full_sentences_updated_FA.json")
+    scores_factcc_hover_three = [float(item['score']) for item in factcc_hover_three]
+
+    factcc_hover_four = read_json_utf(
+        "evaluations/factCC/generated_explanations_HoVer_Datasets_Hover_hover_extracted_evidence_4hops_.json_full_sentences_updated_FA.json")
+    scores_factcc_hover_four = [float(item['score']) for item in factcc_hover_four]
+
+    accurate_two = [item['accurate'] for item in qags_hover_two]
+    accurate_three = [item['accurate'] for item in qags_hover_three]
+    accurate_four = [item['accurate'] for item in qags_hover_four]
+
+
     #
     # compare_faithfulness_score_with_accuracy(scores_gen, data_accuracy, "G-Eval", "")
-    # compare_faithfulness_score_with_accuracy(scores_gen_cc, data_accuracy, "FactCC", "")
+    compare_faithfulness_score_with_accuracy(scores_factcc_hover_two, accurate_two, "FactCC Two-Hop Claims", "")
+    compare_faithfulness_score_with_accuracy(scores_factcc_hover_three, accurate_three, "FactCC Three-Hop Claims", "")
+    compare_faithfulness_score_with_accuracy(scores_factcc_hover_four, accurate_four, "FactCC Four-Hop Claims", "")
+
+    compare_faithfulness_score_with_accuracy(scores_qags_hover_two, accurate_two, "QAGS Two-Hop Claims", "")
+    compare_faithfulness_score_with_accuracy(scores_qags_hover_three, accurate_three, "QAGS Three-Hop Claims", "")
+    compare_faithfulness_score_with_accuracy(scores_qags_hover_four, accurate_four, "QAGS Four-Hop Claims", "")
+
+    compare_faithfulness_score_with_accuracy(scores_unieval_hover_two, accurate_two, "UniEval Two-Hop Claims", "")
+    compare_faithfulness_score_with_accuracy(scores_unieval_hover_three, accurate_three, "UniEval Three-Hop Claims", "")
+    compare_faithfulness_score_with_accuracy(scores_unieval_hover_four, accurate_four, "UniEval Four-Hop Claims", "")
+
     # compare_faithfulness_score_with_accuracy(scores_gen_uni, data_accuracy, "UniEval", "")
     # compare_faithfulness_score_with_accuracy(scores_gen_qags, data_accuracy, "QAGS", "")
     #
@@ -599,7 +656,7 @@ def main():
     #
     # compare_to_diff(scores_gen, scores_gen_cc, scores_gen_uni, scores_gen_qags, diff_scores)
     # correlation_matrix(scores_gen, scores_gen_cc, scores_gen_uni, scores_gen_qags, diff_scores)
-    experiment_unsupported_sentences(scores_gen, scores_gen_cc,scores_gen_uni, scores_gen_qags)
+    # experiment_unsupported_sentences(scores_gen, scores_gen_cc,scores_gen_uni, scores_gen_qags)
 
 if __name__ == "__main__":
     main()

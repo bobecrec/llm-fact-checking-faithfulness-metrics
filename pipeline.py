@@ -162,9 +162,16 @@ def main_pipeline_existing_explanations(file):
 
 
 def main():
-    explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_2hops.json")
-    explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_3hops.json")
-    explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_4hops.json")
+    # explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_2hops.json")
+    # explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_3hops.json")
+    # explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_4hops.json")
+    file_two_hops = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_1.json"
+    file_three_hops = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_2.json"
+    file_four_hops = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_3.json"
+    # main_pipeline_existing_explanations(file_two_hops)
+    # main_pipeline_existing_explanations(file_three_hops)
+    main_pipeline_existing_explanations(file_four_hops)
+
 
 
 

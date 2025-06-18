@@ -1,0 +1,302 @@
+[
+  {
+    "claim": "Skagen Painter Peder Severin Kr\u00f8yer favored naturalism along with Theodor Esbern Philipsen and Kristian Zahrtmann.",
+    "justification": "The evidence does not mention Kristian Zahrtmann's artistic style or preferences, and only mentions that he broke away from traditional Academicism along with Kr\u00f8yer and Philipsen. It also provides information about his birth and upbringing, but does not specify that he favored naturalism.",
+    "score": 0.4058137387149957,
+    "accuracy": false
+  },
+  {
+    "claim": "Red, White & Cr\u00fce and Mike Tyson both died.",
+    "justification": "The evidence provided shows that Mike Tyson was the undisputed world heavyweight champion from 1987 to 1990, but it does not mention his death. Additionally, there is no information about Red, White & Cr\u00fce dying.",
+    "score": 0.6311030491739236,
+    "accuracy": true
+  },
+  {
+    "claim": "Red, White & Cr\u00fce and Mike Tyson both fight.",
+    "justification": "The evidence provided only mentions Mike Tyson fighting and does not mention Red, White & Cr\u00fce fighting.",
+    "score": 0.31882328295540024,
+    "accuracy": false
+  },
+  {
+    "claim": "WWE Super Tuesday took place at an arena that currently goes by the name TD Garden.",
+    "justification": "The evidence states that Super Tuesday was taped at the Fleet Center in Boston, Massachusetts, which is now known as TD Garden. This directly supports the claim that WWE Super Tuesday took place at an arena currently named TD Garden.",
+    "score": 0.5661485624839155,
+    "accuracy": true
+  },
+  {
+    "claim": "Kait Parker fills in occasionally for the meteorologist who replaced Ginger Zee.",
+    "justification": "According to the evidence, Kait Parker does fill in occasionally for another meteorologist (Rob Marciano) on Good Morning America, which supports the claim that she also fills in occasionally for the meteorologist who replaced Ginger Zee.",
+    "score": 0.8193413129569683,
+    "accuracy": true
+  },
+  {
+    "claim": "An IndyCar race driver drove a Formula 1 car designed by Peter McCool during the 2007 Formula One season.",
+    "justification": "The evidence does not mention Peter McCool designing a Formula 1 car or an IndyCar race driver driving such a car during the 2007 season. It provides information about Super Aguri's F1 car and Takuma Sato's achievements in American open-wheel racing, but no connection is made to the original claim.",
+    "score": 0.08948635386187032,
+    "accuracy": false
+  },
+  {
+    "claim": "Mark O'Connor is an Amercian bluegrass singer who performed the song Restless with The New Nashville Cats.",
+    "justification": "While the evidence confirms that Mark O'Connor is an American musician who combines bluegrass with other genres, it does not mention his involvement in a group called \"The New Nashville Cats\" or performing a song called \"Restless\". The only connection to \"Restless\" is through the compilation album.",
+    "score": 0.41782883381167324,
+    "accuracy": false
+  },
+  {
+    "claim": "The 2011 population of the unitary authority area that includes the village Eastoft was 167,446.",
+    "justification": "The evidence states that the population figure is for the village and civil parish of Eastoft, not the unitary authority area that includes it.",
+    "score": 0.8427377884445848,
+    "accuracy": false
+  },
+  {
+    "claim": "Love Drunk was the lead single from Boys Like Girls album on which frontman, Martin Johnson co-wrote a song with Taylor Swift.",
+    "justification": "The evidence states that the lead single was \"Love Drunk\", but it does not mention Martin Johnson co-writing a song with Taylor Swift. However, it does confirm that Taylor Swift is featured on another track called \"Two Is Better Than One\".",
+    "score": 0.5050695142842584,
+    "accuracy": false
+  },
+  {
+    "claim": "Beatrice Willard served as an economics advisor to President Richard Milhous Nixon, a former Senator from California.",
+    "justification": "The evidence confirms that Beatrice Willard was an adviser to U.S. presidents Nixon and Ford, specifically mentioning her role on the Council on Environmental Quality (CEQ), which directly supports the claim about her serving as an economics advisor to President Nixon.",
+    "score": 0.7223133447210627,
+    "accuracy": false
+  },
+  {
+    "claim": "Beatrice Willard served as an advisor to President Richard Milhous Nixon, a former Senator from California.",
+    "justification": "The evidence confirms that Beatrice Willard was an adviser to U.S. presidents Nixon and Ford, which includes President Richard Milhous Nixon, as the 37th president of the United States.",
+    "score": 0.8720255365602622,
+    "accuracy": true
+  },
+  {
+    "claim": "Beatrice Willard served as an aide to President Richard Milhous Nixon, a former Senator from California.",
+    "justification": "The evidence confirms Beatrice Willard's role as an adviser to President Nixon, which is mentioned in the context of her work on the Council on Environmental Quality (CEQ). This directly supports the claim that she served as an aide to President Nixon.",
+    "score": 0.8790518868644892,
+    "accuracy": false
+  },
+  {
+    "claim": "The MV Bessel ran aground at the second largest island in the Mediterranean in 1972.",
+    "justification": "The evidence states that the MV Bessel (previously Nicolo Martini) ran aground at Portoscuso, Sardinia in 1972, which is confirmed to be the second largest island in the Mediterranean Sea.",
+    "score": 0.9285750949565814,
+    "accuracy": true
+  },
+  {
+    "claim": "The MV Bessel ran aground at the second largest island in the Mediterranean in summer of 1972.",
+    "justification": "The evidence confirms that the MV Bessel (previously Nicolo Martini) did indeed run aground in 1972, and it occurred on the island of Sardinia, which is identified as the second largest island in the Mediterranean.",
+    "score": 0.9844397426258813,
+    "accuracy": false
+  },
+  {
+    "claim": "The American film, television and theater actress who was a star in the film the Matchmaker and also received the 40th AFI Life Achievement Award was born April 24, 1934.",
+    "justification": "The evidence provided confirms that Shirley MacLaine was born on April 24, 1934, and she received the 40th AFI Life Achievement Award, which is consistent with the claim. Additionally, it mentions her starring role in the film \"The Matchmaker\", supporting the first part of the claim as well.",
+    "score": 0.8623443869959682,
+    "accuracy": true
+  },
+  {
+    "claim": "JSOC was created on the recommendation of a colonel who served in the Malayan Emergency and Vietnam War.",
+    "justification": "The evidence states that JSOC was created on recommendation of Colonel Charlie Beckwith, but it does not mention anything about a colonel who served in the Malayan Emergency. It only mentions the Indonesia\u2013Malaysia confrontation, which is slightly different.",
+    "score": 0.14877578196883803,
+    "accuracy": false
+  },
+  {
+    "claim": "The American cable and satellite television channel that April \"Ape\" Margera appears upon is owned by Viacom Media Networks.",
+    "justification": "The evidence provided states that April Margera appears on MTV, but it does not mention Viacom Media Networks as the owner. Instead, it mentions that MTV is a property of the Paramount Media Networks division of Paramount Global.",
+    "score": 0.47831167970730365,
+    "accuracy": false
+  },
+  {
+    "claim": "Substorm was described in qualitative terms by a scientist nominated for Nobel Prize seven times.",
+    "justification": "The evidence states that Kristian Birkeland, who is mentioned as being nominated for the Nobel Prize seven times, described substorms in qualitative terms and referred to them as \"polar elementary storms\". This directly supports the claim.",
+    "score": 0.9630640972248053,
+    "accuracy": true
+  },
+  {
+    "claim": "\"HMS \"Sussex\" was an 80-gun third-rate ship, of the line of the English Royal Navy, for the Kingdom of England on the island of Great Britain from the 10th century\u2014when it emerged from various Anglo-Saxon kingdoms\u2014until 1707, when it united with Scotland to form the Kingdom of Great Britain.",
+    "justification": "The evidence does not mention HMS \"Sussex\" at all. It only talks about the Kingdom of England and its unification with Scotland in 1707, but there is no information about a ship called HMS \"Sussex\".",
+    "score": 0.22167182997905255,
+    "accuracy": false
+  },
+  {
+    "claim": "\"HMS \"Sussex\" was an 80-gun third-rate ship, of the line of the English Royal Navy, for the Kingdom of England on the island of Great Britain from the 10th century\u2014when it emerged from 16 Anglo-Saxon kingdoms\u2014until 1707, when it united with Scotland to form the Kingdom of Great Britain.",
+    "justification": "The claim states that HMS \"Sussex\" was an 80-gun third-rate ship, but there is no evidence provided that mentions a ship by this name. The evidence only discusses the Kingdom of England and its unification with Scotland to form the Kingdom of Great Britain.",
+    "score": 0.31938031691181096,
+    "accuracy": true
+  },
+  {
+    "claim": "The man known as the voice of \"Elgar\" voices the English character in the Manga Love Hina inspired by Keitaro Arima.",
+    "justification": "The evidence does not mention anything about a character inspired by Keitaro Arima or an English character voiced by Steve Prince (also known as Derek Stephen Prince) from the Love Hina manga. It only lists characters from the series and provides information about Steve Prince's credits in other franchises, but there is no connection made to Love Hina.",
+    "score": 0.04560034414605498,
+    "accuracy": false
+  },
+  {
+    "claim": "Doggerland, an area that once connected Great Britain to continental Europe, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "justification": "The evidence provided states that Doggerland was an area of land now submerged beneath the southern North Sea, and mentions a massive landslide along 290 km of the continental shelf, which matches the claim.",
+    "score": 0.9546669861187009,
+    "accuracy": true
+  },
+  {
+    "claim": "Doggerland, an area that once connected Jutland to continental Europe, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "justification": "The evidence states that Doggerland was an area of land now submerged beneath the southern North Sea, and specifically mentions that it once connected Jutland to continental Europe. It also provides information about the Storegga Slides, which is a large submarine landslide, but does not directly link it to the submersion of Doggerland around 6,200 BCE. However, the evidence implies that a massive landslide could have caused the submersion, and mentions a paleotsunami in the North Atlantic Ocean, supporting the claim that a significant event occurred around that time.",
+    "score": 0.7377890390836029,
+    "accuracy": false
+  },
+  {
+    "claim": "Hermann Neubacher held a diplomatic post as an Albanian Nazi officer in the Albanian Kingdom, when it was under the control of the Kingdom of Italy.",
+    "justification": "The evidence does not explicitly state that Hermann Neubacher held a diplomatic post as an Albanian Nazi officer. It only mentions his appointment as the leading German foreign ministry official for Greece and the Balkans, which includes Albania, but does not specify the nature of his role in Albania or any connection to the Albanian Kingdom.",
+    "score": 0.2899701132697571,
+    "accuracy": true
+  },
+  {
+    "claim": "Hermann Neubacher held a diplomatic passport as an Austrian Nazi politician in the Albanian Kingdom, when it was under the control of the Kingdom of Italy.",
+    "justification": "The evidence provided does not explicitly state that Hermann Neubacher held a diplomatic passport as an Austrian Nazi politician in the Albanian Kingdom. It only mentions his appointment as a leading German foreign ministry official for Greece and the Balkans, and the occupation of Albania by Nazi Germany during World War II.",
+    "score": 0.32740557979388246,
+    "accuracy": true
+  },
+  {
+    "claim": "Hermann Neubacher held a diplomatic post as an Austrian Nazi politician in the Albanian Kingdom, when it was under the control of the Kingdom of Italy.",
+    "justification": "The evidence does not explicitly state that Hermann Neubacher held a diplomatic post as an Austrian Nazi politician in the Albanian Kingdom. It only mentions his appointment for Greece and the Balkans, which includes Albania. Additionally, it states that Albania was occupied by Nazi Germany between 1943-1944, but it does not confirm Neubacher's presence or role in the Albanian Kingdom during a time when it was under Italian control (before September 1943).",
+    "score": 0.28703369897124154,
+    "accuracy": false
+  },
+  {
+    "claim": "Don Ashley Turlington graduated from Saint Joseph's College, a private Catholic liberal arts college in Standish.",
+    "justification": "The evidence only confirms the existence and location of Saint Joseph's College, but does not provide information about Don Ashley Turlington's educational background.",
+    "score": 0.5809070580835827,
+    "accuracy": false
+  },
+  {
+    "claim": "The previous Vice President of Production at the animation studio that is owned and operated by Viacom, currently works for Cartoon Network Studios.",
+    "justification": "The evidence does not mention anything about a previous Vice President of Production at Viacom-owned animation studios, nor does it provide information about the current employment status of such a person. It only mentions Brian A. Miller's career history and roles at Cartoon Network Studios, but not in relation to Viacom or any other specific studio.",
+    "score": 0.2781111618824068,
+    "accuracy": false
+  },
+  {
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where the Ibrahim-al-Ibrahim Mosque is located.",
+    "justification": "The evidence states that the mosque is located in Gibraltar, which is described as a \"British overseas territory\", indicating that the British monarch is indeed the head of state for this territory.",
+    "score": 0.9753504022702554,
+    "accuracy": true
+  },
+  {
+    "claim": "The name of the Dreyse needle gun's succesor was also called Fusil Mle 1886 M93.",
+    "justification": "The evidence states that the Lebel Model 1886 rifle, also known as \"Fusil Mod\u00e8le 1886 dit 'Fusil Lebel'\", was later modified with a bolt change in 1893 and then referred to as the \"Fusil Mle 1886 M93\". This directly supports the claim that the successor of the Dreyse needle gun, which is not explicitly mentioned but implied to be the Lebel Model 1886 rifle, was also called Fusil Mle 1886 M93.",
+    "score": 0.886738030242749,
+    "accuracy": true
+  },
+  {
+    "claim": "In the 1990's business executive Petrie Dierman Kughn built one of the three mills landmarks in California in 1994.",
+    "justification": "The evidence does not confirm that Petrie Dierman Kughn was a business executive or that they built one of the three Mills landmarks in California. It only confirms that there are three Mills landmarks managed by Simon Property Group and mentions Petrie Dierman Kughn as one of the builders of The Great Mall, but it does not provide information about their profession or any other mills landmarks they may have worked on.",
+    "score": 0.24598694508569155,
+    "accuracy": true
+  },
+  {
+    "claim": "In the 1990's Petrie Dierman Kughn built one of the three mills landmarks in California in 1994.",
+    "justification": "The evidence does not support the claim that Petrie Dierman Kughn built one of the three mills landmarks in California in 1994, as it specifically mentions that the Great Mall was built by Ford Motor Land Development and Petrie Dierman Kughn.",
+    "score": 0.006175757431306076,
+    "accuracy": false
+  },
+  {
+    "claim": "Jem Finer was a banjo player in the band The Pogues.",
+    "justification": "The evidence states that Jem Finer was a \"banjo player\" and one of the \"founding members\" of the Pogues, indicating his role in the band included playing the banjo.",
+    "score": 0.9711309923000631,
+    "accuracy": true
+  },
+  {
+    "claim": "Mashorey is located in Afghanistan.",
+    "justification": "The evidence explicitly states that W\u0101zakhw\u0101, also known as Mash\u014d\u1e5f\u00eay or Marj\u0101n, is a village in Paktika Province, which is one of the provinces of Afghanistan. This directly supports the claim that Mashorey (likely a variant of Mash\u014d\u1e5f\u00eay) is located in Afghanistan.",
+    "score": 0.968925091172484,
+    "accuracy": true
+  },
+  {
+    "claim": "Mashorey is located in Paktika Province.",
+    "justification": "The evidence states that W\u0101zakhw\u0101 (also known as Mash\u014d\u1e5f\u00eay) is a village in Paktika Province, which directly supports the claim that Mashorey is located in Paktika Province.",
+    "score": 0.907804440207859,
+    "accuracy": true
+  },
+  {
+    "claim": "Mashorey is located in southern Afghanistan.",
+    "justification": "The evidence states that Mashorey/Marj\u0101n is a village in Paktika Province, which is located in southeastern-central Afghanistan. This contradicts the claim that it is located in southern Afghanistan.",
+    "score": 0.8122829312668385,
+    "accuracy": false
+  },
+  {
+    "claim": "Mario Mazzacurati won the 1936 South African Grand Prix with the Bugatti, a type of two door car that was founded in 1909 in the then German city of Molsheim, Alsace.",
+    "justification": "The evidence does not mention Mazzacurati winning the 1936 South African Grand Prix, but rather states he won it with pseudonym \"Mario Massacuratti\", which suggests there may be a mix-up in names. Additionally, the claim mentions him driving a Bugatti, but the evidence only confirms that he drove a Bugatti car, not specifically that he won the 1936 South African Grand Prix.",
+    "score": 0.3870003714312306,
+    "accuracy": true
+  },
+  {
+    "claim": "Mario Mazzacurati won the 1936 South African Grand Prix with the Bugatti, a type of car that was founded in 1909 in the then German city of Molsheim, Alsace.",
+    "justification": "The evidence does not mention Mario Mazzacurati winning the 1936 South African Grand Prix, but rather that he won it with the pseudonym \"Mario Massacuratti\". Additionally, while the evidence mentions Ettore Bugatti as a German then French manufacturer, it does not confirm that Mario Mazzacurati specifically drove a Bugatti in the 1936 South African Grand Prix.",
+    "score": 0.32697874867956167,
+    "accuracy": false
+  },
+  {
+    "claim": "Bambi, is based on a book by the Austrian author Felix Salten, The Country Bears is not.",
+    "justification": "The claim states that Bambi is based on a book by Felix Salten, which is true. However, it also claims that The Country Bears is not based on such a book, and this part of the claim is supported by the evidence, as there's no mention of any literary basis for The Country Bears in the provided text.",
+    "score": 0.47216786799644395,
+    "accuracy": true
+  },
+  {
+    "claim": "Bambi, is based on a book by the American author Felix Salten, The Country Bears is not.",
+    "justification": "The evidence does not mention Felix Salten or a book as the basis for either Bambi or The Country Bears. It only mentions that The Country Bears is based on the Disney theme park attraction Country Bear Jamboree, but it does not provide any information about Bambi being based on a book by Felix Salten.",
+    "score": 0.34609992061114303,
+    "accuracy": true
+  },
+  {
+    "claim": "Bambi, is based on a book by the Austrian photographer Felix Salten, The Country Bears is not.",
+    "justification": "The claim states that Bambi is not based on a book by Felix Salten, whereas the evidence only mentions the film's release information and production details. It does not mention any connection between Bambi and Felix Salten's work, but it does confirm that The Country Bears is not based on a Disney theme park attraction, as claimed.",
+    "score": 0.08820824653396121,
+    "accuracy": false
+  },
+  {
+    "claim": "In the 2004 Hockey film produced by a former major league baseball pitcher Kurt Russell played the USA coach.",
+    "justification": "The claim states that Kurt Russell played the USA coach in the 2004 Hockey film, but the evidence only mentions Miracle as a 2004 American sports film about hockey, with no mention of Kurt Russell's involvement.",
+    "score": 0.055578292241904435,
+    "accuracy": false
+  },
+  {
+    "claim": "Gael and Fitness are not published in the same country.",
+    "justification": "The evidence indicates that Gael is published in Belgium, while Fitness is published in the United States, but it does not provide information about both magazines being published in different countries. However, since they are indeed published in different countries (Belgium vs. USA), the claim should be labeled as supported.",
+    "score": 0.6346913280670298,
+    "accuracy": false
+  },
+  {
+    "claim": "Blackstar is the name of the album released by David Bowie that was recorded in secret.",
+    "justification": "There is no evidence in the provided text that suggests Blackstar was recorded in secret. The text only mentions the release of the album and its contributors, but does not mention anything about the recording process being secretive.",
+    "score": 0.5482251387447108,
+    "accuracy": false
+  },
+  {
+    "claim": "Along with the New York Islanders and the New York Rangers, the New Jersey Devils NHL franchise is popular in the New York metropolitan area.",
+    "justification": "The evidence states that the New Jersey Devils is one of three NHL franchises located in the New York metropolitan area, along with the New York Islanders and the New York Rangers. This directly supports the claim that the New Jersey Devils franchise is popular in the New York metropolitan area, as it implies a level of recognition or presence within the region.",
+    "score": 0.2679015898267072,
+    "accuracy": true
+  },
+  {
+    "claim": "Along with the New York Islanders and the New York Rangers, the New Jersey Devils NFL franchise is popular in the New York metropolitan area.",
+    "justification": "The claim states that the New Jersey Devils are an NFL franchise, but the evidence indicates that they are actually a National Hockey League (NHL) team.",
+    "score": 0.28883819525497334,
+    "accuracy": true
+  },
+  {
+    "claim": "Robert Earl Holding owned an oil company that was originally founded by Harry F. Sinclair.",
+    "justification": "The evidence states that Robert Earl Holding owned Sinclair Oil Corporation, which was also stated to be the company originally founded by Harry F. Sinclair in 1916. This directly supports the claim.",
+    "score": 0.9487134481739132,
+    "accuracy": true
+  },
+  {
+    "claim": "Philip Cortez and Julian Castro are democratic and not Republican.",
+    "justification": "The evidence shows that Philip Cortez is a Democratic member of the Texas House of Representatives, which supports the claim that he is a Democrat. Additionally, Juli\u00e1n Castro's biography mentions him as an American lawyer and politician from San Antonio, Texas, without indicating any affiliation with the Republican party, supporting the claim that he is not a Republican.",
+    "score": 0.9658099762884568,
+    "accuracy": true
+  },
+  {
+    "claim": "The nationality of the dancer who partnered Tom Chambers in the sixth season of Strictly Come Dancing is Danish.",
+    "justification": "The evidence provided states that the dancer's name is Camilla Sacre-Dallerup, but it also mentions \"Camilla Dallerup\". This suggests that they are likely the same person, but with a different middle name. However, the claim specifically states \"Danish\" nationality, which matches the evidence for Camilla Sacre-Dallerup, but not for Camilla Dallerup (who is likely the same person).",
+    "score": 0.40941964749591,
+    "accuracy": false
+  },
+  {
+    "claim": "The nationality of the dancer who represented Tom Chambers in the fifth season of Strictly Come Dancing is Danish.",
+    "justification": "The evidence provided states that the dancer's name is Camilla Sacre-Dallerup, but it does not explicitly state that she represented Tom Chambers in the fifth season of Strictly Come Dancing. However, a closer look at the information reveals that Camilla Dallerup (not Sacre-Dallerup) was indeed Tom Chambers' partner and won the sixth series of Strictly Come Dancing. This suggests that the correct name is Camilla Dallerup, not Sacre-Dallerup, which implies that the claim about the nationality might be incorrect or irrelevant to the actual information provided.",
+    "score": 0.3479714361302586,
+    "accuracy": true
+  }
+]

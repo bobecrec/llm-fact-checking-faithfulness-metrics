@@ -1,0 +1,1277 @@
+[
+  {
+    "uid": "330ca632-e83f-4011-b11b-0d0158145036",
+    "claim": "Skagen Painter Peder Severin Krøyer favored naturalism along with Theodor Esbern Philipsen and the artist Ossian Elgström studied with in the early 1900s.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      },
+      {
+        "source": "Ossian Elgström",
+        "sentence_id": 2,
+        "sentence": "Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal. Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+  },
+  {
+    "uid": "ca7db8e1-799a-4498-b31b-b1a430b5874e",
+    "claim": "Skagen Painter Peder Severin Krøyer favored naturalism along with Theodor Esbern Philipsen and the artist Ossian Elgström studied with in 1907.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      },
+      {
+        "source": "Ossian Elgström",
+        "sentence_id": 2,
+        "sentence": "Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal. Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+  },
+  {
+    "uid": "2e9cf58a-40e1-47ee-aaa8-3b84ebe94cd0",
+    "claim": "Skagen Painter Peder Severin Krøyer favored naturalism along with Theodor Esbern Philipsen and the muralist Ossian Elgström studied with in 1907.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      },
+      {
+        "source": "Ossian Elgström",
+        "sentence_id": 2,
+        "sentence": "Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal. Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+  },
+  {
+    "uid": "824c8ffa-da36-45ea-9f68-0342e3893a63",
+    "claim": "Skagen Painter Peder Severin Krøyer favored naturalism along with Norderhov and the artist Ossian Elgström studied with in 1907.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      },
+      {
+        "source": "Ossian Elgström",
+        "sentence_id": 2,
+        "sentence": "Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal. Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+  },
+  {
+    "uid": "3be7b926-2b30-4130-86a1-3fccc4ee2655",
+    "claim": "Red, White & Crüe and this athlete both fight. The french fighter was trained by Bobby Stewart.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Red, White &amp; Crüe",
+        "sentence_id": 2,
+        "sentence": "Background\nBassist Nikki Sixx commented on the band's reunion, comparing it to \"seeing Mike Tyson fight."
+      },
+      {
+        "source": "Mike Tyson",
+        "sentence_id": 2,
+        "sentence": "He reigned as the undisputed world heavyweight champion from 1987 to 1990."
+      },
+      {
+        "source": "Bobby Stewart",
+        "sentence_id": 0,
+        "sentence": "\"Irish\" Bobby Stewart won the National Golden Gloves Tournament in 1974 as a light heavyweight."
+      }
+    ],
+    "evidence": "Background\nBassist Nikki Sixx commented on the band's reunion, comparing it to \"seeing Mike Tyson fight. He reigned as the undisputed world heavyweight champion from 1987 to 1990. \"Irish\" Bobby Stewart won the National Golden Gloves Tournament in 1974 as a light heavyweight."
+  },
+  {
+    "uid": "c21c7c39-d282-4958-a333-e6572b75487f",
+    "claim": "Red, White & Crüe and this athlete both fight. The fighter was trained by Bobby Stewart.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Red, White &amp; Crüe",
+        "sentence_id": 2,
+        "sentence": "Background\nBassist Nikki Sixx commented on the band's reunion, comparing it to \"seeing Mike Tyson fight."
+      },
+      {
+        "source": "Mike Tyson",
+        "sentence_id": 2,
+        "sentence": "He reigned as the undisputed world heavyweight champion from 1987 to 1990."
+      },
+      {
+        "source": "Bobby Stewart",
+        "sentence_id": 0,
+        "sentence": "\"Irish\" Bobby Stewart won the National Golden Gloves Tournament in 1974 as a light heavyweight."
+      }
+    ],
+    "evidence": "Background\nBassist Nikki Sixx commented on the band's reunion, comparing it to \"seeing Mike Tyson fight. He reigned as the undisputed world heavyweight champion from 1987 to 1990. \"Irish\" Bobby Stewart won the National Golden Gloves Tournament in 1974 as a light heavyweight."
+  },
+  {
+    "uid": "dc40701b-6f65-4291-a6ef-3c3ca8359a23",
+    "claim": "Gina Bramhill was born in a village. The 2011 population of the area that includes this village was 167,446.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Eastoft",
+        "sentence_id": 0,
+        "sentence": "Eastoft is a village and civil parish in North Lincolnshire, England."
+      },
+      {
+        "source": "North Lincolnshire",
+        "sentence_id": 1,
+        "sentence": "At the 2011 Census, it had a population of 167,446."
+      },
+      {
+        "source": "Gina Bramhill",
+        "sentence_id": 0,
+        "sentence": "Gina Bramhill is a British actress."
+      }
+    ],
+    "evidence": "Eastoft is a village and civil parish in North Lincolnshire, England. At the 2011 Census, it had a population of 167,446. Gina Bramhill is a British actress."
+  },
+  {
+    "uid": "f3b3d95f-0012-45e7-b43d-577cc5c9e2cc",
+    "claim": "Gina Bramhill was born in an Italian village. The 2011 population of the unitary authority area that includes this village was 167,446.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Eastoft",
+        "sentence_id": 0,
+        "sentence": "Eastoft is a village and civil parish in North Lincolnshire, England."
+      },
+      {
+        "source": "North Lincolnshire",
+        "sentence_id": 1,
+        "sentence": "At the 2011 Census, it had a population of 167,446."
+      },
+      {
+        "source": "Gina Bramhill",
+        "sentence_id": 0,
+        "sentence": "Gina Bramhill is a British actress."
+      }
+    ],
+    "evidence": "Eastoft is a village and civil parish in North Lincolnshire, England. At the 2011 Census, it had a population of 167,446. Gina Bramhill is a British actress."
+  },
+  {
+    "uid": "e26bdff3-04e8-4c81-894a-850f8395ece9",
+    "claim": "Gina Bramhill was born in a village. The 2011 population of the unitary authority area that includes this village was 167,446.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Eastoft",
+        "sentence_id": 0,
+        "sentence": "Eastoft is a village and civil parish in North Lincolnshire, England."
+      },
+      {
+        "source": "North Lincolnshire",
+        "sentence_id": 1,
+        "sentence": "At the 2011 Census, it had a population of 167,446."
+      },
+      {
+        "source": "Gina Bramhill",
+        "sentence_id": 0,
+        "sentence": "Gina Bramhill is a British actress."
+      }
+    ],
+    "evidence": "Eastoft is a village and civil parish in North Lincolnshire, England. At the 2011 Census, it had a population of 167,446. Gina Bramhill is a British actress."
+  },
+  {
+    "uid": "ef70d951-53bb-4761-9f48-f25651aa1545",
+    "claim": "The area renamed Northland in Stone Spring, an area that once connected Great Britain to continental the Grand Canyon, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Doggerland",
+        "sentence_id": 0,
+        "sentence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea."
+      },
+      {
+        "source": "Doggerland",
+        "sentence_id": 3,
+        "sentence": "During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 0,
+        "sentence": "The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 2,
+        "sentence": "The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean."
+      },
+      {
+        "source": "Stone Spring",
+        "sentence_id": 1,
+        "sentence": "It is set in prehistoric Doggerland (renamed \"Northland\" in the novel) and focuses on the attempts of Northland's inhabitants to adapt to the rising sea levels slowly eroding Northland's coastline."
+      }
+    ],
+    "evidence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea. During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland. The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides. The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean. It is set in prehistoric Doggerland (renamed \"Northland\" in the novel) and focuses on the attempts of Northland's inhabitants to adapt to the rising sea levels slowly eroding Northland's coastline."
+  },
+  {
+    "uid": "a63619f5-b0b7-4572-a6f7-0305e5c3a36f",
+    "claim": "The area renamed Northland in Stone Spring, an area that once connected Great Britain to continental Europe, is thought to have been submerged centuries ago by a massive landslide along 290 km of the continental shelf.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Doggerland",
+        "sentence_id": 0,
+        "sentence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea."
+      },
+      {
+        "source": "Doggerland",
+        "sentence_id": 3,
+        "sentence": "During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 0,
+        "sentence": "The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 2,
+        "sentence": "The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean."
+      },
+      {
+        "source": "Stone Spring",
+        "sentence_id": 1,
+        "sentence": "It is set in prehistoric Doggerland (renamed \"Northland\" in the novel) and focuses on the attempts of Northland's inhabitants to adapt to the rising sea levels slowly eroding Northland's coastline."
+      }
+    ],
+    "evidence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea. During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland. The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides. The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean. It is set in prehistoric Doggerland (renamed \"Northland\" in the novel) and focuses on the attempts of Northland's inhabitants to adapt to the rising sea levels slowly eroding Northland's coastline."
+  },
+  {
+    "uid": "dbe5a86f-5a80-41cf-8377-0e10f0f842e4",
+    "claim": "The area renamed Northland in Stone Spring, an geographical region that once connected Great Britain to continental Europe, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Doggerland",
+        "sentence_id": 0,
+        "sentence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea."
+      },
+      {
+        "source": "Doggerland",
+        "sentence_id": 3,
+        "sentence": "During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 0,
+        "sentence": "The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 2,
+        "sentence": "The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean."
+      },
+      {
+        "source": "Stone Spring",
+        "sentence_id": 1,
+        "sentence": "It is set in prehistoric Doggerland (renamed \"Northland\" in the novel) and focuses on the attempts of Northland's inhabitants to adapt to the rising sea levels slowly eroding Northland's coastline."
+      }
+    ],
+    "evidence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea. During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland. The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides. The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean. It is set in prehistoric Doggerland (renamed \"Northland\" in the novel) and focuses on the attempts of Northland's inhabitants to adapt to the rising sea levels slowly eroding Northland's coastline."
+  },
+  {
+    "uid": "31d32e44-3a37-4737-aa17-9da1a7ccc8aa",
+    "claim": "The area renamed Northland in Stone Spring, an area that once connected Great Britain to continental Europe, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Doggerland",
+        "sentence_id": 0,
+        "sentence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea."
+      },
+      {
+        "source": "Doggerland",
+        "sentence_id": 3,
+        "sentence": "During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 0,
+        "sentence": "The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 2,
+        "sentence": "The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean."
+      },
+      {
+        "source": "Stone Spring",
+        "sentence_id": 1,
+        "sentence": "It is set in prehistoric Doggerland (renamed \"Northland\" in the novel) and focuses on the attempts of Northland's inhabitants to adapt to the rising sea levels slowly eroding Northland's coastline."
+      }
+    ],
+    "evidence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea. During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland. The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides. The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean. It is set in prehistoric Doggerland (renamed \"Northland\" in the novel) and focuses on the attempts of Northland's inhabitants to adapt to the rising sea levels slowly eroding Northland's coastline."
+  },
+  {
+    "uid": "a9ea580d-7635-4825-881a-e6608bae3700",
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Plaza Kotaraya at Little Bay to the place worship for Muslims and Nun's Well at Europa Point.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Ibrahim-al-Ibrahim Mosque",
+        "sentence_id": 0,
+        "sentence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain."
+      },
+      {
+        "source": "British Overseas Territories",
+        "sentence_id": 5,
+        "sentence": "Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base)."
+      },
+      {
+        "source": "Keightley Way",
+        "sentence_id": 1,
+        "sentence": "It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+      }
+    ],
+    "evidence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain. Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base). It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+  },
+  {
+    "uid": "d04bfc81-0753-45dc-a000-fdc945acb0f2",
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way connects Rosia Road at Little Bay to the place worship for Muslims and Nun's Well at Europa Point in Turkey.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Ibrahim-al-Ibrahim Mosque",
+        "sentence_id": 0,
+        "sentence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain."
+      },
+      {
+        "source": "British Overseas Territories",
+        "sentence_id": 5,
+        "sentence": "Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base)."
+      },
+      {
+        "source": "Keightley Way",
+        "sentence_id": 1,
+        "sentence": "It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+      }
+    ],
+    "evidence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain. Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base). It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+  },
+  {
+    "uid": "fa7ccaa0-962e-4b36-9a5c-90492f2f1b30",
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Rosia Road at Little Bay to the place worship for Muslims and Nun's Well at Europa Point.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Ibrahim-al-Ibrahim Mosque",
+        "sentence_id": 0,
+        "sentence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain."
+      },
+      {
+        "source": "British Overseas Territories",
+        "sentence_id": 5,
+        "sentence": "Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base)."
+      },
+      {
+        "source": "Keightley Way",
+        "sentence_id": 1,
+        "sentence": "It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+      }
+    ],
+    "evidence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain. Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base). It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+  },
+  {
+    "uid": "4d7bcfe3-4a34-4e14-80ac-bfbbfc1a2fb8",
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Rosia Road at Shusha to the place worship for Muslims and Nun's Well at Europa Point.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Ibrahim-al-Ibrahim Mosque",
+        "sentence_id": 0,
+        "sentence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain."
+      },
+      {
+        "source": "British Overseas Territories",
+        "sentence_id": 5,
+        "sentence": "Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base)."
+      },
+      {
+        "source": "Keightley Way",
+        "sentence_id": 1,
+        "sentence": "It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+      }
+    ],
+    "evidence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain. Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base). It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+  },
+  {
+    "uid": "1ac9e985-0247-44da-9829-f5bacea2fb75",
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way connects Rosia Road to the place worship for Muslims and Nun's Well at Europa Point.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Ibrahim-al-Ibrahim Mosque",
+        "sentence_id": 0,
+        "sentence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain."
+      },
+      {
+        "source": "British Overseas Territories",
+        "sentence_id": 5,
+        "sentence": "Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base)."
+      },
+      {
+        "source": "Keightley Way",
+        "sentence_id": 1,
+        "sentence": "It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+      }
+    ],
+    "evidence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain. Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base). It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+  },
+  {
+    "uid": "63977b24-e925-41a8-8369-e5a2ef4e910f",
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Rosia Road at Little Bay to the place worship for British and Nun's Well at Europa Point.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Ibrahim-al-Ibrahim Mosque",
+        "sentence_id": 0,
+        "sentence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain."
+      },
+      {
+        "source": "British Overseas Territories",
+        "sentence_id": 5,
+        "sentence": "Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base)."
+      },
+      {
+        "source": "Keightley Way",
+        "sentence_id": 1,
+        "sentence": "It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+      }
+    ],
+    "evidence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain. Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base). It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point."
+  },
+  {
+    "uid": "b71b0c3f-4de0-40a3-92ed-564ef571f90c",
+    "claim": "The composer of Longplayer was a player in the band The Pogues.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+  },
+  {
+    "uid": "5f665868-1049-4e19-a1e0-f4e89bae675e",
+    "claim": "The composer of Longplayer was a banjo player in the band The Alexis Kirke.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+  },
+  {
+    "uid": "5ad3b468-db9f-4475-ab80-3dd6319173a9",
+    "claim": "The composer of Longplayer was a banjo player and singer in the band The Pogues.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+  },
+  {
+    "uid": "a61974ff-1adf-469a-b46a-a0903eb50f7f",
+    "claim": "This 1938 movie is based on a book by the Austrian author Felix Salten, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+  },
+  {
+    "uid": "1867a82f-24f9-4e92-af74-ec910bc4a418",
+    "claim": "This movie is based on a book by the Austrian author Felix Salten, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+  },
+  {
+    "uid": "28b6e328-341a-4206-95ae-61b3bd8ed814",
+    "claim": "This movie is based on a book by the Austrian author Faline, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+  },
+  {
+    "uid": "b79c4050-3cda-4002-ba5a-223ea71ec275",
+    "claim": "This movie is based on a book by the German author Felix Salten, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+  },
+  {
+    "uid": "c84a8f2a-62e0-465b-93ee-77b553845689",
+    "claim": "Dollar Days was the sixth track on Bowie's twenty-fifth and final studio album. The album that was released was recorded in secret.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Death of David Bowie",
+        "sentence_id": 0,
+        "sentence": "On 10 January 2016, the English musician David Bowie died at his Lafayette Street home in New York City, having been diagnosed with liver cancer 18 months earlier."
+      },
+      {
+        "source": "Death of David Bowie",
+        "sentence_id": 1,
+        "sentence": "He died two days after the release of his twenty-sixth and final studio album, Blackstar, which coincided with his 69th birthday."
+      },
+      {
+        "source": "Blackstar (album)",
+        "sentence_id": 2,
+        "sentence": "Ben Monder and James Murphy contributed additional guitar and percussion, respectively."
+      },
+      {
+        "source": "Dollar Days",
+        "sentence_id": 1,
+        "sentence": "It is the sixth track on Bowie's twenty-sixth and final studio album, Blackstar, which was released on 8 January 2016."
+      }
+    ],
+    "evidence": "On 10 January 2016, the English musician David Bowie died at his Lafayette Street home in New York City, having been diagnosed with liver cancer 18 months earlier. He died two days after the release of his twenty-sixth and final studio album, Blackstar, which coincided with his 69th birthday. Ben Monder and James Murphy contributed additional guitar and percussion, respectively. It is the sixth track on Bowie's twenty-sixth and final studio album, Blackstar, which was released on 8 January 2016."
+  },
+  {
+    "uid": "1d80fc54-767c-4647-825c-23bafc0722cd",
+    "claim": "Dollar Days was a track on Bowie's twenty-fifth and final studio album. The album that was released was recorded in secret.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Death of David Bowie",
+        "sentence_id": 0,
+        "sentence": "On 10 January 2016, the English musician David Bowie died at his Lafayette Street home in New York City, having been diagnosed with liver cancer 18 months earlier."
+      },
+      {
+        "source": "Death of David Bowie",
+        "sentence_id": 1,
+        "sentence": "He died two days after the release of his twenty-sixth and final studio album, Blackstar, which coincided with his 69th birthday."
+      },
+      {
+        "source": "Blackstar (album)",
+        "sentence_id": 2,
+        "sentence": "Ben Monder and James Murphy contributed additional guitar and percussion, respectively."
+      },
+      {
+        "source": "Dollar Days",
+        "sentence_id": 1,
+        "sentence": "It is the sixth track on Bowie's twenty-sixth and final studio album, Blackstar, which was released on 8 January 2016."
+      }
+    ],
+    "evidence": "On 10 January 2016, the English musician David Bowie died at his Lafayette Street home in New York City, having been diagnosed with liver cancer 18 months earlier. He died two days after the release of his twenty-sixth and final studio album, Blackstar, which coincided with his 69th birthday. Ben Monder and James Murphy contributed additional guitar and percussion, respectively. It is the sixth track on Bowie's twenty-sixth and final studio album, Blackstar, which was released on 8 January 2016."
+  },
+  {
+    "uid": "1c2d98b2-1d9d-4c78-8637-241d6604c128",
+    "claim": "Dollar Days was the sixth track on award winning Bowie's twenty-fifth and final studio album. The album that was released was recorded in secret.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Death of David Bowie",
+        "sentence_id": 0,
+        "sentence": "On 10 January 2016, the English musician David Bowie died at his Lafayette Street home in New York City, having been diagnosed with liver cancer 18 months earlier."
+      },
+      {
+        "source": "Death of David Bowie",
+        "sentence_id": 1,
+        "sentence": "He died two days after the release of his twenty-sixth and final studio album, Blackstar, which coincided with his 69th birthday."
+      },
+      {
+        "source": "Blackstar (album)",
+        "sentence_id": 2,
+        "sentence": "Ben Monder and James Murphy contributed additional guitar and percussion, respectively."
+      },
+      {
+        "source": "Dollar Days",
+        "sentence_id": 1,
+        "sentence": "It is the sixth track on Bowie's twenty-sixth and final studio album, Blackstar, which was released on 8 January 2016."
+      }
+    ],
+    "evidence": "On 10 January 2016, the English musician David Bowie died at his Lafayette Street home in New York City, having been diagnosed with liver cancer 18 months earlier. He died two days after the release of his twenty-sixth and final studio album, Blackstar, which coincided with his 69th birthday. Ben Monder and James Murphy contributed additional guitar and percussion, respectively. It is the sixth track on Bowie's twenty-sixth and final studio album, Blackstar, which was released on 8 January 2016."
+  },
+  {
+    "uid": "27b07616-9b1d-425e-9594-5b3552a03226",
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils the Metropolitan Division of the Eastern Conference franchise, are popular in the New York metropolitan area.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+  },
+  {
+    "uid": "9b2d4ae3-ae38-4e44-ba97-ad65e7e17b2b",
+    "claim": "A hockey team calls the 70,000 capacity Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+  },
+  {
+    "uid": "2427c810-c00d-4876-8b10-c87c4ba3648b",
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+  },
+  {
+    "uid": "da76117c-94a8-45c1-a3a1-d0ee4a565d80",
+    "claim": "The Georgia man unseated by Rick Galindo and Julian Castro are democratic and not Republican.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Philip Cortez",
+        "sentence_id": 0,
+        "sentence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives."
+      },
+      {
+        "source": "Julian Castro",
+        "sentence_id": 0,
+        "sentence": "Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas."
+      },
+      {
+        "source": "Rick Galindo",
+        "sentence_id": 1,
+        "sentence": "He served as a Republican member for the 117th district of the Texas House of Representatives."
+      }
+    ],
+    "evidence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives. Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas. He served as a Republican member for the 117th district of the Texas House of Representatives."
+  },
+  {
+    "uid": "7adacd22-00c1-48b2-8f87-bed24b4777f6",
+    "claim": "The person unseated by Rick Galindo and Julian Castro are democratic and not Republican.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Philip Cortez",
+        "sentence_id": 0,
+        "sentence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives."
+      },
+      {
+        "source": "Julian Castro",
+        "sentence_id": 0,
+        "sentence": "Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas."
+      },
+      {
+        "source": "Rick Galindo",
+        "sentence_id": 1,
+        "sentence": "He served as a Republican member for the 117th district of the Texas House of Representatives."
+      }
+    ],
+    "evidence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives. Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas. He served as a Republican member for the 117th district of the Texas House of Representatives."
+  },
+  {
+    "uid": "723ae88d-ccd2-4cf0-a882-9c2906aef225",
+    "claim": "The man unseated by Rick Galindo and Julian Castro are democratic and not Republican.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Philip Cortez",
+        "sentence_id": 0,
+        "sentence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives."
+      },
+      {
+        "source": "Julian Castro",
+        "sentence_id": 0,
+        "sentence": "Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas."
+      },
+      {
+        "source": "Rick Galindo",
+        "sentence_id": 1,
+        "sentence": "He served as a Republican member for the 117th district of the Texas House of Representatives."
+      }
+    ],
+    "evidence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives. Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas. He served as a Republican member for the 117th district of the Texas House of Representatives."
+  },
+  {
+    "uid": "97c812b0-6d82-4798-8ec7-c84ef3021376",
+    "claim": "The man unseated by Rick Galindo and Julian Castro are democratic and not Democratic.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Philip Cortez",
+        "sentence_id": 0,
+        "sentence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives."
+      },
+      {
+        "source": "Julian Castro",
+        "sentence_id": 0,
+        "sentence": "Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas."
+      },
+      {
+        "source": "Rick Galindo",
+        "sentence_id": 1,
+        "sentence": "He served as a Republican member for the 117th district of the Texas House of Representatives."
+      }
+    ],
+    "evidence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives. Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas. He served as a Republican member for the 117th district of the Texas House of Representatives."
+  },
+  {
+    "uid": "b375313d-8035-4da2-85ac-f322122ddb1e",
+    "claim": "The film The Book Thief, released in 1990, was directed by same director of the film About a Girl. The Book Thief is based on a book by Markus Zusak.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Brian Percival",
+        "sentence_id": 0,
+        "sentence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief."
+      },
+      {
+        "source": "The Book Thief (film)",
+        "sentence_id": 1,
+        "sentence": "The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni."
+      },
+      {
+        "source": "About a Girl (2001 film)",
+        "sentence_id": 0,
+        "sentence": "About a Girl is a nine-minute short film directed by Brian Percival."
+      }
+    ],
+    "evidence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief. The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni. About a Girl is a nine-minute short film directed by Brian Percival."
+  },
+  {
+    "uid": "13c18c84-21de-4dce-8a93-9a75b679dd4c",
+    "claim": "The film The Book Thief was directed by same director of the film About a Girl. The Book Thief is based on a book by Markus Zusak.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Brian Percival",
+        "sentence_id": 0,
+        "sentence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief."
+      },
+      {
+        "source": "The Book Thief (film)",
+        "sentence_id": 1,
+        "sentence": "The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni."
+      },
+      {
+        "source": "About a Girl (2001 film)",
+        "sentence_id": 0,
+        "sentence": "About a Girl is a nine-minute short film directed by Brian Percival."
+      }
+    ],
+    "evidence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief. The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni. About a Girl is a nine-minute short film directed by Brian Percival."
+  },
+  {
+    "uid": "c364f0f1-5970-4c72-a7f9-1d2012713d57",
+    "claim": "The president of South Korea was born 24 January 1953. The group that Vietnam-born Euh Yoon-Dae was Chairman of lies under his direct control.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Presidential Council on Nation Branding, Korea",
+        "sentence_id": 1,
+        "sentence": "The council was abolished on March 23, 2013."
+      },
+      {
+        "source": "Moon Jae-in",
+        "sentence_id": 0,
+        "sentence": "Moon Jae-in (Korean: 문재인, pronounced [mun.dʑɛ.in] ; born 24 January 1953) is a South Korean politician and former lawyer who served as the 12th president of South Korea from 2017 to 2022."
+      },
+      {
+        "source": "Euh Yoon-dae",
+        "sentence_id": 1,
+        "sentence": "He served as Chairman of KB Financial Group and of the Presidential Council on Nation Branding, Korea."
+      }
+    ],
+    "evidence": "The council was abolished on March 23, 2013. Moon Jae-in (Korean: 문재인, pronounced [mun.dʑɛ.in] ; born 24 January 1953) is a South Korean politician and former lawyer who served as the 12th president of South Korea from 2017 to 2022. He served as Chairman of KB Financial Group and of the Presidential Council on Nation Branding, Korea."
+  },
+  {
+    "uid": "1137bbf6-6dec-4883-a28b-bfc61be5e52b",
+    "claim": "The president of South Korea was born 24 January 1953. The group that Euh Yoon-Dae was Chairman of lies under his direct control.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Presidential Council on Nation Branding, Korea",
+        "sentence_id": 1,
+        "sentence": "The council was abolished on March 23, 2013."
+      },
+      {
+        "source": "Moon Jae-in",
+        "sentence_id": 0,
+        "sentence": "Moon Jae-in (Korean: 문재인, pronounced [mun.dʑɛ.in] ; born 24 January 1953) is a South Korean politician and former lawyer who served as the 12th president of South Korea from 2017 to 2022."
+      },
+      {
+        "source": "Euh Yoon-dae",
+        "sentence_id": 1,
+        "sentence": "He served as Chairman of KB Financial Group and of the Presidential Council on Nation Branding, Korea."
+      }
+    ],
+    "evidence": "The council was abolished on March 23, 2013. Moon Jae-in (Korean: 문재인, pronounced [mun.dʑɛ.in] ; born 24 January 1953) is a South Korean politician and former lawyer who served as the 12th president of South Korea from 2017 to 2022. He served as Chairman of KB Financial Group and of the Presidential Council on Nation Branding, Korea."
+  },
+  {
+    "uid": "b8358aa7-a20e-4095-9d5c-682beabc88fb",
+    "claim": "The writer of the song Girl Talk and song-writer Park So-yeon have both been members of a girl group.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Tionne Watkins",
+        "sentence_id": 1,
+        "sentence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC."
+      },
+      {
+        "source": "Park So-yeon (singer)",
+        "sentence_id": 1,
+        "sentence": "She debuted as a member of girl group T-ara in July 2009."
+      },
+      {
+        "source": "Girl Talk (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+      }
+    ],
+    "evidence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC. She debuted as a member of girl group T-ara in July 2009. It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+  },
+  {
+    "uid": "f014a2df-d079-4aaa-8823-ef7ef87c681a",
+    "claim": "The writer of the song Girl Talk and Park So-yeon have both been members of a girl group.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Tionne Watkins",
+        "sentence_id": 1,
+        "sentence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC."
+      },
+      {
+        "source": "Park So-yeon (singer)",
+        "sentence_id": 1,
+        "sentence": "She debuted as a member of girl group T-ara in July 2009."
+      },
+      {
+        "source": "Girl Talk (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+      }
+    ],
+    "evidence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC. She debuted as a member of girl group T-ara in July 2009. It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+  },
+  {
+    "uid": "5f40a5f6-f1ec-4aa8-8558-26190ab95919",
+    "claim": "The writer of the song Girl Talk and Park So-yeon have both been members of a girl group.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Tionne Watkins",
+        "sentence_id": 1,
+        "sentence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC."
+      },
+      {
+        "source": "Park So-yeon (singer)",
+        "sentence_id": 1,
+        "sentence": "She debuted as a member of girl group T-ara in July 2009."
+      },
+      {
+        "source": "Girl Talk (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+      }
+    ],
+    "evidence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC. She debuted as a member of girl group T-ara in July 2009. It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+  },
+  {
+    "uid": "475dc308-0ab1-43a9-80cb-4125f4141234",
+    "claim": "The writer of the song Girl Talk and Park So-yeon have both been members of a group.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Tionne Watkins",
+        "sentence_id": 1,
+        "sentence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC."
+      },
+      {
+        "source": "Park So-yeon (singer)",
+        "sentence_id": 1,
+        "sentence": "She debuted as a member of girl group T-ara in July 2009."
+      },
+      {
+        "source": "Girl Talk (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+      }
+    ],
+    "evidence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC. She debuted as a member of girl group T-ara in July 2009. It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+  },
+  {
+    "uid": "26dc26af-3f56-4712-9872-75b38a8fe80c",
+    "claim": "The North Central town that licenses WCJB-TV is home to the punk rock band Against Me! formed in 1991.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Don't Lose Touch",
+        "sentence_id": 0,
+        "sentence": "\"Don't Lose Touch\" is a song by the Gainesville, Florida-based punk rock band Against Me!, released as the first single from their 2005 album Searching for a Former Clarity."
+      },
+      {
+        "source": "Gainesville, Florida",
+        "sentence_id": 2,
+        "sentence": "Gainesville is home to the University of Florida, the third-largest public university campus by enrollment in the United States as of the 2023–2024 academic year."
+      },
+      {
+        "source": "WCJB-TV",
+        "sentence_id": 0,
+        "sentence": "WCJB-TV (channel 20) is a television station in Gainesville, Florida, United States, affiliated with ABC and The CW Plus."
+      }
+    ],
+    "evidence": "\"Don't Lose Touch\" is a song by the Gainesville, Florida-based punk rock band Against Me!, released as the first single from their 2005 album Searching for a Former Clarity. Gainesville is home to the University of Florida, the third-largest public university campus by enrollment in the United States as of the 2023–2024 academic year. WCJB-TV (channel 20) is a television station in Gainesville, Florida, United States, affiliated with ABC and The CW Plus."
+  },
+  {
+    "uid": "38310caa-bf75-49e4-978d-6af2ce88a46c",
+    "claim": "The North Central town that licenses WCJB-TV is home to the music band Against Me!.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Don't Lose Touch",
+        "sentence_id": 0,
+        "sentence": "\"Don't Lose Touch\" is a song by the Gainesville, Florida-based punk rock band Against Me!, released as the first single from their 2005 album Searching for a Former Clarity."
+      },
+      {
+        "source": "Gainesville, Florida",
+        "sentence_id": 2,
+        "sentence": "Gainesville is home to the University of Florida, the third-largest public university campus by enrollment in the United States as of the 2023–2024 academic year."
+      },
+      {
+        "source": "WCJB-TV",
+        "sentence_id": 0,
+        "sentence": "WCJB-TV (channel 20) is a television station in Gainesville, Florida, United States, affiliated with ABC and The CW Plus."
+      }
+    ],
+    "evidence": "\"Don't Lose Touch\" is a song by the Gainesville, Florida-based punk rock band Against Me!, released as the first single from their 2005 album Searching for a Former Clarity. Gainesville is home to the University of Florida, the third-largest public university campus by enrollment in the United States as of the 2023–2024 academic year. WCJB-TV (channel 20) is a television station in Gainesville, Florida, United States, affiliated with ABC and The CW Plus."
+  },
+  {
+    "uid": "fd38dc67-c066-46d2-a49b-a7432389ef58",
+    "claim": "The Mars town that licenses WCJB-TV is home to the punk rock band Against Me!.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Don't Lose Touch",
+        "sentence_id": 0,
+        "sentence": "\"Don't Lose Touch\" is a song by the Gainesville, Florida-based punk rock band Against Me!, released as the first single from their 2005 album Searching for a Former Clarity."
+      },
+      {
+        "source": "Gainesville, Florida",
+        "sentence_id": 2,
+        "sentence": "Gainesville is home to the University of Florida, the third-largest public university campus by enrollment in the United States as of the 2023–2024 academic year."
+      },
+      {
+        "source": "WCJB-TV",
+        "sentence_id": 0,
+        "sentence": "WCJB-TV (channel 20) is a television station in Gainesville, Florida, United States, affiliated with ABC and The CW Plus."
+      }
+    ],
+    "evidence": "\"Don't Lose Touch\" is a song by the Gainesville, Florida-based punk rock band Against Me!, released as the first single from their 2005 album Searching for a Former Clarity. Gainesville is home to the University of Florida, the third-largest public university campus by enrollment in the United States as of the 2023–2024 academic year. WCJB-TV (channel 20) is a television station in Gainesville, Florida, United States, affiliated with ABC and The CW Plus."
+  },
+  {
+    "uid": "e54b122a-b885-4ab0-a768-280a8e3b2145",
+    "claim": "The North Central town that licenses WCJB-TV is home to the punk rock band Against Me!.",
+    "label": "SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "Don't Lose Touch",
+        "sentence_id": 0,
+        "sentence": "\"Don't Lose Touch\" is a song by the Gainesville, Florida-based punk rock band Against Me!, released as the first single from their 2005 album Searching for a Former Clarity."
+      },
+      {
+        "source": "Gainesville, Florida",
+        "sentence_id": 2,
+        "sentence": "Gainesville is home to the University of Florida, the third-largest public university campus by enrollment in the United States as of the 2023–2024 academic year."
+      },
+      {
+        "source": "WCJB-TV",
+        "sentence_id": 0,
+        "sentence": "WCJB-TV (channel 20) is a television station in Gainesville, Florida, United States, affiliated with ABC and The CW Plus."
+      }
+    ],
+    "evidence": "\"Don't Lose Touch\" is a song by the Gainesville, Florida-based punk rock band Against Me!, released as the first single from their 2005 album Searching for a Former Clarity. Gainesville is home to the University of Florida, the third-largest public university campus by enrollment in the United States as of the 2023–2024 academic year. WCJB-TV (channel 20) is a television station in Gainesville, Florida, United States, affiliated with ABC and The CW Plus."
+  },
+  {
+    "uid": "7fe247ab-60c6-4810-9539-bcf355a999d9",
+    "claim": "The movie. in which David Zayas played Francis Ford Coppola the cop, is the movie that John Gavin Malkovich had played in with Matt Damon and Edward Norton.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "John Malkovich",
+        "sentence_id": 3,
+        "sentence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980)."
+      },
+      {
+        "source": "Rounders (film)",
+        "sentence_id": 0,
+        "sentence": "Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton."
+      },
+      {
+        "source": "David Zayas",
+        "sentence_id": 1,
+        "sentence": "He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz."
+      }
+    ],
+    "evidence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980). Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton. He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz."
+  },
+  {
+    "uid": "e1801c95-dad0-40ab-a22b-ce7aae27fa2d",
+    "claim": "The movie. in which David Zayas played Osborne the cop, is the movie that John Gavin Malkovich had played in with Matt Damon and James Moll.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 3,
+    "evidence_sentences": [
+      {
+        "source": "John Malkovich",
+        "sentence_id": 3,
+        "sentence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980)."
+      },
+      {
+        "source": "Rounders (film)",
+        "sentence_id": 0,
+        "sentence": "Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton."
+      },
+      {
+        "source": "David Zayas",
+        "sentence_id": 1,
+        "sentence": "He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz."
+      }
+    ],
+    "evidence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980). Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton. He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz."
+  }
+]

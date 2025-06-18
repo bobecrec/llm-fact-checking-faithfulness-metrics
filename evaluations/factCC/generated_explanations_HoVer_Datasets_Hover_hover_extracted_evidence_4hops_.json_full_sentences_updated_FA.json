@@ -1,0 +1,352 @@
+[
+  {
+    "claim": "Skagen Painter, who painted the 1893 painting Roses, favored naturalism. Theodor Esbern Philipsen and the artist that Ossian Elgstr\u00f6m studied with in December of 1907 also favored naturalism.",
+    "justification": "The evidence provided does not mention Skagen Painter or the artist who painted the 1893 painting Roses. It mentions other artists such as Peder Severin Kr\u00f8yer and Kristian Zahrtmann, but there is no information about a painter named Skagen Painter or their work \"Roses\".",
+    "score": 1,
+    "score_confidence": 0.999,
+    "accuracy": 1
+  },
+  {
+    "claim": "Skagen Painter and  artist Peder Severin Kr\u00f8yer favored naturalism. As did Theodor Esbern Philipsen and the artist that the illustrator of Exlex studied with in 1907.",
+    "justification": "The evidence states that Peder Severin Kr\u00f8yer, along with Theodor Esbern Philipsen and Kristian Zahrtmann, broke away from traditional Academicism in favor of naturalism and realism. Additionally, it is mentioned that Elgstr\u00f6m studied with Kristian Zahrtmann in 1907, who was known for his naturalistic style.",
+    "score": 1,
+    "score_confidence": 0.9745,
+    "accuracy": 1
+  },
+  {
+    "claim": "Skagen Painter, who painted the 1893 painting Roses, favored naturalism. Theodor Esbern Philipsen and the artist that Ossian Elgstr\u00f6m studied with in 1907 also favored naturalism.",
+    "justification": "The evidence only mentions Kristian Zahrtmann's preference for naturalism and realism, but does not provide information about Skagen Painter's or Ossian Elgstr\u00f6m's preferences.",
+    "score": 1,
+    "score_confidence": 0.9993,
+    "accuracy": 0
+  },
+  {
+    "claim": "Skagen Painter Peder Severin Kr\u00f8yer favored naturalism. As did Theodor Esbern Philipsen and the artist that the illustrator of Exlex studied with in 1907.",
+    "justification": "The evidence provided does not mention that Peder Severin Kr\u00f8yer favored naturalism. It only mentions that he was part of a group that broke away from traditional Academicism in favor of naturalism and realism, without specifying his personal preference.",
+    "score": 1,
+    "score_confidence": 0.5011,
+    "accuracy": 0
+  },
+  {
+    "claim": "The composer of Longplayer was a banjo player in a band. The musician James McNally was in this band.",
+    "justification": "The evidence states that Jem Finer was a banjo player in the band (The Pogues) and also mentions his involvement with another band called Dingle Spike, supporting the claim.",
+    "score": 0,
+    "score_confidence": 0.1271,
+    "accuracy": 1
+  },
+  {
+    "claim": "Hoch wie nie was published by the same singer that is also a  composer. This composer was a banjo player in the band The Shane MacGowan.",
+    "justification": "The evidence states that the song \"Hoch wie nie\" was composed by banjo player Jem Finer and featured on the Pogues' album, but it does not mention anything about Shane MacGowan being a part of the band. Additionally, the Longplayer composition is mentioned separately as being made by Jem Finer, which suggests that \"Hoch wie nie\" was not published by the same singer who composed it.",
+    "score": 1,
+    "score_confidence": 1.0,
+    "accuracy": 1
+  },
+  {
+    "claim": "Hoch wie nie was published by the same singer that is also a  composer. This composer was a banjo player in the band The Pogues.",
+    "justification": "The evidence states that the song \"Hoch wie nie\" was composed by banjo player Jem Finer and featured on the Pogues' album, but it does not mention anything about the singer being a composer or publishing the song. Additionally, the Longplayer composition is mentioned separately from the song in question.",
+    "score": 1,
+    "score_confidence": 0.9977,
+    "accuracy": 0
+  },
+  {
+    "claim": "Hoch wie nie was published by the same blues singer that is also a composer. This composer was a banjo player in the band The Pogues.",
+    "justification": "The evidence suggests that the song \"Hoch wie nie\" was written by Jem Finer and featured on the Pogues' album \"Peace and Love\", but it does not indicate that Jem Finer published \"Hoch wie nie\". Additionally, the evidence mentions a separate composition called Longplayer, which is unrelated to the claim.",
+    "score": 1,
+    "score_confidence": 0.9995,
+    "accuracy": 1
+  },
+  {
+    "claim": "Hoch wie nie was published by the same singer that is also a  composer. This composer was a banjo player in the band The MacGowan.",
+    "justification": "The evidence provided states that the song \"Hoch wie nie\" was composed by banjo player Jem Finer and featured on the Pogues' album, but it does not mention anything about Jem Finer being a member of The MacGowan. Additionally, the Longplayer is mentioned as a separate composition made by Jem Finer, which has no connection to the song \"Hoch wie nie\".",
+    "score": 1,
+    "score_confidence": 0.9712,
+    "accuracy": 1
+  },
+  {
+    "claim": "The composer of Longplayer was a banjo player in a band. The classical musician James McNally was in this band.",
+    "justification": "The evidence states that Jem Finer was a banjo player in the Pogues, but it does not mention James McNally being part of this band. Additionally, Longplayer was composed by Jem Finer, not James McNally.",
+    "score": 1,
+    "score_confidence": 0.9945,
+    "accuracy": 1
+  },
+  {
+    "claim": "This movie is based on a book by the Austrian author who also wrote The Hound of Florence, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The claim states that \"This movie\" refers to Bambi, which is indeed an American animated film produced by Walt Disney Productions. Additionally, the evidence confirms that The Country Bears is not based on a book by Felix Salten, and John D. Lowry's work in restoring classic films includes Bambi.",
+    "score": 1,
+    "score_confidence": 0.9988,
+    "accuracy": 1
+  },
+  {
+    "claim": "This 2001 documentary is based on a book by the Austrian author who also wrote The Hound of Florence, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "There is no evidence that a 2001 documentary exists or that it was restored and preserved by John D. Lowry, contradicting the claim. The provided information focuses on other films and books unrelated to the claim.",
+    "score": 1,
+    "score_confidence": 0.5031,
+    "accuracy": 1
+  },
+  {
+    "claim": "This movie is based on a book by the Austrian author Felix Salten, The film where Candy Ford voiced Salten is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The claim states that \"Bambi\" is based on a book by Felix Salten, which is true as it was adapted from Salten's 1923 novel of the same name. Additionally, the evidence confirms that John D. Lowry restored and preserved classic films, including Bambi.",
+    "score": 1,
+    "score_confidence": 0.9966,
+    "accuracy": 1
+  },
+  {
+    "claim": "This movie is based on a book by the German author Felix Salten, The film where Candy Ford voiced Trixie is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The claim that \"Bambi\" is based on a book by Felix Salten is supported because it is mentioned in the evidence as a Disney production. Additionally, the claim about John D. Lowry restoring and preserving classic films, including Bambi, is also supported as he is listed among the films he worked on.",
+    "score": 1,
+    "score_confidence": 0.9996,
+    "accuracy": 0
+  },
+  {
+    "claim": "This movie is based on a book by the Austrian author Felix Salten, The film where Candy Ford voiced Trixie is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The claim states that \"Bambi\" is based on a book by Felix Salten, which is supported by the fact that Walt Disney Productions produced the movie in 1942, implying it was adapted from a source material. Additionally, the evidence mentions John D. Lowry's restoration and preservation of classic films, confirming this part of the claim as well.",
+    "score": 1,
+    "score_confidence": 0.9977,
+    "accuracy": 1
+  },
+  {
+    "claim": "This movie is based on a book by the German author who also wrote The Hound of Florence, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The evidence confirms that the movie \"Bambi\" is based on a book, and it can be inferred that the book was written by an author who also wrote \"The Hound of Florence\", as both books are mentioned in the same context. Additionally, the evidence supports that John D. Lowry restored and preserved classic films, including \"Bambi\".",
+    "score": 1,
+    "score_confidence": 0.996,
+    "accuracy": 0
+  },
+  {
+    "claim": "This horror movie is based on a book by the Austrian author Felix Salten, The film where Candy Ford voiced Trixie is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The claim states that a horror movie is based on a book by Felix Salten, but the evidence provided lists two different movies (Bambi and The Country Bears) with no mention of a horror movie or a book by Felix Salten. Additionally, Candy Ford voiced Trixie in a film that is not mentioned to be a horror movie, contradicting the claim.",
+    "score": 1,
+    "score_confidence": 0.9995,
+    "accuracy": 1
+  },
+  {
+    "claim": "A hockey team calls the venue of the Survivor Series (2011) PPV event it's home. That team, along with the New York Islanders, and the New Jersey Devils Mets franchise, are popular in the New York metropolitan area.",
+    "justification": "The claim states that a hockey team calls the venue of the Survivor Series (2011) PPV event its home, but the evidence provided indicates that the venue is actually home to the New York Rangers of the NHL, not just any hockey team. Additionally, the claim mentions the New Jersey Devils Mets franchise, which does not exist and seems to be a mix-up with the New York Mets baseball team.",
+    "score": 1,
+    "score_confidence": 0.9964,
+    "accuracy": 1
+  },
+  {
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils Giants franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and the New Jersey Devils Giants franchise, are popular in the a part of a city.  Coverage of news on Vos Iz Neias? focuses on this part of a city.",
+    "justification": "The evidence states that Madison Square Garden is home to the New York Rangers, not a team referred to as \"that team\" in the claim. Additionally, the claim incorrectly refers to the Giants franchise (a football team) and mentions Vos Iz Neias? focusing on a part of a city, but does not specify which city or area, making it unclear what the claim is trying to state.",
+    "score": 0,
+    "score_confidence": 0.3368,
+    "accuracy": 1
+  },
+  {
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the a part of a city.  Coverage of news on Vos Iz Neias? focuses on this part of a city.",
+    "justification": "The evidence states that Madison Square Garden is home to the New York Rangers, not a team mentioned in the claim.",
+    "score": 1,
+    "score_confidence": 0.9855,
+    "accuracy": 0
+  },
+  {
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and Major League Soccer NHL franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and Major League Soccer NHL franchise, are popular in the a part of a city.  Coverage of news on Vos Iz Neias? focuses on this part of a city.",
+    "justification": "The evidence provided does not support the claim that a hockey team calls Madison Square Garden its home, as it states that MSG is home to the New York Rangers of the NHL, but also mentions the New Jersey Devils and New York Islanders as other teams in the NY metropolitan area.",
+    "score": 1,
+    "score_confidence": 0.9974,
+    "accuracy": 1
+  },
+  {
+    "claim": "A hockey team calls the venue of the Survivor Series (2011) PPV event it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "justification": "The claim states that a hockey team calls the venue of the Survivor Series (2011) PPV event its home, but the evidence shows that the venue is actually home to the New York Rangers of the NHL. Additionally, the Survivor Series is a professional wrestling pay-per-view event produced by WWE, not a hockey event.",
+    "score": 1,
+    "score_confidence": 0.996,
+    "accuracy": 0
+  },
+  {
+    "claim": "A hockey team calls the venue of the Boxing fight Survivor Series (2011) PPV event it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "justification": "The claim states that a hockey team calls the venue of the Boxing fight Survivor Series (2011) PPV event its home, but the evidence provided does not mention any boxing events or teams associated with the venue. Additionally, the claim mentions the New York Rangers as one of the popular teams in the New York metropolitan area, but they are not mentioned as calling the venue their home.",
+    "score": 1,
+    "score_confidence": 0.9986,
+    "accuracy": 1
+  },
+  {
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the Brooklyn Nets NHL franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and the Brooklyn Nets NHL franchise, are popular in the a part of a city.  Coverage of news on Vos Iz Neias? focuses on this part of a city.",
+    "justification": "The evidence states that Madison Square Garden is home to the New York Rangers, the New York Knicks, and was previously home to the New York Liberty, but does not mention a hockey team calling it their home. Additionally, the claim mentions the Brooklyn Nets as an NHL franchise, which is incorrect since they are part of the NBA, not the NHL.",
+    "score": 1,
+    "score_confidence": 0.9906,
+    "accuracy": 1
+  },
+  {
+    "claim": "A hockey team calls the venue of the Survivor Series (2011) PPV event it's home. That team, along with the New York Islanders, and National Basketball Association NHL franchise, are popular in the New York metropolitan area.",
+    "justification": "The claim states that a hockey team calls the venue of the Survivor Series (2011) PPV event its home, but the evidence mentions that the venue is home to the New York Rangers of the NHL. This implies that the venue is home to the Rangers, not another team.",
+    "score": 1,
+    "score_confidence": 0.5321,
+    "accuracy": 1
+  },
+  {
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the a part of a city. Coverage of news on Vos Iz Neias? focuses on this part of a city and broadcasts in German only.",
+    "justification": "The evidence states that Madison Square Garden is home to the New York Rangers, not a team that \"calls it their home\". Additionally, the coverage of news on Vos Iz Neias? focuses on a part of a city and broadcasts in German only, which does not match with the information about the three NHL franchises located in the New York metropolitan area.",
+    "score": 1,
+    "score_confidence": 0.6656,
+    "accuracy": 1
+  },
+  {
+    "claim": "A hockey team calls the venue of the Survivor Series (2011) Blueshirts event it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "justification": "The claim states that a hockey team calls the venue of the Survivor Series (2011) Blueshirts event its home, but the evidence indicates that the venue is actually home to the New York Knicks and was previously home to the New York Liberty. Additionally, the Survivor Series is a professional wrestling pay-per-view event produced by WWE, which has no relation to hockey teams.",
+    "score": 1,
+    "score_confidence": 0.9964,
+    "accuracy": 1
+  },
+  {
+    "claim": "The man unseated by Rick Galindo in 2009, and the winner of the San Antonio mayoral election of 2009 belong to the same party. They are both democrats.",
+    "justification": "The evidence shows that Juli\u00e1n Castro is a Democrat and won the San Antonio mayoral election in 2009, but it does not show that he was unseated by Rick Galindo. Additionally, Rick Galindo's party affiliation is not mentioned in the provided evidence, only Juli\u00e1n Castro's.",
+    "score": 1,
+    "score_confidence": 0.9991,
+    "accuracy": 0
+  },
+  {
+    "claim": "The man unseated by Rick Galindo,  and the winner of the  San Antonio mayoral election of 2009  belong to the same party. They are both democrats.",
+    "justification": "The evidence shows that Juli\u00e1n Castro is a Democrat and won the San Antonio mayoral election in 2009, but it does not indicate that he was unseated by Rick Galindo. Additionally, Rick Galindo's party affiliation is not mentioned in the evidence, only Juli\u00e1n Castro's.",
+    "score": 1,
+    "score_confidence": 0.9987,
+    "accuracy": 0
+  },
+  {
+    "claim": "The film that featured Nico Liersch in the role of Rudy Steiner was directed by same director of the film About a Girl. That film is based on a young adult novel by Markus Zusak.",
+    "justification": "The claim states that the director of The Book Thief (which features Nico Liersch) is also the same director of About a Girl, but the evidence shows that Brian Percival directed both films, and he is known for directing The Book Thief, not featuring in it.",
+    "score": 1,
+    "score_confidence": 0.9991,
+    "accuracy": 1
+  },
+  {
+    "claim": "The film that featured Nico Liersch in the role of Winnie Markus was directed by same director of the film About a Girl. That film is based on a book by Markus Zusak.",
+    "justification": "The evidence does not mention Nico Liersch or Winnie Markus being featured in any films, and it only mentions Brian Percival's work on About a Girl and The Book Thief, but not any connection to a film featuring Nico Liersch.",
+    "score": 1,
+    "score_confidence": 0.9893,
+    "accuracy": 1
+  },
+  {
+    "claim": "The film that featured Nico Liersch in the role of Rudy Steiner was directed by same director of the film About a Girl. That film is based on a book by Liesel Meminger.",
+    "justification": "The claim states that the film featuring Nico Liersch as Rudy Steiner was directed by the same director of About a Girl, but the evidence shows that Brian Percival is known for directing both The Book Thief and About a Girl. However, it also mentions that Nico Liersch played the role of Rudy Steiner in The Book Thief, not in About a Girl.",
+    "score": 1,
+    "score_confidence": 0.9995,
+    "accuracy": 1
+  },
+  {
+    "claim": "The film that featured Nico Liersch in the role of Rudy Steiner was directed by same director of the film About a Girl. That film is based on a book by Markus Zusak.",
+    "justification": "The claim states that the director of \"The Book Thief\" (which features Nico Liersch) is also the director of \"About a Girl\", but the evidence shows that Brian Percival directed both films, and he is known for directing \"The Book Thief\", not featuring in it.",
+    "score": 1,
+    "score_confidence": 0.9976,
+    "accuracy": 0
+  },
+  {
+    "claim": "Park So-yeon was a members of a three piece girl group. So was the writer of the song that was the second single released from the group TLC, \"Hands Up\".",
+    "justification": "The evidence does not support Park So-yeon being a member of TLC. According to the evidence, Watkins rose to fame as a member of TLC, but there is no mention of Park So-yeon in relation to the group. Additionally, the song \"Hands Up\" was written by members of TLC and other collaborators for their album 3D, not by members of T-ara or any other three-piece girl group that includes Park So-yeon.",
+    "score": 1,
+    "score_confidence": 0.9986,
+    "accuracy": 1
+  },
+  {
+    "claim": "The writer of the song Girl Talk has been been members of a girl group. The co-host of the 4th APAN Star Awards also has been been members of a girl group.",
+    "justification": "The evidence shows that Watkins was a member of TLC, a girl group. Additionally, it is mentioned that Park So-yeon, a member of T-ara, co-hosted the 4th APAN Star Awards. Therefore, both claims are true based on the provided evidence.",
+    "score": 0,
+    "score_confidence": 0.1597,
+    "accuracy": 1
+  },
+  {
+    "claim": "Park So-yeon  was a members of a girl group. So was the writer of the song that was the second single released from the group TLC, \"Hands Up\".",
+    "justification": "The evidence does not support that Park So-yeon was a member of TLC or wrote \"Hands Up\", it actually mentions Watkins as a member of TLC.",
+    "score": 1,
+    "score_confidence": 0.9945,
+    "accuracy": 0
+  },
+  {
+    "claim": "The writer of the song Girl Talk has been been members of a J-pop girl group. The co-host of the 4th APAN Star Awards also has been been members of a girl group.",
+    "justification": "The evidence states that Watkins was a member of TLC and T-ara, but it does not mention her being the writer of the song \"Girl Talk\". Additionally, it only mentions Lee Hwi-jae as one of the co-hosts of the 4th APAN Star Awards, with no information about him being a member of a girl group.",
+    "score": 1,
+    "score_confidence": 0.5053,
+    "accuracy": 1
+  },
+  {
+    "claim": "David Zayas played Osborne the cop in an Academy Award-winning movie. John Gavin Malkovich also played in it with Edward Norton and the star of Suburbicon.",
+    "justification": "The evidence provided does not mention David Zayas playing Osborne the cop in an Academy Award-winning movie. It lists his roles and filmography but does not include this specific claim. Additionally, there is no mention of John Gavin Malkovich being associated with the mentioned movies or projects.",
+    "score": 1,
+    "score_confidence": 0.652,
+    "accuracy": 1
+  },
+  {
+    "claim": "The star of the 2015 film, The Wannabe, played Osborne the cop in a movie. In that same movie, John Gavin Malkovich starred in with Matt Damon and Edward Norton.",
+    "justification": "The evidence does not mention a movie where John Gavin Malkovich starred with Matt Damon and Edward Norton, but rather mentions Rounders (1998) which is a different film. Additionally, the claim about playing Osborne the cop in a movie is also not supported by the provided evidence.",
+    "score": 1,
+    "score_confidence": 0.67,
+    "accuracy": 0
+  },
+  {
+    "claim": "David Zayas played Osborne the cop in a movie. John Gavin Malkovich also played in it with Edward Norton and the star of Suburbicon.",
+    "justification": "The evidence does not mention David Zayas playing Osborne the cop in any movie with John Gavin Malkovich and Edward Norton. It mentions various other roles played by David Zayas, but not this specific claim.",
+    "score": 1,
+    "score_confidence": 0.9981,
+    "accuracy": 0
+  },
+  {
+    "claim": "This species and the relative of the Fir are classified as genus in the naming system. Parnassius nordmanni is a high altitude butterfly which is found the Caucasus. The larva feeds on this species including \"C. alpestris\", \"C. conorhiza\" and \"C. emanueli\".",
+    "justification": "The evidence states that the genus in question is Corydalis, which consists of herbaceous plants, whereas the claim mentions \"the relative of the Fir\", implying a relation to trees like Cedrus. Additionally, the evidence does not mention any classification of Parnassius nordmanni as a genus.",
+    "score": 1,
+    "score_confidence": 0.9311,
+    "accuracy": 0
+  },
+  {
+    "claim": "This species and the relative of the Fir are classified as genus in the naming system. Parnassius nordmanni is a high altitude, blue and red butterfly which is found the Caucasus. The larva feeds on this species including \"C. alpestris\", \"C. conorhiza\" and \"C. emanueli\".",
+    "justification": "The claim states that the species and its relative (Fir) are classified as a genus in the naming system. However, the evidence provided shows that Corydalis is a genus of plants, while Cedrus is a genus of coniferous trees, indicating that they are not relatives of each other, but rather distinct genera.",
+    "score": 1,
+    "score_confidence": 0.5063,
+    "accuracy": 1
+  },
+  {
+    "claim": "A film was the documentary made before filmmaker Tigre Hill's first documentary. Juliet Weber co-produced this film.",
+    "justification": "According to the evidence, Unchained Memories: Readings from the Slave Narratives (2003) was Tigre Hill's first documentary, not The Shame of a City.",
+    "score": 1,
+    "score_confidence": 1.0,
+    "accuracy": 0
+  },
+  {
+    "claim": "The group Leonidas L. Polk led was the organized agrarian economic movement among Catholic farmers. It was supported by the weekly left-wing political newspaper, that was published by Julius Wayland.",
+    "justification": "The evidence provided does not mention Leonidas L. Polk leading an organized agrarian economic movement among Catholic farmers, but rather mentions him publishing \"The Appeal to Reason\" and being a leader of the Farmers' Alliance, which was among American farmers in general, not specifically Catholic farmers.",
+    "score": 1,
+    "score_confidence": 0.9846,
+    "accuracy": 1
+  },
+  {
+    "claim": "Farmers' Alliance was the organized agrarian economic movement among Progressives farmers. It was supported by the weekly left-wing political newspaper, that was published by a publisher. This publisher was influenced by the thinking of Laurence Gronlund.",
+    "justification": "The evidence confirms that The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922, which suggests it was indeed connected to the Farmers' Alliance. Additionally, the influence of Laurence Gronlund on Julius Wayland, who published The Appeal to Reason, supports the claim that the publisher was influenced by Gronlund's thinking, further linking the newspaper and the movement.",
+    "score": 1,
+    "score_confidence": 0.9027,
+    "accuracy": 0
+  },
+  {
+    "claim": "The group Leonidas L. Polk led was the organized agrarian economic movement among American farmers. It was supported by the weekly left-wing political newspaper, that was published by Julius Wayland.",
+    "justification": "The evidence states that Julius Wayland published \"The Appeal to Reason\", which is described as a left-wing political newspaper, and also mentions that he was a leader of the Farmers' Alliance. This suggests that the group Leonidas L. Polk led was indeed the organized agrarian economic movement among American farmers known as the Farmers' Alliance.",
+    "score": 1,
+    "score_confidence": 0.9491,
+    "accuracy": 1
+  },
+  {
+    "claim": "The group Leonidas L. Polk led was the organized agrarian economic movement among 19th century American farmers. It was supported by the weekly left-wing political newspaper, that was published by Julius Wayland.",
+    "justification": "The evidence states that Julius Wayland published The Appeal to Reason, which is described as a left-wing political newspaper, and also mentions that he was a leader of the Farmers' Alliance. This suggests a connection between the newspaper and the agrarian economic movement led by Leonidas L. Polk.",
+    "score": 1,
+    "score_confidence": 0.5332,
+    "accuracy": 0
+  },
+  {
+    "claim": "The Tennessee Governor's Mansion was built as a private home in 1929. Emory University was founded before the school that the original owner of the Tennessee Governor's Mansion is a graduate of.",
+    "justification": "The evidence states that the Tennessee Governor's Mansion was built as a private home for William Ridley Wills and his family in 1929, but it does not provide any information about the original owner of the mansion being a graduate of Emory University. The text actually mentions Emory University and its founding date (1836), which is before the school that the original owner of the Tennessee Governor's Mansion is a graduate of (the evidence does not specify this school, but it implies that there is another school).",
+    "score": 1,
+    "score_confidence": 0.9611,
+    "accuracy": 0
+  },
+  {
+    "claim": "The Tennessee Governor's Mansion was built as a private home in 1929. Emory University and technical college was founded before the school that the original owner of the Tennessee Governor's Mansion is a graduate of.",
+    "justification": "The evidence states that the Tennessee Governor's Mansion was built as a private home for William Ridley Wills and his family in 1929, but it does not provide any information about the original owner of the mansion being a graduate of Emory University or technical college.",
+    "score": 1,
+    "score_confidence": 0.96,
+    "accuracy": 1
+  },
+  {
+    "claim": "The man that composed the opera Irrelohe was also a teacher. The composer, who American Violinist and singer Tim Fain is best known for working with, was not.",
+    "justification": "The evidence states that Franz Schreker was a teacher, which supports the claim. Additionally, it mentions that Tim Fain is best known for working with Philip Glass, not Schreker, supporting the second part of the claim.",
+    "score": 1,
+    "score_confidence": 0.9466,
+    "accuracy": 0
+  }
+]

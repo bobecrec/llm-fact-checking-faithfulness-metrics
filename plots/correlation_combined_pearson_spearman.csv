@@ -1,0 +1,26 @@
+Metric A,Metric B,Pearson,Spearman
+G-Eval,G-Eval,1.0,1.0
+G-Eval,FactCC,0.0174,0.0709
+G-Eval,UniEval,0.1666,0.0593
+G-Eval,QAGs,-0.1066,-0.0845
+G-Eval,Similarity,0.0504,0.0548
+FactCC,G-Eval,0.0174,0.0709
+FactCC,FactCC,1.0,1.0
+FactCC,UniEval,-0.0915,-0.1481
+FactCC,QAGs,-0.0131,-0.0299
+FactCC,Similarity,0.0345,0.161
+UniEval,G-Eval,0.1666,0.0593
+UniEval,FactCC,-0.0915,-0.1481
+UniEval,UniEval,1.0,1.0
+UniEval,QAGs,-0.0613,-0.0362
+UniEval,Similarity,-0.1473,-0.1266
+QAGs,G-Eval,-0.1066,-0.0845
+QAGs,FactCC,-0.0131,-0.0299
+QAGs,UniEval,-0.0613,-0.0362
+QAGs,QAGs,1.0,1.0
+QAGs,Similarity,0.1583,0.1672
+Similarity,G-Eval,0.0504,0.0548
+Similarity,FactCC,0.0345,0.161
+Similarity,UniEval,-0.1473,-0.1266
+Similarity,QAGs,0.1583,0.1672
+Similarity,Similarity,1.0,1.0

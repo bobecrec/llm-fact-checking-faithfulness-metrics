@@ -1,0 +1,302 @@
+[
+  {
+    "claim": "Skagen Painter Peder Severin Kr\u00f8yer favored naturalism along with Theodor Esbern Philipsen and the artist Ossian Elgstr\u00f6m studied with in the early 1900s.",
+    "justification": "The evidence does not support that Peder Severin Kr\u00f8yer favored naturalism along with Theodor Esbern Philipsen. It actually states that they, along with Kristian Zahrtmann, broke away from traditional Academicism and the Golden Age of Danish Painting in favor of naturalism and realism.",
+    "score": 0.3284,
+    "accurate": false
+  },
+  {
+    "claim": "Skagen Painter Peder Severin Kr\u00f8yer favored naturalism along with Theodor Esbern Philipsen and the artist Ossian Elgstr\u00f6m studied with in 1907.",
+    "justification": "The evidence does not support that Ossian Elgstr\u00f6m studied with Peder Severin Kr\u00f8yer. According to the evidence, Elgstr\u00f6m studied with Kristian Zahrtmann in 1907, but there is no mention of a study relationship between Elgstr\u00f6m and Kr\u00f8yer.",
+    "score": 0.383,
+    "accurate": false
+  },
+  {
+    "claim": "Skagen Painter Peder Severin Kr\u00f8yer favored naturalism along with Theodor Esbern Philipsen and the muralist Ossian Elgstr\u00f6m studied with in 1907.",
+    "justification": "The evidence does not mention Ossian Elgstr\u00f6m studying with Peder Severin Kr\u00f8yer. Instead, it states that Elgstr\u00f6m studied with Kristian Zahrtmann in 1907, and also mentions a different artist, Christian Krohg, as someone he studied with in 1908.",
+    "score": 0.3641,
+    "accurate": true
+  },
+  {
+    "claim": "Skagen Painter Peder Severin Kr\u00f8yer favored naturalism along with Norderhov and the artist Ossian Elgstr\u00f6m studied with in 1907.",
+    "justification": "The evidence does not mention Peder Severin Kr\u00f8yer favoring naturalism along with Norderhov, nor that Ossian Elgstr\u00f6m studied with him in 1907. It only mentions that Kr\u00f8yer broke away from traditional Academicism and the Golden Age of Danish Painting to favor naturalism and realism, and that Elgstr\u00f6m studied with Kristian Zahrtmann in 1907, not Peder Severin Kr\u00f8yer.",
+    "score": 0.2907,
+    "accurate": true
+  },
+  {
+    "claim": "Red, White & Cr\u00fce and this athlete both fight. The french fighter was trained by Bobby Stewart.",
+    "justification": "The evidence does not mention any connection between Red, White & Cr\u00fce and an athlete who was trained by Bobby Stewart. It only mentions Mike Tyson being compared to seeing the band fight, and provides background information on \"Irish\" Bobby Stewart winning a tournament in 1974, but does not link him to either the band or the claimed athlete.",
+    "score": 0.408,
+    "accurate": true
+  },
+  {
+    "claim": "Red, White & Cr\u00fce and this athlete both fight. The fighter was trained by Bobby Stewart.",
+    "justification": "The evidence mentions that Mike Tyson was the undisputed world heavyweight champion from 1987 to 1990, and also states that Irish Bobby Stewart won the National Golden Gloves Tournament in 1974. This supports the claim that both Red, White & Cr\u00fce (presumably a reference to M\u00f6tley Cr\u00fce) and the athlete (Mike Tyson) fight, as well as the fact that the fighter was trained by Bobby Stewart.",
+    "score": 0.4336,
+    "accurate": true
+  },
+  {
+    "claim": "Gina Bramhill was born in a village. The 2011 population of the area that includes this village was 167,446.",
+    "justification": "The evidence provided shows that Eastoft has a population of 167,446, but it does not indicate that this is the village where Gina Bramhill was born. Additionally, the population figure is actually for Eastoft, not the area that includes the village where Gina Bramhill was born (which is not specified).",
+    "score": 0.2461,
+    "accurate": false
+  },
+  {
+    "claim": "Gina Bramhill was born in an Italian village. The 2011 population of the unitary authority area that includes this village was 167,446.",
+    "justification": "The evidence provided does not mention Gina Bramhill's birthplace or any connection to an Italian village. It only mentions her as a British actress and provides information about the village of Eastoft in England, which has a population of 167,446 according to the 2011 Census.",
+    "score": 0.2782,
+    "accurate": true
+  },
+  {
+    "claim": "Gina Bramhill was born in a village. The 2011 population of the unitary authority area that includes this village was 167,446.",
+    "justification": "The evidence provided does not mention Gina Bramhill's birthplace or any information about her being born in Eastoft village. It only mentions the village and its population.",
+    "score": 0.2673,
+    "accurate": false
+  },
+  {
+    "claim": "The area renamed Northland in Stone Spring, an area that once connected Great Britain to continental the Grand Canyon, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "justification": "The evidence provided does not support the claim that the area renamed Northland was connected to the Grand Canyon, as there is no mention of the Grand Canyon in the context. Additionally, the text describes Doggerland/Northland being submerged beneath the southern North Sea, which is consistent with geological records, but it does not provide information about a connection to the Grand Canyon.",
+    "score": 0.4074,
+    "accurate": true
+  },
+  {
+    "claim": "The area renamed Northland in Stone Spring, an area that once connected Great Britain to continental Europe, is thought to have been submerged centuries ago by a massive landslide along 290 km of the continental shelf.",
+    "justification": "The evidence describes the Storegga Slides, which involved a massive landslide along 290 km of the continental shelf, causing a paleotsunami in the North Atlantic Ocean. This directly supports the claim that a massive landslide along 290 km of the continental shelf is thought to have submerged an area centuries ago.",
+    "score": 0.3102,
+    "accurate": true
+  },
+  {
+    "claim": "The area renamed Northland in Stone Spring, an geographical region that once connected Great Britain to continental Europe, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "justification": "The evidence confirms that a large area of land, known as Doggerland or Northland, was indeed submerged beneath the southern North Sea. It also mentions the Storegga Slides, which involved a massive landslide along 290 km of the continental shelf, causing a paleotsunami in the North Atlantic Ocean around 6,200 BCE. This information directly supports the claim that the area now known as Northland was submerged by a massive landslide at that time.",
+    "score": 0.2173,
+    "accurate": true
+  },
+  {
+    "claim": "The area renamed Northland in Stone Spring, an area that once connected Great Britain to continental Europe, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "justification": "The evidence confirms that a large area of land, known as Doggerland or Northland, was submerged beneath the southern North Sea. It also mentions a massive landslide along 290 km of the continental shelf, which is consistent with the claim about the event causing the submersion around 6,200 BCE.",
+    "score": 0.2973,
+    "accurate": true
+  },
+  {
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Plaza Kotaraya at Little Bay to the place worship for Muslims and Nun's Well at Europa Point.",
+    "justification": "The evidence states that the mosque is located at Europa Point, which is also where Nun's Well is situated. Additionally, it mentions that Keightley Way connects Plaza Kotaraya at Little Bay to the place of worship for Muslims and Nun's Well at Europa Point, confirming the claim about the British monarch being the head of state in this territory (Gibraltar) since it is a British overseas territory.",
+    "score": 0.3185,
+    "accurate": false
+  },
+  {
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way connects Rosia Road at Little Bay to the place worship for Muslims and Nun's Well at Europa Point in Turkey.",
+    "justification": "The claim states that the British monarch is the head of state in the territory where Keightley Way connects, but the evidence provided only mentions Gibraltar as a British overseas territory, not specifying its connection to the British monarch's role. Additionally, the text does not mention Turkey at all; it mentions Europa Point being part of Gibraltar, which is connected to southern Spain.",
+    "score": 0.3436,
+    "accurate": true
+  },
+  {
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Rosia Road at Little Bay to the place worship for Muslims and Nun's Well at Europa Point.",
+    "justification": "The evidence states that the mosque is located at Europa Point, which is also where Keightley Way connects Rosia Road at Little Bay. This indicates that the British monarch (Elizabeth II) is indeed the head of state for this territory, as Gibraltar is a British overseas territory.",
+    "score": 0.2906,
+    "accurate": true
+  },
+  {
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Rosia Road at Shusha to the place worship for Muslims and Nun's Well at Europa Point.",
+    "justification": "The evidence states that the Ibrahim-al-Ibrahim Mosque is located at Europa Point in Gibraltar, which matches the claim. Additionally, it mentions that Keightley Way connects Rosia Road at Little Bay to the mosque and Nun's Well at Europa Point, supporting the claim about the location of the British monarch as head of state.",
+    "score": 0.2656,
+    "accurate": false
+  },
+  {
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way connects Rosia Road to the place worship for Muslims and Nun's Well at Europa Point.",
+    "justification": "The evidence states that the Ibrahim-al-Ibrahim Mosque is located at Europa Point in Gibraltar, which implies that the British monarch (Elizabeth II) is indeed the head of state for this territory. Additionally, Keightley Way connects Rosia Road to the mosque and Nun's Well at Europa Point, supporting the claim.",
+    "score": 0.2656,
+    "accurate": true
+  },
+  {
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Rosia Road at Little Bay to the place worship for British and Nun's Well at Europa Point.",
+    "justification": "The evidence mentions that Keightley Way connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point, but it does not mention the British monarch (Elizabeth II) as the head of state. The text only refers to Gibraltar as a \"British overseas territory\", which implies that the head of government may be different from the British monarch.",
+    "score": 0.1445,
+    "accurate": false
+  },
+  {
+    "claim": "The composer of Longplayer was a player in the band The Pogues.",
+    "justification": "The evidence states that Jem Finer, the composer of Longplayer, was one of the founding members of the Pogues, indicating he was a player in the band.",
+    "score": 0.2209,
+    "accurate": true
+  },
+  {
+    "claim": "The composer of Longplayer was a banjo player in the band The Alexis Kirke.",
+    "justification": "The evidence provided states that Jem Finer was one of the founding members of the Pogues and composed Longplayer, but it does not mention him being a banjo player in the band The Alexis Kirke. This suggests that the claim is false.",
+    "score": 0.2564,
+    "accurate": true
+  },
+  {
+    "claim": "The composer of Longplayer was a banjo player and singer in the band The Pogues.",
+    "justification": "The evidence states that Jem Finer was a banjo player in the band The Pogues and also composed Longplayer.",
+    "score": 0.3454,
+    "accurate": false
+  },
+  {
+    "claim": "This 1938 movie is based on a book by the Austrian author Felix Salten, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The evidence confirms that \"Bambi\" is a 1942 movie, not 1938, and it was produced by Walt Disney Productions. Additionally, John D. Lowry's work on restoring classic films is documented in the provided text, which includes Bambi among his preserved films.",
+    "score": 0.3356,
+    "accurate": false
+  },
+  {
+    "claim": "This movie is based on a book by the Austrian author Felix Salten, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The claim states that \"Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures\" which supports the first part of the claim. Additionally, it mentions that John D. Lowry restored and preserved Bambi, supporting the second part of the claim. The Country Bears' evidence does not support or contradict the claim about Bambi.",
+    "score": 0.4116,
+    "accurate": true
+  },
+  {
+    "claim": "This movie is based on a book by the Austrian author Faline, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The claim is true based on the evidence. It states that \"The Country Bears is not\" based on a book by Faline, which is supported by the fact that it's mentioned as being directed by Peter Hastings and produced by Walt Disney Pictures, with no mention of an author named Faline. Additionally, the claim mentions that the movie was restored and preserved by John D. Lowry, which is also supported by the evidence listing several classic films that he worked on to restore and preserve, including Bambi.",
+    "score": 0.3059,
+    "accurate": false
+  },
+  {
+    "claim": "This movie is based on a book by the German author Felix Salten, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "justification": "The claim states that \"Bambi\" is based on a book by Felix Salten, which is true as evidenced by the fact that Walt Disney Productions produced an animated coming-of-age drama film in 1942. Additionally, it is stated that John D. Lowry restored and preserved more than five hundred classic films, including Bambi. The Country Bears is not mentioned to be based on a book or restored/preserved by Lowry.",
+    "score": 0.4685,
+    "accurate": false
+  },
+  {
+    "claim": "Dollar Days was the sixth track on Bowie's twenty-fifth and final studio album. The album that was released was recorded in secret.",
+    "justification": "The evidence states that \"Blackstar\" is the twenty-sixth and final studio album of David Bowie, but it also mentions that this album was released on 8 January 2016. Therefore, since there are only 26 albums mentioned, this means that there must be a previous 25th album. However, the text does not mention any details about the 25th album, including its name or tracklist.",
+    "score": 0.2273,
+    "accurate": false
+  },
+  {
+    "claim": "Dollar Days was a track on Bowie's twenty-fifth and final studio album. The album that was released was recorded in secret.",
+    "justification": "The evidence states that Blackstar was Bowie's twenty-sixth and final studio album, not his twenty-fifth. Additionally, there is no mention of a track called \"Dollar Days\" or any information about an album being recorded in secret.",
+    "score": 0.1028,
+    "accurate": false
+  },
+  {
+    "claim": "Dollar Days was the sixth track on award winning Bowie's twenty-fifth and final studio album. The album that was released was recorded in secret.",
+    "justification": "The evidence states that \"Blackstar\" is Bowie's twenty-sixth and final studio album, not his twenty-fifth. Additionally, the claim mentions \"Dollar Days\" as the sixth track, but the evidence does not confirm this; it only confirms that \"Torn apart\" is not mentioned in the provided information about Blackstar, and there is no mention of \"Dollar Days\" being on Blackstar.",
+    "score": 0.1028,
+    "accurate": true
+  },
+  {
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils the Metropolitan Division of the Eastern Conference franchise, are popular in the New York metropolitan area.",
+    "justification": "The evidence states that Madison Square Garden is home to the New York Rangers, not a team referred to as \"New York\" without specifying the Rangers.",
+    "score": 0.4736,
+    "accurate": true
+  },
+  {
+    "claim": "A hockey team calls the 70,000 capacity Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "justification": "The evidence states that Madison Square Garden is home to the New York Rangers, not a hockey team called \"New York\".",
+    "score": 0.5135,
+    "accurate": true
+  },
+  {
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "justification": "The evidence states that Madison Square Garden is home to the New York Rangers, not the team being referred to in the claim.",
+    "score": 0.5003,
+    "accurate": false
+  },
+  {
+    "claim": "The Georgia man unseated by Rick Galindo and Julian Castro are democratic and not Republican.",
+    "justification": "The evidence shows that Juli\u00e1n Castro was a Republican in the past, but it does not mention Rick Galindo or provide any information about a Georgia man being unseated by these individuals. Additionally, the claim specifically states that the person unseated is Democratic and not Republican, which contradicts the fact that Juli\u00e1n Castro has been a Republican in the past.",
+    "score": 0.3226,
+    "accurate": true
+  },
+  {
+    "claim": "The person unseated by Rick Galindo and Julian Castro are democratic and not Republican.",
+    "justification": "The evidence shows that Juli\u00e1n Castro was a Republican, contradicting the claim that both individuals unseated by Rick Galindo and Julian Castro are Democratic.",
+    "score": 0.3282,
+    "accurate": false
+  },
+  {
+    "claim": "The man unseated by Rick Galindo and Julian Castro are democratic and not Republican.",
+    "justification": "The evidence states that Juli\u00e1n Castro was a Republican member, contradicting the claim that he is a Democrat, making the entire claim false.",
+    "score": 0.1882,
+    "accurate": false
+  },
+  {
+    "claim": "The man unseated by Rick Galindo and Julian Castro are democratic and not Democratic.",
+    "justification": "The evidence provided does not support the claim that Rick Galindo unseated men who are Democratic; in fact, it states that Juli\u00e1n Castro was a Republican member.",
+    "score": 0.2295,
+    "accurate": true
+  },
+  {
+    "claim": "The film The Book Thief, released in 1990, was directed by same director of the film About a Girl. The Book Thief is based on a book by Markus Zusak.",
+    "justification": "The claim states that The Book Thief was released in 1990, but the evidence indicates that it's based on the 2005 novel and adapted for film in an unspecified year. Additionally, there is no mention of the director of About a Girl being the same as The Book Thief's director, only that Brian Percival directed both The Book Thief and About a Girl.",
+    "score": 0.4658,
+    "accurate": true
+  },
+  {
+    "claim": "The film The Book Thief was directed by same director of the film About a Girl. The Book Thief is based on a book by Markus Zusak.",
+    "justification": "The evidence states that Brian Percival directed The Book Thief, but it does not mention him directing About a Girl. However, it does confirm that he directed the nine-minute short film with this title, contradicting the claim that The Book Thief and About a Girl share the same director.",
+    "score": 0.4668,
+    "accurate": false
+  },
+  {
+    "claim": "The president of South Korea was born 24 January 1953. The group that Vietnam-born Euh Yoon-Dae was Chairman of lies under his direct control.",
+    "justification": "The evidence confirms that Moon Jae-in was born on 24 January 1953 and he was the Chairman of the Presidential Council on Nation Branding, which is under the direct control of the President.",
+    "score": 0.3524,
+    "accurate": false
+  },
+  {
+    "claim": "The president of South Korea was born 24 January 1953. The group that Euh Yoon-Dae was Chairman of lies under his direct control.",
+    "justification": "The evidence confirms that Moon Jae-in was born on 24 January 1953 and he was the Chairman of the Presidential Council on Nation Branding, which is mentioned to be under his direct control.",
+    "score": 0.3595,
+    "accurate": true
+  },
+  {
+    "claim": "The writer of the song Girl Talk and song-writer Park So-yeon have both been members of a girl group.",
+    "justification": "The evidence only mentions Watkins' membership in TLC and T-ara, but does not mention Park So-yeon being a member of any girl group.",
+    "score": 0.1571,
+    "accurate": true
+  },
+  {
+    "claim": "The writer of the song Girl Talk and Park So-yeon have both been members of a girl group.",
+    "justification": "The evidence states that Watkins was a member of TLC in the early 1990s and T-ara in 2009, but it does not mention Park So-yeon being a member of either group. It also mentions the writers of the song Girl Talk, which is different from the girl group mentioned in the claim.",
+    "score": 0.2329,
+    "accurate": false
+  },
+  {
+    "claim": "The writer of the song Girl Talk and Park So-yeon have both been members of a girl group.",
+    "justification": "The evidence provided shows that Watkins was a member of TLC, but there is no mention or connection to Park So-yeon being a member of a girl group.",
+    "score": 0.1129,
+    "accurate": false
+  },
+  {
+    "claim": "The writer of the song Girl Talk and Park So-yeon have both been members of a group.",
+    "justification": "The evidence states that Watkins was a member of TLC, but there is no mention of her being a member of T-ara. It also mentions Park So-yeon as a member of T-ara, but does not link her to the song Girl Talk or any connection with Watkins.",
+    "score": 0.1885,
+    "accurate": false
+  },
+  {
+    "claim": "The North Central town that licenses WCJB-TV is home to the punk rock band Against Me! formed in 1991.",
+    "justification": "The evidence states that Against Me! is based in Gainesville, Florida, and also mentions that the band released a song from their album \"Searching for a Former Clarity\" which was released in 2005. Additionally, it confirms that WCJB-TV is located in Gainesville, Florida. This information supports the claim that the North Central town licensing WCJB-TV (Gainesville) is home to Against Me!.",
+    "score": 0.483,
+    "accurate": false
+  },
+  {
+    "claim": "The North Central town that licenses WCJB-TV is home to the music band Against Me!.",
+    "justification": "The evidence states that Against Me! is based in Gainesville, Florida, which is also the location of WCJB-TV. This directly supports the claim that the North Central town licensing WCJB-TV is home to the band Against Me!.",
+    "score": 0.3128,
+    "accurate": true
+  },
+  {
+    "claim": "The Mars town that licenses WCJB-TV is home to the punk rock band Against Me!.",
+    "justification": "The evidence states that Against Me! is based in Gainesville, Florida, which is also the location of WCJB-TV. This directly supports the claim that the Mars town (which is likely a mislabeling or error, as there is no \"Mars\" town) that licenses WCJB-TV is home to the band Against Me!.",
+    "score": 0.3024,
+    "accurate": false
+  },
+  {
+    "claim": "The North Central town that licenses WCJB-TV is home to the punk rock band Against Me!.",
+    "justification": "The evidence states that \"Against Me!\" is a punk rock band based in Gainesville, Florida, and also mentions WCJB-TV as being located in the same city. This directly links the North Central town (Gainesville) to both the band and the TV station, supporting the claim.",
+    "score": 0.4319,
+    "accurate": true
+  },
+  {
+    "claim": "The movie. in which David Zayas played Francis Ford Coppola the cop, is the movie that John Gavin Malkovich had played in with Matt Damon and Edward Norton.",
+    "justification": "The evidence does not mention a movie where David Zayas played Francis Ford Coppola, nor does it mention John Gavin Malkovich playing in a movie with Matt Damon and Edward Norton. It provides information about David Zayas' career and roles, but does not support the specific claim made.",
+    "score": 0.194,
+    "accurate": true
+  },
+  {
+    "claim": "The movie. in which David Zayas played Osborne the cop, is the movie that John Gavin Malkovich had played in with Matt Damon and James Moll.",
+    "justification": "The evidence does not mention a movie where David Zayas played Osborne the cop, nor does it mention John Gavin Malkovich acting with Matt Damon and James Moll in any movie. It provides information about David Zayas' career, including his roles in True West, Rounders, Dexter, and Oz, but does not support the claim made about the specific movie or actors involved.",
+    "score": 0.3102,
+    "accurate": true
+  }
+]

@@ -1,0 +1,1477 @@
+[
+  {
+    "uid": "f2f4b69d-d833-4f6d-a630-f156a2559af6",
+    "claim": "Skagen Painter, who painted the 1893 painting Roses, favored naturalism. Theodor Esbern Philipsen and the artist that Ossian Elgström studied with in December of 1907 also favored naturalism.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      },
+      {
+        "source": "Ossian Elgström",
+        "sentence_id": 2,
+        "sentence": "Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+      },
+      {
+        "source": "Skagens Museum",
+        "sentence_id": 1,
+        "sentence": "Important artists include Marie and P. S. Krøyer, Anna and Michael Ancher, Laurits Tuxen, Viggo Johansen, and Holger Drachmann."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal. Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908. Important artists include Marie and P. S. Krøyer, Anna and Michael Ancher, Laurits Tuxen, Viggo Johansen, and Holger Drachmann."
+  },
+  {
+    "uid": "3b6757f3-0505-45a0-9f26-3f0daecf11d7",
+    "claim": "Skagen Painter and  artist Peder Severin Krøyer favored naturalism. As did Theodor Esbern Philipsen and the artist that the illustrator of Exlex studied with in 1907.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      },
+      {
+        "source": "Ossian Elgström",
+        "sentence_id": 2,
+        "sentence": "Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+      },
+      {
+        "source": "Exlex",
+        "sentence_id": 2,
+        "sentence": "Other contributors were illustrators Olaf Gulbransson, Anton Hansen, Adolf Hallman, Ossian Elgström and Robert Storm Petersen, and the poet Herman Wildenvey."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal. Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908. Other contributors were illustrators Olaf Gulbransson, Anton Hansen, Adolf Hallman, Ossian Elgström and Robert Storm Petersen, and the poet Herman Wildenvey."
+  },
+  {
+    "uid": "b07fde45-fda5-49ab-b845-4ad2c88d46c6",
+    "claim": "Skagen Painter, who painted the 1893 painting Roses, favored naturalism. Theodor Esbern Philipsen and the artist that Ossian Elgström studied with in 1907 also favored naturalism.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      },
+      {
+        "source": "Ossian Elgström",
+        "sentence_id": 2,
+        "sentence": "Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+      },
+      {
+        "source": "Skagens Museum",
+        "sentence_id": 1,
+        "sentence": "Important artists include Marie and P. S. Krøyer, Anna and Michael Ancher, Laurits Tuxen, Viggo Johansen, and Holger Drachmann."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal. Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908. Important artists include Marie and P. S. Krøyer, Anna and Michael Ancher, Laurits Tuxen, Viggo Johansen, and Holger Drachmann."
+  },
+  {
+    "uid": "c7dacde1-d47f-48e2-87dc-7f46ae9b97c0",
+    "claim": "Skagen Painter Peder Severin Krøyer favored naturalism. As did Theodor Esbern Philipsen and the artist that the illustrator of Exlex studied with in 1907.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      },
+      {
+        "source": "Ossian Elgström",
+        "sentence_id": 2,
+        "sentence": "Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908."
+      },
+      {
+        "source": "Exlex",
+        "sentence_id": 2,
+        "sentence": "Other contributors were illustrators Olaf Gulbransson, Anton Hansen, Adolf Hallman, Ossian Elgström and Robert Storm Petersen, and the poet Herman Wildenvey."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal. Career\nElgström studied at the Royal Swedish Academy of Arts from 1906 to 1907, and then with Kristian Zahrtmann in 1907 and with Christian Krohg in 1908. Other contributors were illustrators Olaf Gulbransson, Anton Hansen, Adolf Hallman, Ossian Elgström and Robert Storm Petersen, and the poet Herman Wildenvey."
+  },
+  {
+    "uid": "c795e77d-b199-400f-b95d-0ecb24a1a6f0",
+    "claim": "The composer of Longplayer was a banjo player in a band. The musician James McNally was in this band.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      },
+      {
+        "source": "James McNally (musician)",
+        "sentence_id": 1,
+        "sentence": "and Dingle Spike."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping. and Dingle Spike."
+  },
+  {
+    "uid": "c5f3a21e-ada6-4cce-aaa3-369dd829d917",
+    "claim": "Hoch wie nie was published by the same singer that is also a  composer. This composer was a banjo player in the band The Shane MacGowan.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      },
+      {
+        "source": "Hoch wie nie",
+        "sentence_id": 1,
+        "sentence": "The Longplayer was published on Falco's 50th birthday."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping. The Longplayer was published on Falco's 50th birthday."
+  },
+  {
+    "uid": "e1a4f91d-5a00-4d03-8667-fe95c9bc2a52",
+    "claim": "Hoch wie nie was published by the same singer that is also a  composer. This composer was a banjo player in the band The Pogues.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      },
+      {
+        "source": "Hoch wie nie",
+        "sentence_id": 1,
+        "sentence": "The Longplayer was published on Falco's 50th birthday."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping. The Longplayer was published on Falco's 50th birthday."
+  },
+  {
+    "uid": "24593bc5-5d5e-4675-9430-f9dc6fdcf3f7",
+    "claim": "Hoch wie nie was published by the same blues singer that is also a composer. This composer was a banjo player in the band The Pogues.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      },
+      {
+        "source": "Hoch wie nie",
+        "sentence_id": 1,
+        "sentence": "The Longplayer was published on Falco's 50th birthday."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping. The Longplayer was published on Falco's 50th birthday."
+  },
+  {
+    "uid": "f21ac134-8bb6-4956-8025-ee68ed7bb976",
+    "claim": "Hoch wie nie was published by the same singer that is also a  composer. This composer was a banjo player in the band The MacGowan.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      },
+      {
+        "source": "Hoch wie nie",
+        "sentence_id": 1,
+        "sentence": "The Longplayer was published on Falco's 50th birthday."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping. The Longplayer was published on Falco's 50th birthday."
+  },
+  {
+    "uid": "493296b9-1f2d-4717-a211-833b3ca50783",
+    "claim": "The composer of Longplayer was a banjo player in a band. The classical musician James McNally was in this band.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      },
+      {
+        "source": "Longplayer",
+        "sentence_id": 0,
+        "sentence": "Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping."
+      },
+      {
+        "source": "James McNally (musician)",
+        "sentence_id": 1,
+        "sentence": "and Dingle Spike."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues. Longplayer is a musical composition made by British composer and musician Jem Finer which is composed to play for 1,000 years without looping. and Dingle Spike."
+  },
+  {
+    "uid": "66792374-b611-44aa-b903-4bd8709cb908",
+    "claim": "This movie is based on a book by the Austrian author who also wrote The Hound of Florence, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      },
+      {
+        "source": "The Hound of Florence",
+        "sentence_id": 0,
+        "sentence": "The Hound of Florence: A Novel (German: Der Hund von Florenz) is a 1923 novel written by Felix Salten."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise. The Hound of Florence: A Novel (German: Der Hund von Florenz) is a 1923 novel written by Felix Salten."
+  },
+  {
+    "uid": "448c124d-4531-442b-8c3e-052f9344f594",
+    "claim": "This 2001 documentary is based on a book by the Austrian author who also wrote The Hound of Florence, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      },
+      {
+        "source": "The Hound of Florence",
+        "sentence_id": 0,
+        "sentence": "The Hound of Florence: A Novel (German: Der Hund von Florenz) is a 1923 novel written by Felix Salten."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise. The Hound of Florence: A Novel (German: Der Hund von Florenz) is a 1923 novel written by Felix Salten."
+  },
+  {
+    "uid": "b5357553-95dc-4763-bf94-e77f83672342",
+    "claim": "This movie is based on a book by the Austrian author Felix Salten, The film where Candy Ford voiced Salten is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      },
+      {
+        "source": "Candy Ford",
+        "sentence_id": 0,
+        "sentence": "Candy Ford is an American actress and comedian."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise. Candy Ford is an American actress and comedian."
+  },
+  {
+    "uid": "570246db-03b2-450b-bc7e-09f15556425c",
+    "claim": "This movie is based on a book by the German author Felix Salten, The film where Candy Ford voiced Trixie is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      },
+      {
+        "source": "Candy Ford",
+        "sentence_id": 0,
+        "sentence": "Candy Ford is an American actress and comedian."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise. Candy Ford is an American actress and comedian."
+  },
+  {
+    "uid": "a490061f-d7bc-4c1f-814b-3c9f91e83b9a",
+    "claim": "This movie is based on a book by the Austrian author Felix Salten, The film where Candy Ford voiced Trixie is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      },
+      {
+        "source": "Candy Ford",
+        "sentence_id": 0,
+        "sentence": "Candy Ford is an American actress and comedian."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise. Candy Ford is an American actress and comedian."
+  },
+  {
+    "uid": "e68a2a37-a304-4992-aa3f-f525fa0addfc",
+    "claim": "This movie is based on a book by the German author who also wrote The Hound of Florence, The Country Bears is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      },
+      {
+        "source": "The Hound of Florence",
+        "sentence_id": 0,
+        "sentence": "The Hound of Florence: A Novel (German: Der Hund von Florenz) is a 1923 novel written by Felix Salten."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise. The Hound of Florence: A Novel (German: Der Hund von Florenz) is a 1923 novel written by Felix Salten."
+  },
+  {
+    "uid": "61a7b876-e6dd-4f38-a794-4a457d01eca8",
+    "claim": "This horror movie is based on a book by the Austrian author Felix Salten, The film where Candy Ford voiced Trixie is not. The movie was restored and preserved by John D. Lowry.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      },
+      {
+        "source": "John D. Lowry",
+        "sentence_id": 4,
+        "sentence": "Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise."
+      },
+      {
+        "source": "Candy Ford",
+        "sentence_id": 0,
+        "sentence": "Candy Ford is an American actress and comedian."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree. Lowry used his process to restore and preserve more than five hundred classic films, including Singin' in the Rain, Star Wars Episode IV: A New Hope, Casablanca, Snow White and the Seven Dwarfs, Raiders of the Lost Ark, Indiana Jones and the Temple of Doom, Indiana Jones and the Last Crusade, Bambi, Sunset Boulevard, and the James Bond film franchise. Candy Ford is an American actress and comedian."
+  },
+  {
+    "uid": "bfcb6e2c-44c2-45b8-b895-aaa380c71c1d",
+    "claim": "A hockey team calls the venue of the Survivor Series (2011) PPV event it's home. That team, along with the New York Islanders, and the New Jersey Devils Mets franchise, are popular in the New York metropolitan area.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Survivor Series (2011)",
+        "sentence_id": 0,
+        "sentence": "The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+  },
+  {
+    "uid": "2297cc35-0ec1-44dc-b62f-81cd8c5d1f7e",
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils Giants franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and the New Jersey Devils Giants franchise, are popular in the a part of a city.  Coverage of news on Vos Iz Neias? focuses on this part of a city.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Vos Iz Neias?",
+        "sentence_id": 3,
+        "sentence": "VIN News is owned by four anonymous Orthodox Jewish investors."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. VIN News is owned by four anonymous Orthodox Jewish investors."
+  },
+  {
+    "uid": "017ca949-aaad-4733-814a-9830b8108ade",
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the a part of a city.  Coverage of news on Vos Iz Neias? focuses on this part of a city.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Vos Iz Neias?",
+        "sentence_id": 3,
+        "sentence": "VIN News is owned by four anonymous Orthodox Jewish investors."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. VIN News is owned by four anonymous Orthodox Jewish investors."
+  },
+  {
+    "uid": "cde3a364-2757-4c56-bff8-59b98bd4d28c",
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and Major League Soccer NHL franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and Major League Soccer NHL franchise, are popular in the a part of a city.  Coverage of news on Vos Iz Neias? focuses on this part of a city.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Vos Iz Neias?",
+        "sentence_id": 3,
+        "sentence": "VIN News is owned by four anonymous Orthodox Jewish investors."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. VIN News is owned by four anonymous Orthodox Jewish investors."
+  },
+  {
+    "uid": "069627f7-35cb-4b0c-b704-c58173d8a35e",
+    "claim": "A hockey team calls the venue of the Survivor Series (2011) PPV event it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Survivor Series (2011)",
+        "sentence_id": 0,
+        "sentence": "The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+  },
+  {
+    "uid": "0ebe301c-9e8a-4503-b6e3-58ccc938d2b5",
+    "claim": "A hockey team calls the venue of the Boxing fight Survivor Series (2011) PPV event it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Survivor Series (2011)",
+        "sentence_id": 0,
+        "sentence": "The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+  },
+  {
+    "uid": "cb424d8e-0047-4b13-8385-2d6d13af20fd",
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the Brooklyn Nets NHL franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and the Brooklyn Nets NHL franchise, are popular in the a part of a city.  Coverage of news on Vos Iz Neias? focuses on this part of a city.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Vos Iz Neias?",
+        "sentence_id": 3,
+        "sentence": "VIN News is owned by four anonymous Orthodox Jewish investors."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. VIN News is owned by four anonymous Orthodox Jewish investors."
+  },
+  {
+    "uid": "44f3c7fd-922f-467d-bb1b-15d8c89533e3",
+    "claim": "A hockey team calls the venue of the Survivor Series (2011) PPV event it's home. That team, along with the New York Islanders, and National Basketball Association NHL franchise, are popular in the New York metropolitan area.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Survivor Series (2011)",
+        "sentence_id": 0,
+        "sentence": "The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+  },
+  {
+    "uid": "71c5ac8d-2219-4f6a-a662-440107fdf714",
+    "claim": "A hockey team calls Madison Square Garden it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the a part of a city. Coverage of news on Vos Iz Neias? focuses on this part of a city and broadcasts in German only.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Vos Iz Neias?",
+        "sentence_id": 3,
+        "sentence": "VIN News is owned by four anonymous Orthodox Jewish investors."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. VIN News is owned by four anonymous Orthodox Jewish investors."
+  },
+  {
+    "uid": "e6a1912f-c2e9-4664-be9d-52459bb25278",
+    "claim": "A hockey team calls the venue of the Survivor Series (2011) Blueshirts event it's home. That team, along with the New York Islanders, and the New Jersey Devils NHL franchise, are popular in the New York metropolitan area.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      },
+      {
+        "source": "Madison Square Garden",
+        "sentence_id": 5,
+        "sentence": "It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017."
+      },
+      {
+        "source": "Survivor Series (2011)",
+        "sentence_id": 0,
+        "sentence": "The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders. It is home to the New York Rangers of the National Hockey League (NHL), the New York Knicks of the National Basketball Association (NBA), and was home to the New York Liberty of the Women's National Basketball Association (WNBA) from 1997 to 2017. The 2011 Survivor Series was a professional wrestling pay-per-view (PPV) event produced by WWE."
+  },
+  {
+    "uid": "2cde647b-0134-4a60-96e5-00ef6042e6e9",
+    "claim": "The man unseated by Rick Galindo in 2009, and the winner of the San Antonio mayoral election of 2009 belong to the same party. They are both democrats.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Philip Cortez",
+        "sentence_id": 0,
+        "sentence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives."
+      },
+      {
+        "source": "Julian Castro",
+        "sentence_id": 0,
+        "sentence": "Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas."
+      },
+      {
+        "source": "Rick Galindo",
+        "sentence_id": 1,
+        "sentence": "He served as a Republican member for the 117th district of the Texas House of Representatives."
+      },
+      {
+        "source": "San Antonio mayoral election, 2009",
+        "sentence_id": 2,
+        "sentence": "The election was won by Julian Castro, who took office on June 1, 2009."
+      }
+    ],
+    "evidence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives. Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas. He served as a Republican member for the 117th district of the Texas House of Representatives. The election was won by Julian Castro, who took office on June 1, 2009."
+  },
+  {
+    "uid": "e65d1cde-79ac-4a3b-960a-36af45fb2749",
+    "claim": "The man unseated by Rick Galindo,  and the winner of the  San Antonio mayoral election of 2009  belong to the same party. They are both democrats.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Philip Cortez",
+        "sentence_id": 0,
+        "sentence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives."
+      },
+      {
+        "source": "Julian Castro",
+        "sentence_id": 0,
+        "sentence": "Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas."
+      },
+      {
+        "source": "Rick Galindo",
+        "sentence_id": 1,
+        "sentence": "He served as a Republican member for the 117th district of the Texas House of Representatives."
+      },
+      {
+        "source": "San Antonio mayoral election, 2009",
+        "sentence_id": 2,
+        "sentence": "The election was won by Julian Castro, who took office on June 1, 2009."
+      }
+    ],
+    "evidence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives. Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas. He served as a Republican member for the 117th district of the Texas House of Representatives. The election was won by Julian Castro, who took office on June 1, 2009."
+  },
+  {
+    "uid": "61c46eb3-7336-4b18-8447-ecc3e645a5e6",
+    "claim": "The film that featured Nico Liersch in the role of Rudy Steiner was directed by same director of the film About a Girl. That film is based on a young adult novel by Markus Zusak.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Brian Percival",
+        "sentence_id": 0,
+        "sentence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief."
+      },
+      {
+        "source": "The Book Thief (film)",
+        "sentence_id": 1,
+        "sentence": "The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni."
+      },
+      {
+        "source": "About a Girl (2001 film)",
+        "sentence_id": 0,
+        "sentence": "About a Girl is a nine-minute short film directed by Brian Percival."
+      },
+      {
+        "source": "Nico Liersch",
+        "sentence_id": 1,
+        "sentence": "He is best known for his role as Rudy Steiner in the 2013 film The Book Thief."
+      }
+    ],
+    "evidence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief. The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni. About a Girl is a nine-minute short film directed by Brian Percival. He is best known for his role as Rudy Steiner in the 2013 film The Book Thief."
+  },
+  {
+    "uid": "fc547707-7274-41c3-89ca-1cc8f5ab46fa",
+    "claim": "The film that featured Nico Liersch in the role of Winnie Markus was directed by same director of the film About a Girl. That film is based on a book by Markus Zusak.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Brian Percival",
+        "sentence_id": 0,
+        "sentence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief."
+      },
+      {
+        "source": "The Book Thief (film)",
+        "sentence_id": 1,
+        "sentence": "The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni."
+      },
+      {
+        "source": "About a Girl (2001 film)",
+        "sentence_id": 0,
+        "sentence": "About a Girl is a nine-minute short film directed by Brian Percival."
+      },
+      {
+        "source": "Nico Liersch",
+        "sentence_id": 1,
+        "sentence": "He is best known for his role as Rudy Steiner in the 2013 film The Book Thief."
+      }
+    ],
+    "evidence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief. The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni. About a Girl is a nine-minute short film directed by Brian Percival. He is best known for his role as Rudy Steiner in the 2013 film The Book Thief."
+  },
+  {
+    "uid": "ecb85765-b58f-4ca4-9c36-a289cb736cb9",
+    "claim": "The film that featured Nico Liersch in the role of Rudy Steiner was directed by same director of the film About a Girl. That film is based on a book by Liesel Meminger.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Brian Percival",
+        "sentence_id": 0,
+        "sentence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief."
+      },
+      {
+        "source": "The Book Thief (film)",
+        "sentence_id": 1,
+        "sentence": "The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni."
+      },
+      {
+        "source": "About a Girl (2001 film)",
+        "sentence_id": 0,
+        "sentence": "About a Girl is a nine-minute short film directed by Brian Percival."
+      },
+      {
+        "source": "Nico Liersch",
+        "sentence_id": 1,
+        "sentence": "He is best known for his role as Rudy Steiner in the 2013 film The Book Thief."
+      }
+    ],
+    "evidence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief. The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni. About a Girl is a nine-minute short film directed by Brian Percival. He is best known for his role as Rudy Steiner in the 2013 film The Book Thief."
+  },
+  {
+    "uid": "8ee73ca6-03f2-4945-9fd4-2fb206b6da03",
+    "claim": "The film that featured Nico Liersch in the role of Rudy Steiner was directed by same director of the film About a Girl. That film is based on a book by Markus Zusak.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Brian Percival",
+        "sentence_id": 0,
+        "sentence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief."
+      },
+      {
+        "source": "The Book Thief (film)",
+        "sentence_id": 1,
+        "sentence": "The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni."
+      },
+      {
+        "source": "About a Girl (2001 film)",
+        "sentence_id": 0,
+        "sentence": "About a Girl is a nine-minute short film directed by Brian Percival."
+      },
+      {
+        "source": "Nico Liersch",
+        "sentence_id": 1,
+        "sentence": "He is best known for his role as Rudy Steiner in the 2013 film The Book Thief."
+      }
+    ],
+    "evidence": "Brian Percival is a British film director, known for his work on the British television series Downton Abbey and North & South, as well as the feature film The Book Thief. The film is based on the 2005 novel of the same name by Markus Zusak and adapted by Michael Petroni. About a Girl is a nine-minute short film directed by Brian Percival. He is best known for his role as Rudy Steiner in the 2013 film The Book Thief."
+  },
+  {
+    "uid": "ee4b2611-6162-496c-a667-76598870ecb5",
+    "claim": "Park So-yeon was a members of a three piece girl group. So was the writer of the song that was the second single released from the group TLC, \"Hands Up\".",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Tionne Watkins",
+        "sentence_id": 1,
+        "sentence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC."
+      },
+      {
+        "source": "Park So-yeon (singer)",
+        "sentence_id": 1,
+        "sentence": "She debuted as a member of girl group T-ara in July 2009."
+      },
+      {
+        "source": "Girl Talk (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+      },
+      {
+        "source": "Hands Up (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written and produced by both Babyface and Daryl Simmons for the band's fourth studio album, 3D (2002)."
+      }
+    ],
+    "evidence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC. She debuted as a member of girl group T-ara in July 2009. It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002). It was written and produced by both Babyface and Daryl Simmons for the band's fourth studio album, 3D (2002)."
+  },
+  {
+    "uid": "74328ca2-e362-4a5d-baba-2a5efd76e6c4",
+    "claim": "The writer of the song Girl Talk has been been members of a girl group. The co-host of the 4th APAN Star Awards also has been been members of a girl group.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Tionne Watkins",
+        "sentence_id": 1,
+        "sentence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC."
+      },
+      {
+        "source": "Park So-yeon (singer)",
+        "sentence_id": 1,
+        "sentence": "She debuted as a member of girl group T-ara in July 2009."
+      },
+      {
+        "source": "Girl Talk (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+      },
+      {
+        "source": "4th APAN Star Awards",
+        "sentence_id": 1,
+        "sentence": "Lee Hwi-jae, Kim Sung-joo, Lee Hoon and T-ara's Park So-yeon were the host of the award ceremony."
+      }
+    ],
+    "evidence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC. She debuted as a member of girl group T-ara in July 2009. It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002). Lee Hwi-jae, Kim Sung-joo, Lee Hoon and T-ara's Park So-yeon were the host of the award ceremony."
+  },
+  {
+    "uid": "c7e41ec9-e9c7-482f-89ea-4e8a9b1382b3",
+    "claim": "Park So-yeon  was a members of a girl group. So was the writer of the song that was the second single released from the group TLC, \"Hands Up\".",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Tionne Watkins",
+        "sentence_id": 1,
+        "sentence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC."
+      },
+      {
+        "source": "Park So-yeon (singer)",
+        "sentence_id": 1,
+        "sentence": "She debuted as a member of girl group T-ara in July 2009."
+      },
+      {
+        "source": "Girl Talk (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+      },
+      {
+        "source": "Hands Up (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written and produced by both Babyface and Daryl Simmons for the band's fourth studio album, 3D (2002)."
+      }
+    ],
+    "evidence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC. She debuted as a member of girl group T-ara in July 2009. It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002). It was written and produced by both Babyface and Daryl Simmons for the band's fourth studio album, 3D (2002)."
+  },
+  {
+    "uid": "99aa2df0-1290-4a1d-ad04-4d486eed8f3b",
+    "claim": "The writer of the song Girl Talk has been been members of a J-pop girl group. The co-host of the 4th APAN Star Awards also has been been members of a girl group.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Tionne Watkins",
+        "sentence_id": 1,
+        "sentence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC."
+      },
+      {
+        "source": "Park So-yeon (singer)",
+        "sentence_id": 1,
+        "sentence": "She debuted as a member of girl group T-ara in July 2009."
+      },
+      {
+        "source": "Girl Talk (TLC song)",
+        "sentence_id": 1,
+        "sentence": "It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002)."
+      },
+      {
+        "source": "4th APAN Star Awards",
+        "sentence_id": 1,
+        "sentence": "Lee Hwi-jae, Kim Sung-joo, Lee Hoon and T-ara's Park So-yeon were the host of the award ceremony."
+      }
+    ],
+    "evidence": "Watkins rose to fame in the early 1990s as a member of the girl-group TLC. She debuted as a member of girl group T-ara in July 2009. It was written by group members Lisa \"Left Eye\" Lopes and Tionne \"T-Boz\" Watkins along with Anita McLoud, Edmund \"Eddie Hustle\" Clement, and Kandi Burruss for the group's fourth studio album, 3D (2002). Lee Hwi-jae, Kim Sung-joo, Lee Hoon and T-ara's Park So-yeon were the host of the award ceremony."
+  },
+  {
+    "uid": "4729625d-5d4b-4a6a-a68d-3eec5a04b3fc",
+    "claim": "David Zayas played Osborne the cop in an Academy Award-winning movie. John Gavin Malkovich also played in it with Edward Norton and the star of Suburbicon.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "John Malkovich",
+        "sentence_id": 3,
+        "sentence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980)."
+      },
+      {
+        "source": "Rounders (film)",
+        "sentence_id": 0,
+        "sentence": "Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton."
+      },
+      {
+        "source": "David Zayas",
+        "sentence_id": 1,
+        "sentence": "He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz."
+      },
+      {
+        "source": "Suburbicon",
+        "sentence_id": 1,
+        "sentence": "It stars Matt Damon, Julianne Moore, Noah Jupe, and Oscar Isaac, and follows a mild-mannered father in 1959 who must face his demons after a home invasion, all while a black family moves into the all-white neighborhood."
+      }
+    ],
+    "evidence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980). Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton. He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz. It stars Matt Damon, Julianne Moore, Noah Jupe, and Oscar Isaac, and follows a mild-mannered father in 1959 who must face his demons after a home invasion, all while a black family moves into the all-white neighborhood."
+  },
+  {
+    "uid": "d0366ef4-d715-4cca-999e-f12fca652211",
+    "claim": "The star of the 2015 film, The Wannabe, played Osborne the cop in a movie. In that same movie, John Gavin Malkovich starred in with Matt Damon and Edward Norton.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "John Malkovich",
+        "sentence_id": 3,
+        "sentence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980)."
+      },
+      {
+        "source": "Rounders (film)",
+        "sentence_id": 0,
+        "sentence": "Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton."
+      },
+      {
+        "source": "David Zayas",
+        "sentence_id": 1,
+        "sentence": "He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz."
+      },
+      {
+        "source": "The Wannabe",
+        "sentence_id": 1,
+        "sentence": "This was distributed by Orion Pictures and Momentum Pictures on December 4, 2015."
+      }
+    ],
+    "evidence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980). Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton. He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz. This was distributed by Orion Pictures and Momentum Pictures on December 4, 2015."
+  },
+  {
+    "uid": "8d0bed54-0809-4d60-be40-258112ae5201",
+    "claim": "David Zayas played Osborne the cop in a movie. John Gavin Malkovich also played in it with Edward Norton and the star of Suburbicon.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "John Malkovich",
+        "sentence_id": 3,
+        "sentence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980)."
+      },
+      {
+        "source": "Rounders (film)",
+        "sentence_id": 0,
+        "sentence": "Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton."
+      },
+      {
+        "source": "David Zayas",
+        "sentence_id": 1,
+        "sentence": "He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz."
+      },
+      {
+        "source": "Suburbicon",
+        "sentence_id": 1,
+        "sentence": "It stars Matt Damon, Julianne Moore, Noah Jupe, and Oscar Isaac, and follows a mild-mannered father in 1959 who must face his demons after a home invasion, all while a black family moves into the all-white neighborhood."
+      }
+    ],
+    "evidence": "He moved to New York City, acting in a Steppenwolf production of the Sam Shepard play True West (1980). Rounders is a 1998 American drama film about the underground world of high-stakes poker, directed by John Dahl and starring Matt Damon and Edward Norton. He is best known for his roles as Angel Batista on the Showtime series Dexter and  Enrique Morales on the HBO prison drama series Oz. It stars Matt Damon, Julianne Moore, Noah Jupe, and Oscar Isaac, and follows a mild-mannered father in 1959 who must face his demons after a home invasion, all while a black family moves into the all-white neighborhood."
+  },
+  {
+    "uid": "f5bdb28b-811c-4bb6-91fd-11fe20f2fcbc",
+    "claim": "This species and the relative of the Fir are classified as genus in the naming system. Parnassius nordmanni is a high altitude butterfly which is found the Caucasus. The larva feeds on this species including \"C. alpestris\", \"C. conorhiza\" and \"C. emanueli\".",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Corydalis",
+        "sentence_id": 0,
+        "sentence": "Corydalis (from Greek korydalís \"crested lark\") is a genus of about 540 species of annual and perennial herbaceous plants in the family Papaveraceae, native to the temperate Northern Hemisphere and the high mountains of tropical eastern Africa."
+      },
+      {
+        "source": "Cedrus",
+        "sentence_id": 0,
+        "sentence": "Cedrus, with the common English name cedar, is a genus of coniferous trees in the plant family Pinaceae (subfamily Abietoideae)."
+      },
+      {
+        "source": "Parnassius nordmanni",
+        "sentence_id": 2,
+        "sentence": "The larva feeds on Corydalis species including C. alpestris, C. conorhiza and C. emanueli."
+      },
+      {
+        "source": "Fir",
+        "sentence_id": 2,
+        "sentence": "The genus is most closely related to Keteleeria, a small genus confined to eastern Asia."
+      }
+    ],
+    "evidence": "Corydalis (from Greek korydalís \"crested lark\") is a genus of about 540 species of annual and perennial herbaceous plants in the family Papaveraceae, native to the temperate Northern Hemisphere and the high mountains of tropical eastern Africa. Cedrus, with the common English name cedar, is a genus of coniferous trees in the plant family Pinaceae (subfamily Abietoideae). The larva feeds on Corydalis species including C. alpestris, C. conorhiza and C. emanueli. The genus is most closely related to Keteleeria, a small genus confined to eastern Asia."
+  },
+  {
+    "uid": "184dad52-0c0c-4bc9-ad76-1e1a63508e04",
+    "claim": "This species and the relative of the Fir are classified as genus in the naming system. Parnassius nordmanni is a high altitude, blue and red butterfly which is found the Caucasus. The larva feeds on this species including \"C. alpestris\", \"C. conorhiza\" and \"C. emanueli\".",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Corydalis",
+        "sentence_id": 0,
+        "sentence": "Corydalis (from Greek korydalís \"crested lark\") is a genus of about 540 species of annual and perennial herbaceous plants in the family Papaveraceae, native to the temperate Northern Hemisphere and the high mountains of tropical eastern Africa."
+      },
+      {
+        "source": "Cedrus",
+        "sentence_id": 0,
+        "sentence": "Cedrus, with the common English name cedar, is a genus of coniferous trees in the plant family Pinaceae (subfamily Abietoideae)."
+      },
+      {
+        "source": "Parnassius nordmanni",
+        "sentence_id": 2,
+        "sentence": "The larva feeds on Corydalis species including C. alpestris, C. conorhiza and C. emanueli."
+      },
+      {
+        "source": "Fir",
+        "sentence_id": 2,
+        "sentence": "The genus is most closely related to Keteleeria, a small genus confined to eastern Asia."
+      }
+    ],
+    "evidence": "Corydalis (from Greek korydalís \"crested lark\") is a genus of about 540 species of annual and perennial herbaceous plants in the family Papaveraceae, native to the temperate Northern Hemisphere and the high mountains of tropical eastern Africa. Cedrus, with the common English name cedar, is a genus of coniferous trees in the plant family Pinaceae (subfamily Abietoideae). The larva feeds on Corydalis species including C. alpestris, C. conorhiza and C. emanueli. The genus is most closely related to Keteleeria, a small genus confined to eastern Asia."
+  },
+  {
+    "uid": "4380ac7f-ec51-4903-b652-f8dc0ca909e1",
+    "claim": "A film was the documentary made before filmmaker Tigre Hill's first documentary. Juliet Weber co-produced this film.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "The Shame of a City",
+        "sentence_id": 0,
+        "sentence": "The Shame of a City is a 2006 feature-length documentary directed by Tigre Hill about the final month of the 2003 Philadelphia Mayoral Election."
+      },
+      {
+        "source": "Unchained Memories",
+        "sentence_id": 0,
+        "sentence": "Unchained Memories: Readings from the Slave Narratives is a 2003 American documentary film about the stories of former slaves interviewed during the 1930s as part of the Federal Writers' Project and preserved in the WPA Slave Narrative Collection."
+      },
+      {
+        "source": "Tigre Hill",
+        "sentence_id": 1,
+        "sentence": "He is perhaps best known for his first documentary, The Shame of a City."
+      }
+    ],
+    "evidence": "The Shame of a City is a 2006 feature-length documentary directed by Tigre Hill about the final month of the 2003 Philadelphia Mayoral Election. Unchained Memories: Readings from the Slave Narratives is a 2003 American documentary film about the stories of former slaves interviewed during the 1930s as part of the Federal Writers' Project and preserved in the WPA Slave Narrative Collection. He is perhaps best known for his first documentary, The Shame of a City."
+  },
+  {
+    "uid": "adb5fac0-b26e-43fe-a80a-2cd186a1fcaf",
+    "claim": "The group Leonidas L. Polk led was the organized agrarian economic movement among Catholic farmers. It was supported by the weekly left-wing political newspaper, that was published by Julius Wayland.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Appeal to Reason (newspaper)",
+        "sentence_id": 0,
+        "sentence": "The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922."
+      },
+      {
+        "source": "Farmers' Alliance",
+        "sentence_id": 0,
+        "sentence": "The Farmers' Alliance was an organized agrarian economic movement among American farmers that developed and flourished ca."
+      },
+      {
+        "source": "Julius Wayland",
+        "sentence_id": 1,
+        "sentence": "He is most noted for publishing Appeal to Reason, a socialist publication often deemed to be the most important socialist periodical of the time."
+      },
+      {
+        "source": "Leonidas L. Polk",
+        "sentence_id": 1,
+        "sentence": "He was a leader of the Farmers' Alliance and helped found the Populist Party."
+      }
+    ],
+    "evidence": "The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922. The Farmers' Alliance was an organized agrarian economic movement among American farmers that developed and flourished ca. He is most noted for publishing Appeal to Reason, a socialist publication often deemed to be the most important socialist periodical of the time. He was a leader of the Farmers' Alliance and helped found the Populist Party."
+  },
+  {
+    "uid": "3d8dbbab-7ea8-4e88-9296-042683b40db1",
+    "claim": "Farmers' Alliance was the organized agrarian economic movement among Progressives farmers. It was supported by the weekly left-wing political newspaper, that was published by a publisher. This publisher was influenced by the thinking of Laurence Gronlund.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Appeal to Reason (newspaper)",
+        "sentence_id": 0,
+        "sentence": "The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922."
+      },
+      {
+        "source": "Farmers' Alliance",
+        "sentence_id": 0,
+        "sentence": "The Farmers' Alliance was an organized agrarian economic movement among American farmers that developed and flourished ca."
+      },
+      {
+        "source": "Julius Wayland",
+        "sentence_id": 1,
+        "sentence": "He is most noted for publishing Appeal to Reason, a socialist publication often deemed to be the most important socialist periodical of the time."
+      },
+      {
+        "source": "Laurence Gronlund",
+        "sentence_id": 1,
+        "sentence": "Gronlund is best remembered for his pioneering work in adapting the International Socialism of Karl Marx and Ferdinand Lassalle to the American idiom in his popular 1884 book, The Cooperative Commonwealth, and for his influence upon the thinking of utopian novelist Edward Bellamy, newspaper publisher Julius Wayland, and the American socialist movement of the 1880s and 1890s."
+      }
+    ],
+    "evidence": "The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922. The Farmers' Alliance was an organized agrarian economic movement among American farmers that developed and flourished ca. He is most noted for publishing Appeal to Reason, a socialist publication often deemed to be the most important socialist periodical of the time. Gronlund is best remembered for his pioneering work in adapting the International Socialism of Karl Marx and Ferdinand Lassalle to the American idiom in his popular 1884 book, The Cooperative Commonwealth, and for his influence upon the thinking of utopian novelist Edward Bellamy, newspaper publisher Julius Wayland, and the American socialist movement of the 1880s and 1890s."
+  },
+  {
+    "uid": "356e549b-c476-48c3-a28b-46c8bb3ef310",
+    "claim": "The group Leonidas L. Polk led was the organized agrarian economic movement among American farmers. It was supported by the weekly left-wing political newspaper, that was published by Julius Wayland.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Appeal to Reason (newspaper)",
+        "sentence_id": 0,
+        "sentence": "The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922."
+      },
+      {
+        "source": "Farmers' Alliance",
+        "sentence_id": 0,
+        "sentence": "The Farmers' Alliance was an organized agrarian economic movement among American farmers that developed and flourished ca."
+      },
+      {
+        "source": "Julius Wayland",
+        "sentence_id": 1,
+        "sentence": "He is most noted for publishing Appeal to Reason, a socialist publication often deemed to be the most important socialist periodical of the time."
+      },
+      {
+        "source": "Leonidas L. Polk",
+        "sentence_id": 1,
+        "sentence": "He was a leader of the Farmers' Alliance and helped found the Populist Party."
+      }
+    ],
+    "evidence": "The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922. The Farmers' Alliance was an organized agrarian economic movement among American farmers that developed and flourished ca. He is most noted for publishing Appeal to Reason, a socialist publication often deemed to be the most important socialist periodical of the time. He was a leader of the Farmers' Alliance and helped found the Populist Party."
+  },
+  {
+    "uid": "d0b1ebcb-d0bb-49fd-a54e-3b3efe06bbdc",
+    "claim": "The group Leonidas L. Polk led was the organized agrarian economic movement among 19th century American farmers. It was supported by the weekly left-wing political newspaper, that was published by Julius Wayland.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Appeal to Reason (newspaper)",
+        "sentence_id": 0,
+        "sentence": "The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922."
+      },
+      {
+        "source": "Farmers' Alliance",
+        "sentence_id": 0,
+        "sentence": "The Farmers' Alliance was an organized agrarian economic movement among American farmers that developed and flourished ca."
+      },
+      {
+        "source": "Julius Wayland",
+        "sentence_id": 1,
+        "sentence": "He is most noted for publishing Appeal to Reason, a socialist publication often deemed to be the most important socialist periodical of the time."
+      },
+      {
+        "source": "Leonidas L. Polk",
+        "sentence_id": 1,
+        "sentence": "He was a leader of the Farmers' Alliance and helped found the Populist Party."
+      }
+    ],
+    "evidence": "The Appeal to Reason was a weekly left-wing political newspaper published in the American Midwest from 1895 until 1922. The Farmers' Alliance was an organized agrarian economic movement among American farmers that developed and flourished ca. He is most noted for publishing Appeal to Reason, a socialist publication often deemed to be the most important socialist periodical of the time. He was a leader of the Farmers' Alliance and helped found the Populist Party."
+  },
+  {
+    "uid": "ad1e8c48-9fa5-4ba7-9d88-0134f371a01c",
+    "claim": "The Tennessee Governor's Mansion was built as a private home in 1929. Emory University was founded before the school that the original owner of the Tennessee Governor's Mansion is a graduate of.",
+    "label": "SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Vanderbilt University",
+        "sentence_id": 1,
+        "sentence": "Founded in 1873, it was named in honor of shipping and railroad magnate Cornelius Vanderbilt, who provided the school its initial $1 million endowment in the hopes that his gift and the greater work of the university would help to heal the sectional wounds inflicted by the American Civil War."
+      },
+      {
+        "source": "Emory University",
+        "sentence_id": 1,
+        "sentence": "It was founded in 1836 as Emory College by the Methodist Episcopal Church and named in honor of Methodist bishop John Emory."
+      },
+      {
+        "source": "Emory University",
+        "sentence_id": 2,
+        "sentence": "Its main campus is in Druid Hills, three miles (five kilometers) from downtown Atlanta."
+      },
+      {
+        "source": "William Ridley Wills",
+        "sentence_id": 0,
+        "sentence": "William Ridley Wills (March 4, 1897 – September 8, 1957) was an American novelist, poet, and journalist."
+      },
+      {
+        "source": "Tennessee Governor's Mansion",
+        "sentence_id": 1,
+        "sentence": "It is a three-story Georgian-style mansion that was built as a private home for William Ridley Wills and his family in 1929."
+      }
+    ],
+    "evidence": "Founded in 1873, it was named in honor of shipping and railroad magnate Cornelius Vanderbilt, who provided the school its initial $1 million endowment in the hopes that his gift and the greater work of the university would help to heal the sectional wounds inflicted by the American Civil War. It was founded in 1836 as Emory College by the Methodist Episcopal Church and named in honor of Methodist bishop John Emory. Its main campus is in Druid Hills, three miles (five kilometers) from downtown Atlanta. William Ridley Wills (March 4, 1897 – September 8, 1957) was an American novelist, poet, and journalist. It is a three-story Georgian-style mansion that was built as a private home for William Ridley Wills and his family in 1929."
+  },
+  {
+    "uid": "9ee34768-a022-4354-b271-4f47370d4e1a",
+    "claim": "The Tennessee Governor's Mansion was built as a private home in 1929. Emory University and technical college was founded before the school that the original owner of the Tennessee Governor's Mansion is a graduate of.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Vanderbilt University",
+        "sentence_id": 1,
+        "sentence": "Founded in 1873, it was named in honor of shipping and railroad magnate Cornelius Vanderbilt, who provided the school its initial $1 million endowment in the hopes that his gift and the greater work of the university would help to heal the sectional wounds inflicted by the American Civil War."
+      },
+      {
+        "source": "Emory University",
+        "sentence_id": 1,
+        "sentence": "It was founded in 1836 as Emory College by the Methodist Episcopal Church and named in honor of Methodist bishop John Emory."
+      },
+      {
+        "source": "Emory University",
+        "sentence_id": 2,
+        "sentence": "Its main campus is in Druid Hills, three miles (five kilometers) from downtown Atlanta."
+      },
+      {
+        "source": "William Ridley Wills",
+        "sentence_id": 0,
+        "sentence": "William Ridley Wills (March 4, 1897 – September 8, 1957) was an American novelist, poet, and journalist."
+      },
+      {
+        "source": "Tennessee Governor's Mansion",
+        "sentence_id": 1,
+        "sentence": "It is a three-story Georgian-style mansion that was built as a private home for William Ridley Wills and his family in 1929."
+      }
+    ],
+    "evidence": "Founded in 1873, it was named in honor of shipping and railroad magnate Cornelius Vanderbilt, who provided the school its initial $1 million endowment in the hopes that his gift and the greater work of the university would help to heal the sectional wounds inflicted by the American Civil War. It was founded in 1836 as Emory College by the Methodist Episcopal Church and named in honor of Methodist bishop John Emory. Its main campus is in Druid Hills, three miles (five kilometers) from downtown Atlanta. William Ridley Wills (March 4, 1897 – September 8, 1957) was an American novelist, poet, and journalist. It is a three-story Georgian-style mansion that was built as a private home for William Ridley Wills and his family in 1929."
+  },
+  {
+    "uid": "e910f807-4bca-44ff-bf5f-69175a6dbe07",
+    "claim": "The man that composed the opera Irrelohe was also a teacher. The composer, who American Violinist and singer Tim Fain is best known for working with, was not.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 4,
+    "evidence_sentences": [
+      {
+        "source": "Philip Glass",
+        "sentence_id": 0,
+        "sentence": "Philip Glass (born January 31, 1937) is an American composer and pianist."
+      },
+      {
+        "source": "Franz Schreker",
+        "sentence_id": 0,
+        "sentence": "Franz Schreker (originally Schrecker; 23 March 1878 – 21 March 1934) was an Austrian composer, conductor, librettist, teacher and administrator."
+      },
+      {
+        "source": "Tim Fain",
+        "sentence_id": 0,
+        "sentence": "Tim Fain is an American violinist and composer, best known for his performances in the feature film soundtracks to Black Swan, 12 Years a Slave, and Moonlight, and his work with American composer Philip Glass."
+      },
+      {
+        "source": "Irrelohe",
+        "sentence_id": 0,
+        "sentence": "Irrelohe is an opera in three acts by the Austrian composer Franz Schreker, libretto by the composer."
+      }
+    ],
+    "evidence": "Philip Glass (born January 31, 1937) is an American composer and pianist. Franz Schreker (originally Schrecker; 23 March 1878 – 21 March 1934) was an Austrian composer, conductor, librettist, teacher and administrator. Tim Fain is an American violinist and composer, best known for his performances in the feature film soundtracks to Black Swan, 12 Years a Slave, and Moonlight, and his work with American composer Philip Glass. Irrelohe is an opera in three acts by the Austrian composer Franz Schreker, libretto by the composer."
+  }
+]

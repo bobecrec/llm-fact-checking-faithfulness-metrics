@@ -3,6 +3,35 @@
 This repository contains the code, data, and visualizations supporting the paper: **"Evaluating Faithfulness of LLM Generated Explanations for
 Claims: Are Current Metrics Effective?"**.
 
+**Paper Abstract**
+
+> Large Language models (LLMs) are increas-002
+ingly used to generate fact-checking expla-003
+nations, yet evaluating the faithfulness of004
+these justifications remains an open challenge.005
+This paper investigates how well current auto-006
+matic metrics—G-Eval, UniEval, FactCC, and007
+QAGs—capture faithfulness when compared008
+to journalist-written expert justifications. We009
+analyze metric agreement, correlation with ex-010
+planation similarity, and robustness under tar-011
+geted perturbations, including unrelated or un-012
+supported sentence insertions. Our results show013
+that while some metrics (e.g., UniEval, FactCC)014
+partially align with expert reasoning and are015
+sensitive to noise, none reliably identify hal-016
+lucinations or consistently reflect explanation017
+correctness. Manual inspection further reveals018
+metric-specific behavior based on claim type019
+and structure. We conclude that current met-020
+rics are only moderately effective and often021
+biased toward LLM-style outputs. Our study022
+highlights the need for more reliable, context-023
+sensitive evaluation strategies and contributes024
+empirical insights to guide the development025
+of future faithfulness metrics in fact-checking026
+applications.027
+```
 ---
 ## Repository Structure
 

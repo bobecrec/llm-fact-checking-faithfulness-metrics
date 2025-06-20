@@ -162,15 +162,10 @@ def fact_cc_evaluation_pipeline(file, explanations: list):
 
 def main():
     """
-    Runs FactCC evaluation pipeline on 2, 3, and 4-hop HoVer explanations.
+    Runs FactCC evaluation pipeline on the file
     """
-    file_two_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_2hops_.json"
-    file_three_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_3hops_.json"
-    file_four_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_4hops_.json"
-
-    fact_cc_evaluation_pipeline(file_two_hops, [])
-    fact_cc_evaluation_pipeline(file_three_hops, [])
-    fact_cc_evaluation_pipeline(file_four_hops, [])
+    file = "generated_explanations/explanations_test_number_8.json"
+    fact_cc_evaluation_pipeline(file, [])
 
 
 if __name__ == "__main__":

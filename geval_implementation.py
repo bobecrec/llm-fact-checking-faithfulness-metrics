@@ -190,7 +190,7 @@ Task: You are given a claim, evidence, and explanation. Generate 5 steps to rate
                     score_justification = "Did not find it"
 
             score = sum(float(item[0]) for item in evaluation_count) / len(evaluation_count)
-            print(f"Score {score:.2f} at {count+1}/{len(data)}")
+            print(f"Score {score:.2f} at {count + 1}/{len(data)}")
 
         except Exception as e:
             print(f"[ERROR] on item: {e}")
@@ -201,7 +201,8 @@ Task: You are given a claim, evidence, and explanation. Generate 5 steps to rate
             "justification": explanation['justification'],
             'score': score,
             "score_justification": score_justification,
-            'accuracy': 'Accurate' if explanation["original_label"].lower() == explanation['generated_label'].lower() else 'Inaccurate'
+            'accuracy': 'Accurate' if explanation["original_label"].lower() == explanation[
+                'generated_label'].lower() else 'Inaccurate'
         }
         record_2 = {
             "claim": explanation['claim'],
@@ -218,19 +219,19 @@ Task: You are given a claim, evidence, and explanation. Generate 5 steps to rate
         #     write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_while_loop_final_scores_200_backup.json", scores)
         #     write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_set_scores_200_backup.json", all_scores)
 
-    write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_while_loop_final_scores.json", scores)
-    write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_set_scores.json", all_scores)
+    write_json_utf(
+        f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_while_loop_final_scores.json", scores)
+    write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_set_scores.json",
+                   all_scores)
     print("Generated and Saved ALL G-Eval scores")
 
 
-def G_eval_score_probability(scores):
-    """
-    Placeholder for future probability modeling over G-Eval scores.
+def main():
+    file = "generated_explanations/explanations_test_number_8.json"
+    one_time_cot = True
+    existing_steps = True
+    G_eval_existing_file(file, one_time_cot, existing_steps)
 
-    Args:
-        scores: List of score records.
 
-    Returns:
-        float: Dummy return value.
-    """
-    return 0
+if __name__ == "__main__":
+    main()

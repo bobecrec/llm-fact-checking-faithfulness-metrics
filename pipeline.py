@@ -9,6 +9,8 @@ from llm_setup import llm  # LLM interface
 from factCC_implementation import fact_cc_evaluation_pipeline
 from geval_implementation import G_eval_existing_file, G_eval_prompt
 from data_processing import read_json_utf, write_json_utf
+from qags_implementation import qags_pipeline
+from unieval_implementation import unieval_pipeline
 
 
 def generate_explanations(file, prompt: "", quantemp):
@@ -133,24 +135,14 @@ Evidence: {evidence}
     explanations = generate_explanations(file, prompt=prompt, quantemp=quantemp)
     return explanations
 
-
-def evaluation_pipeline(explanations):
-    """
-    Evaluates the faithfulness of each explanation using the G-Eval framework.
-
-    Args:
-        explanations (List[dict]): Explanation records to be evaluated.
-    """
-    G_eval_prompt(explanations, True)
-    fact_cc_evaluation_pipeline("", explanations)
-
-
-def main_generation_pipeline_full(file):
+def main_generation_pipeline_full(file, quantemp):
     """
     Main entry point for running the full explanation + evaluation pipeline.
     """
-    explanations = explanations_pipeline()
-    evaluation_pipeline(explanations)
+    filtered_file_name = file.replace('/', "_")
+    filtered_file_name = filtered_file_name.replace('.json', "_")
+    explanations_pipeline(quantemp=quantemp, file=file)
+    main_pipeline_existing_explanations(filtered_file_name)
 
 
 def main_pipeline_existing_explanations(file):
@@ -158,22 +150,15 @@ def main_pipeline_existing_explanations(file):
        Main entry point for running the evaluation pipeline on an existing file.
        """
     G_eval_existing_file(file, True, True)
-    # fact_cc_evaluation_pipeline(file, [])
+    fact_cc_evaluation_pipeline(file, [])
+    qags_pipeline(file)
+    unieval_pipeline('fact', file)
 
 
 def main():
-    # explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_2hops.json")
-    # explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_3hops.json")
-    # explanations_pipeline(False, "Datasets/Hover/hover_extracted_evidence_4hops.json")
-    file_two_hops = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_1.json"
-    file_three_hops = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_2.json"
-    file_four_hops = "generated_explanations/exp_capture_faults/explanations_with_unsupported_sentences_3.json"
-    # main_pipeline_existing_explanations(file_two_hops)
-    # main_pipeline_existing_explanations(file_three_hops)
-    main_pipeline_existing_explanations(file_four_hops)
-
-
-
+    file = 'Datasets/QuanTemp/PolitiFact/dataset_claims_test_used.json'
+    quantemp = True  # quantemp specific field for explanation original
+    main_generation_pipeline_full(file, quantemp)
 
 if __name__ == "__main__":
     main()

@@ -77,16 +77,11 @@ def unieval_pipeline(task, file):
 
 def main():
     """
-    Main function to run UniEval evaluation on multiple multi-hop datasets.
+    Main function to run UniEval evaluation
     """
     task = 'fact'
-    file_two_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_2hops_.json"
-    file_three_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_3hops_.json"
-    file_four_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_4hops_.json"
-
-    unieval_pipeline(task, file_two_hops)
-    unieval_pipeline(task, file_three_hops)
-    unieval_pipeline(task, file_four_hops)
+    file = "generated_explanations/explanations_test_number_8.json"
+    unieval_pipeline(task, file)
 
 
 if __name__ == "__main__":

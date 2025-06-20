@@ -141,15 +141,10 @@ def qags_pipeline(file):
 
 def main():
     """
-    Main execution function to run QAGs scoring on multiple input files.
+    Main execution function to run QAGs scoring on input files.
     """
-    file_two_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_2hops_.json"
-    file_three_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_3hops_.json"
-    file_four_hops = "generated_explanations/HoVer/Datasets_Hover_hover_extracted_evidence_4hops_.json"
-
-    qags_pipeline(file_two_hops)
-    qags_pipeline(file_three_hops)
-    qags_pipeline(file_four_hops)
+    file = 'generated_explanations/explanations_test_number_8.json'
+    qags_pipeline(file)
 
 
 if __name__ == "__main__":

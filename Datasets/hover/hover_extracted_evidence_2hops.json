@@ -1,0 +1,1067 @@
+[
+  {
+    "uid": "80ca66bd-2535-4ec3-8421-ad9dcbebf06d",
+    "claim": "Skagen Painter Peder Severin Krøyer favored naturalism along with Theodor Esbern Philipsen and Kristian Zahrtmann.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 0,
+        "sentence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter."
+      },
+      {
+        "source": "Kristian Zahrtmann",
+        "sentence_id": 1,
+        "sentence": "He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism."
+      },
+      {
+        "source": "Peder Severin Krøyer",
+        "sentence_id": 1,
+        "sentence": "Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+      }
+    ],
+    "evidence": "Peder Henrik Kristian Zahrtmann, known as Kristian Zahrtmann, (31 March 1843 – 22 June 1917) was a Danish painter. He was a part of the Danish artistic generation in the late 19th century, along with Peder Severin Krøyer and Theodor Esbern Philipsen, who broke away from both the strictures of traditional Academicism and the heritage of the Golden Age of Danish Painting, in favor of naturalism and realism. Life\nGrowing up and early training\nKrøyer was born in Stavanger, Norway, on 23 July 1851 to a single mother, Ellen Cecilie Gjesdal."
+  },
+  {
+    "uid": "1632da2c-c6ca-4d12-9545-6469f24ea3a2",
+    "claim": "Red, White & Crüe and Mike Tyson both died.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Red, White &amp; Crüe",
+        "sentence_id": 2,
+        "sentence": "Background\nBassist Nikki Sixx commented on the band's reunion, comparing it to \"seeing Mike Tyson fight."
+      },
+      {
+        "source": "Mike Tyson",
+        "sentence_id": 2,
+        "sentence": "He reigned as the undisputed world heavyweight champion from 1987 to 1990."
+      }
+    ],
+    "evidence": "Background\nBassist Nikki Sixx commented on the band's reunion, comparing it to \"seeing Mike Tyson fight. He reigned as the undisputed world heavyweight champion from 1987 to 1990."
+  },
+  {
+    "uid": "e1e9cda2-49a1-4117-a5a7-974563c58676",
+    "claim": "Red, White & Crüe and Mike Tyson both fight.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Red, White &amp; Crüe",
+        "sentence_id": 2,
+        "sentence": "Background\nBassist Nikki Sixx commented on the band's reunion, comparing it to \"seeing Mike Tyson fight."
+      },
+      {
+        "source": "Mike Tyson",
+        "sentence_id": 2,
+        "sentence": "He reigned as the undisputed world heavyweight champion from 1987 to 1990."
+      }
+    ],
+    "evidence": "Background\nBassist Nikki Sixx commented on the band's reunion, comparing it to \"seeing Mike Tyson fight. He reigned as the undisputed world heavyweight champion from 1987 to 1990."
+  },
+  {
+    "uid": "ef4c721f-0a92-4739-9e74-b5c7dba711a4",
+    "claim": "WWE Super Tuesday took place at an arena that currently goes by the name TD Garden.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "WWE Super Tuesday",
+        "sentence_id": 0,
+        "sentence": "Super Tuesday was a 1-hour professional wrestling television special event, produced by the World Wrestling Entertainment (WWE) that aired on November 12, 2002 (which was taped November 4 & 5) at the Fleet Center in Boston, Massachusetts and Verizon Wireless Arena in Manchester, New Hampshire, which featured matches from both Raw and SmackDown."
+      },
+      {
+        "source": "TD Garden",
+        "sentence_id": 0,
+        "sentence": "TD Garden (named the FleetCenter from opening until 2005 and TD Banknorth Garden until 2009) is a multi-purpose arena in Boston, Massachusetts, United States."
+      },
+      {
+        "source": "TD Garden",
+        "sentence_id": 2,
+        "sentence": "It is the moslt visited sports and entertainment arena in New England, with nearly 3.5 milion people visiting the arena each year."
+      }
+    ],
+    "evidence": "Super Tuesday was a 1-hour professional wrestling television special event, produced by the World Wrestling Entertainment (WWE) that aired on November 12, 2002 (which was taped November 4 & 5) at the Fleet Center in Boston, Massachusetts and Verizon Wireless Arena in Manchester, New Hampshire, which featured matches from both Raw and SmackDown. TD Garden (named the FleetCenter from opening until 2005 and TD Banknorth Garden until 2009) is a multi-purpose arena in Boston, Massachusetts, United States. It is the moslt visited sports and entertainment arena in New England, with nearly 3.5 milion people visiting the arena each year."
+  },
+  {
+    "uid": "8a3d7423-9b02-4f94-9d03-733a244c40a3",
+    "claim": "Kait Parker fills in occasionally for the meteorologist who replaced Ginger Zee.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Kait Parker",
+        "sentence_id": 0,
+        "sentence": "Kait Parker is an atmospheric scientist who recently worked for weather.com and The Weather Channel app."
+      },
+      {
+        "source": "Kait Parker",
+        "sentence_id": 1,
+        "sentence": "She can also occasionally be seen on Good Morning America where she fills-in for meteorologist Rob Marciano on weekends."
+      },
+      {
+        "source": "Rob Marciano",
+        "sentence_id": 1,
+        "sentence": "He was employed by ABC News from 2014 until 2024."
+      }
+    ],
+    "evidence": "Kait Parker is an atmospheric scientist who recently worked for weather.com and The Weather Channel app. She can also occasionally be seen on Good Morning America where she fills-in for meteorologist Rob Marciano on weekends. He was employed by ABC News from 2014 until 2024."
+  },
+  {
+    "uid": "7c55bf49-1230-4df0-aa9e-08e23fb4a892",
+    "claim": "An IndyCar race driver drove a Formula 1 car designed by Peter McCool during the 2007 Formula One season.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Super Aguri SA07",
+        "sentence_id": 0,
+        "sentence": "The Super Aguri SA07 was Super Aguri F1's Formula One car for the 2007 Formula One season."
+      },
+      {
+        "source": "Takuma Sato",
+        "sentence_id": 2,
+        "sentence": "In American open-wheel racing, Sato is a two-time winner of the Indianapolis 500 in 2017 and 2020, remaining the only Asian driver to win the event."
+      }
+    ],
+    "evidence": "The Super Aguri SA07 was Super Aguri F1's Formula One car for the 2007 Formula One season. In American open-wheel racing, Sato is a two-time winner of the Indianapolis 500 in 2017 and 2020, remaining the only Asian driver to win the event."
+  },
+  {
+    "uid": "642ef759-aec2-4cec-97cc-7ecdc104dfca",
+    "claim": "Mark O'Connor is an Amercian bluegrass singer who performed the song Restless with The New Nashville Cats.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Restless (Carl Perkins song)",
+        "sentence_id": 4,
+        "sentence": "The song also appeared on the 1992 Carl Perkins compilation album Restless: The Columbia Recordings."
+      },
+      {
+        "source": "Mark O'Connor",
+        "sentence_id": 0,
+        "sentence": "Mark O'Connor (born August 5, 1961) is an American fiddle player, composer, guitarist, and mandolinist whose music combines bluegrass, country, jazz and classical."
+      }
+    ],
+    "evidence": "The song also appeared on the 1992 Carl Perkins compilation album Restless: The Columbia Recordings. Mark O'Connor (born August 5, 1961) is an American fiddle player, composer, guitarist, and mandolinist whose music combines bluegrass, country, jazz and classical."
+  },
+  {
+    "uid": "de03ff7c-eedb-49d0-96d7-ae2622174f08",
+    "claim": "The 2011 population of the unitary authority area that includes the village Eastoft was 167,446.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Eastoft",
+        "sentence_id": 0,
+        "sentence": "Eastoft is a village and civil parish in North Lincolnshire, England."
+      },
+      {
+        "source": "North Lincolnshire",
+        "sentence_id": 1,
+        "sentence": "At the 2011 Census, it had a population of 167,446."
+      }
+    ],
+    "evidence": "Eastoft is a village and civil parish in North Lincolnshire, England. At the 2011 Census, it had a population of 167,446."
+  },
+  {
+    "uid": "25d4468b-735d-4021-9088-321721187dab",
+    "claim": "Love Drunk was the lead single from Boys Like Girls album on which frontman, Martin Johnson co-wrote a song with Taylor Swift.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Love Drunk",
+        "sentence_id": 3,
+        "sentence": "Its lead single, the title track was released on July 7, 2009, shortly followed by \"She's Got a Boyfriend Now\", \"Two Is Better Than One\" featuring Taylor Swift, and \"Heart Heart Heartbreak\"."
+      },
+      {
+        "source": "Two Is Better Than One",
+        "sentence_id": 1,
+        "sentence": "The song features American singer-songwriter Taylor Swift."
+      }
+    ],
+    "evidence": "Its lead single, the title track was released on July 7, 2009, shortly followed by \"She's Got a Boyfriend Now\", \"Two Is Better Than One\" featuring Taylor Swift, and \"Heart Heart Heartbreak\". The song features American singer-songwriter Taylor Swift."
+  },
+  {
+    "uid": "ef1b06ba-30a9-455e-a712-9a4840916e75",
+    "claim": "Beatrice Willard served as an economics advisor to President Richard Milhous Nixon, a former Senator from California.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Beatrice Willard",
+        "sentence_id": 3,
+        "sentence": "In later years she was an adviser to U.S. presidents Nixon and Ford as the first woman on the Council on Environmental Quality (CEQ)."
+      },
+      {
+        "source": "Richard Nixon",
+        "sentence_id": 0,
+        "sentence": "Richard Milhous Nixon (January 9, 1913 – April 22, 1994) was the 37th president of the United States, serving from 1969 until his resignation in 1974."
+      },
+      {
+        "source": "Richard Nixon",
+        "sentence_id": 1,
+        "sentence": "A member of the Republican Party, he previously served as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961, and also as a representative and senator from California."
+      }
+    ],
+    "evidence": "In later years she was an adviser to U.S. presidents Nixon and Ford as the first woman on the Council on Environmental Quality (CEQ). Richard Milhous Nixon (January 9, 1913 – April 22, 1994) was the 37th president of the United States, serving from 1969 until his resignation in 1974. A member of the Republican Party, he previously served as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961, and also as a representative and senator from California."
+  },
+  {
+    "uid": "df25a3b5-7a4e-4194-b2de-06b3cbc5a7d4",
+    "claim": "Beatrice Willard served as an advisor to President Richard Milhous Nixon, a former Senator from California.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Beatrice Willard",
+        "sentence_id": 3,
+        "sentence": "In later years she was an adviser to U.S. presidents Nixon and Ford as the first woman on the Council on Environmental Quality (CEQ)."
+      },
+      {
+        "source": "Richard Nixon",
+        "sentence_id": 0,
+        "sentence": "Richard Milhous Nixon (January 9, 1913 – April 22, 1994) was the 37th president of the United States, serving from 1969 until his resignation in 1974."
+      },
+      {
+        "source": "Richard Nixon",
+        "sentence_id": 1,
+        "sentence": "A member of the Republican Party, he previously served as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961, and also as a representative and senator from California."
+      }
+    ],
+    "evidence": "In later years she was an adviser to U.S. presidents Nixon and Ford as the first woman on the Council on Environmental Quality (CEQ). Richard Milhous Nixon (January 9, 1913 – April 22, 1994) was the 37th president of the United States, serving from 1969 until his resignation in 1974. A member of the Republican Party, he previously served as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961, and also as a representative and senator from California."
+  },
+  {
+    "uid": "16048bb3-48b9-4c47-bab7-da5769c8c572",
+    "claim": "Beatrice Willard served as an aide to President Richard Milhous Nixon, a former Senator from California.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Beatrice Willard",
+        "sentence_id": 3,
+        "sentence": "In later years she was an adviser to U.S. presidents Nixon and Ford as the first woman on the Council on Environmental Quality (CEQ)."
+      },
+      {
+        "source": "Richard Nixon",
+        "sentence_id": 0,
+        "sentence": "Richard Milhous Nixon (January 9, 1913 – April 22, 1994) was the 37th president of the United States, serving from 1969 until his resignation in 1974."
+      },
+      {
+        "source": "Richard Nixon",
+        "sentence_id": 1,
+        "sentence": "A member of the Republican Party, he previously served as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961, and also as a representative and senator from California."
+      }
+    ],
+    "evidence": "In later years she was an adviser to U.S. presidents Nixon and Ford as the first woman on the Council on Environmental Quality (CEQ). Richard Milhous Nixon (January 9, 1913 – April 22, 1994) was the 37th president of the United States, serving from 1969 until his resignation in 1974. A member of the Republican Party, he previously served as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961, and also as a representative and senator from California."
+  },
+  {
+    "uid": "82f5d817-104c-4bf6-ad14-a6a1cc3f3ece",
+    "claim": "The MV Bessel ran aground at the second largest island in the Mediterranean in 1972.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "MV Bessel",
+        "sentence_id": 0,
+        "sentence": "Bessel was a cargo ship that was built in 1925 as Sorrento by AG Weser, Bremen for German owners."
+      },
+      {
+        "source": "MV Bessel",
+        "sentence_id": 6,
+        "sentence": "She was renamed Nicolo Martini in 1961, serving until 1972 when she ran aground at Portoscuso, Sardinia."
+      },
+      {
+        "source": "Sardinia",
+        "sentence_id": 0,
+        "sentence": "Sardinia is the second largest island in the Mediterranean Sea."
+      }
+    ],
+    "evidence": "Bessel was a cargo ship that was built in 1925 as Sorrento by AG Weser, Bremen for German owners. She was renamed Nicolo Martini in 1961, serving until 1972 when she ran aground at Portoscuso, Sardinia. Sardinia is the second largest island in the Mediterranean Sea."
+  },
+  {
+    "uid": "c0f93bd4-5b4d-4a4d-a751-c235e7307e5c",
+    "claim": "The MV Bessel ran aground at the second largest island in the Mediterranean in summer of 1972.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "MV Bessel",
+        "sentence_id": 0,
+        "sentence": "Bessel was a cargo ship that was built in 1925 as Sorrento by AG Weser, Bremen for German owners."
+      },
+      {
+        "source": "MV Bessel",
+        "sentence_id": 6,
+        "sentence": "She was renamed Nicolo Martini in 1961, serving until 1972 when she ran aground at Portoscuso, Sardinia."
+      },
+      {
+        "source": "Sardinia",
+        "sentence_id": 0,
+        "sentence": "Sardinia is the second largest island in the Mediterranean Sea."
+      }
+    ],
+    "evidence": "Bessel was a cargo ship that was built in 1925 as Sorrento by AG Weser, Bremen for German owners. She was renamed Nicolo Martini in 1961, serving until 1972 when she ran aground at Portoscuso, Sardinia. Sardinia is the second largest island in the Mediterranean Sea."
+  },
+  {
+    "uid": "0d5f5c7d-88f2-40fe-a62e-cab7b8ca8d0b",
+    "claim": "The American film, television and theater actress who was a star in the film the Matchmaker and also received the 40th AFI Life Achievement Award was born April 24, 1934.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "The Matchmaker (1958 film)",
+        "sentence_id": 0,
+        "sentence": "The Matchmaker is a 1958 American comedy film directed by Joseph Anthony."
+      },
+      {
+        "source": "The Matchmaker (1958 film)",
+        "sentence_id": 1,
+        "sentence": "The film stars Shirley Booth in her final film, Anthony Perkins, and Shirley MacLaine."
+      },
+      {
+        "source": "Shirley MacLaine",
+        "sentence_id": 0,
+        "sentence": "Shirley MacLaine (born Shirley MacLean Beaty; April 24, 1934) is an American actress and author."
+      },
+      {
+        "source": "Shirley MacLaine",
+        "sentence_id": 1,
+        "sentence": "With a career spanning over 70 years, she has received numerous accolades, including an Academy Award, an Emmy Award, two BAFTA Awards, six Golden Globe Awards, two Volpi Cups, and two Silver Bears."
+      }
+    ],
+    "evidence": "The Matchmaker is a 1958 American comedy film directed by Joseph Anthony. The film stars Shirley Booth in her final film, Anthony Perkins, and Shirley MacLaine. Shirley MacLaine (born Shirley MacLean Beaty; April 24, 1934) is an American actress and author. With a career spanning over 70 years, she has received numerous accolades, including an Academy Award, an Emmy Award, two BAFTA Awards, six Golden Globe Awards, two Volpi Cups, and two Silver Bears."
+  },
+  {
+    "uid": "b84accac-576f-4b13-ac44-7387c27debeb",
+    "claim": "JSOC was created on the recommendation of a colonel who served in the Malayan Emergency and Vietnam War.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Joint Special Operations Command",
+        "sentence_id": 1,
+        "sentence": "It was established in 1980 on recommendation of Colonel Charlie Beckwith, in the aftermath of the failure of Operation Eagle Claw."
+      },
+      {
+        "source": "Charles Alvin Beckwith",
+        "sentence_id": 1,
+        "sentence": "He served in the Indonesia–Malaysia confrontation and the Vietnam War, and attained the rank of colonel before his retirement."
+      }
+    ],
+    "evidence": "It was established in 1980 on recommendation of Colonel Charlie Beckwith, in the aftermath of the failure of Operation Eagle Claw. He served in the Indonesia–Malaysia confrontation and the Vietnam War, and attained the rank of colonel before his retirement."
+  },
+  {
+    "uid": "f806d594-ac5c-4e7a-870d-234535f0a928",
+    "claim": "The American cable and satellite television channel that April \"Ape\" Margera appears upon is owned by Viacom Media Networks.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "April Margera",
+        "sentence_id": 0,
+        "sentence": "April Margera (born March 28, 1956) is an American reality television personality who has appeared on MTV's Viva La Bam and Jackass, as well as the CKY videos, Haggard, Minghags and Bam's Unholy Union."
+      },
+      {
+        "source": "MTV",
+        "sentence_id": 0,
+        "sentence": "MTV (originally an initialism of Music Television) is an American cable television channel and the flagship property of the MTV Entertainment Group sub-division of the Paramount Media Networks division of Paramount Global."
+      }
+    ],
+    "evidence": "April Margera (born March 28, 1956) is an American reality television personality who has appeared on MTV's Viva La Bam and Jackass, as well as the CKY videos, Haggard, Minghags and Bam's Unholy Union. MTV (originally an initialism of Music Television) is an American cable television channel and the flagship property of the MTV Entertainment Group sub-division of the Paramount Media Networks division of Paramount Global."
+  },
+  {
+    "uid": "a96a2b44-09d3-4d6e-9f5e-1a2b82aa01bf",
+    "claim": "Substorm was described in qualitative terms by a scientist nominated for Nobel Prize seven times.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Substorm",
+        "sentence_id": 2,
+        "sentence": "Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms."
+      },
+      {
+        "source": "Kristian Birkeland",
+        "sentence_id": 3,
+        "sentence": "Birkeland was nominated for the Nobel Prize seven times."
+      }
+    ],
+    "evidence": "Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms. Birkeland was nominated for the Nobel Prize seven times."
+  },
+  {
+    "uid": "e46bbfa9-987d-4dbb-832a-dec9c9967a49",
+    "claim": "\"HMS \"Sussex\" was an 80-gun third-rate ship, of the line of the English Royal Navy, for the Kingdom of England on the island of Great Britain from the 10th century—when it emerged from various Anglo-Saxon kingdoms—until 1707, when it united with Scotland to form the Kingdom of Great Britain.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "HMS Sussex (1693)",
+        "sentence_id": 1,
+        "sentence": "On board were possibly 10 tons (330,000 troy oz) of gold coins."
+      },
+      {
+        "source": "Kingdom of England",
+        "sentence_id": 0,
+        "sentence": "The Kingdom of England was a sovereign state on the island of Great Britain from the late 9th century, when it was unified from various Anglo-Saxon kingdoms, until 1 May 1707, when it united with Scotland to form the Kingdom of Great Britain, which would later become the United Kingdom."
+      }
+    ],
+    "evidence": "On board were possibly 10 tons (330,000 troy oz) of gold coins. The Kingdom of England was a sovereign state on the island of Great Britain from the late 9th century, when it was unified from various Anglo-Saxon kingdoms, until 1 May 1707, when it united with Scotland to form the Kingdom of Great Britain, which would later become the United Kingdom."
+  },
+  {
+    "uid": "2f7aa88a-0c79-45f4-817d-b4b88261d216",
+    "claim": "\"HMS \"Sussex\" was an 80-gun third-rate ship, of the line of the English Royal Navy, for the Kingdom of England on the island of Great Britain from the 10th century—when it emerged from 16 Anglo-Saxon kingdoms—until 1707, when it united with Scotland to form the Kingdom of Great Britain.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "HMS Sussex (1693)",
+        "sentence_id": 1,
+        "sentence": "On board were possibly 10 tons (330,000 troy oz) of gold coins."
+      },
+      {
+        "source": "Kingdom of England",
+        "sentence_id": 0,
+        "sentence": "The Kingdom of England was a sovereign state on the island of Great Britain from the late 9th century, when it was unified from various Anglo-Saxon kingdoms, until 1 May 1707, when it united with Scotland to form the Kingdom of Great Britain, which would later become the United Kingdom."
+      }
+    ],
+    "evidence": "On board were possibly 10 tons (330,000 troy oz) of gold coins. The Kingdom of England was a sovereign state on the island of Great Britain from the late 9th century, when it was unified from various Anglo-Saxon kingdoms, until 1 May 1707, when it united with Scotland to form the Kingdom of Great Britain, which would later become the United Kingdom."
+  },
+  {
+    "uid": "ae54a521-f2fc-4745-8633-9b938037fd4b",
+    "claim": "The man known as the voice of \"Elgar\" voices the English character in the Manga Love Hina inspired by Keitaro Arima.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Keitarō Urashima",
+        "sentence_id": 0,
+        "sentence": "This is a list of fictional characters in the anime and manga series Love Hina created by Ken Akamatsu."
+      },
+      {
+        "source": "Keitarō Urashima",
+        "sentence_id": 1,
+        "sentence": "The character names are listed in Western order, with the given name before the family name."
+      },
+      {
+        "source": "Keitarō Urashima",
+        "sentence_id": 2,
+        "sentence": "Note because the story spans over several years, any characters age mentioned below describes their age at the point of their introduction."
+      },
+      {
+        "source": "Derek Stephen Prince",
+        "sentence_id": 0,
+        "sentence": "Steve Prince (credited as Derek Stephen Prince until 2024) is an American voice actor who provided the voice of Elgar in the live-action Power Rangers Turbo and Power Rangers in Space series, along with various characters in the Digimon series."
+      }
+    ],
+    "evidence": "This is a list of fictional characters in the anime and manga series Love Hina created by Ken Akamatsu. The character names are listed in Western order, with the given name before the family name. Note because the story spans over several years, any characters age mentioned below describes their age at the point of their introduction. Steve Prince (credited as Derek Stephen Prince until 2024) is an American voice actor who provided the voice of Elgar in the live-action Power Rangers Turbo and Power Rangers in Space series, along with various characters in the Digimon series."
+  },
+  {
+    "uid": "562e09bb-1c14-4956-8f9c-6525d7496a9c",
+    "claim": "Doggerland, an area that once connected Great Britain to continental Europe, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Doggerland",
+        "sentence_id": 0,
+        "sentence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea."
+      },
+      {
+        "source": "Doggerland",
+        "sentence_id": 3,
+        "sentence": "During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 0,
+        "sentence": "The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 2,
+        "sentence": "The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean."
+      }
+    ],
+    "evidence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea. During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland. The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides. The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean."
+  },
+  {
+    "uid": "66e63594-163a-4dcb-9406-5e4f98ca0eb2",
+    "claim": "Doggerland, an area that once connected Jutland to continental Europe, is thought to have been submerged around 6,200 BCE by a massive landslide along 290 km of the continental shelf.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Doggerland",
+        "sentence_id": 0,
+        "sentence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea."
+      },
+      {
+        "source": "Doggerland",
+        "sentence_id": 3,
+        "sentence": "During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 0,
+        "sentence": "The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides."
+      },
+      {
+        "source": "Storegga Slide",
+        "sentence_id": 2,
+        "sentence": "The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean."
+      }
+    ],
+    "evidence": "Doggerland was a large area of land in Northern Europe, now submerged beneath the southern North Sea. During the early Holocene following the glacial retreat at the end of the Last Glacial Period, the exposed land area of Doggerland stretched across the region between what is now the east coast of Great Britain, the Netherlands, north-west Germany, and the Danish peninsula of Jutland. The three Storegga Slides (Norwegian: Storeggaraset) are amongst the largest known submarine landslides. The collapse involved an estimated 290 km (180 mi) length of coastal shelf, with a total volume of 3,500 km3 (840 cu mi) of debris, which caused a paleotsunami in the North Atlantic Ocean."
+  },
+  {
+    "uid": "c18fd4fe-4013-4875-998d-5ab41715d3a1",
+    "claim": "Hermann Neubacher held a diplomatic post as an Albanian Nazi officer in the Albanian Kingdom, when it was under the control of the Kingdom of Italy.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Hermann Neubacher",
+        "sentence_id": 1,
+        "sentence": "During the Second World War, he was appointed as the leading German foreign ministry official for Greece and the Balkans (including Serbia, Albania, and Montenegro)."
+      },
+      {
+        "source": "Albanian Kingdom (1943–44)",
+        "sentence_id": 0,
+        "sentence": "Albania was occupied by Nazi Germany between 1943 and 1944 during World War II."
+      },
+      {
+        "source": "Albanian Kingdom (1943–44)",
+        "sentence_id": 1,
+        "sentence": "Before the armistice between Italy and the Allied armed forces on 8 September 1943, Albania had been in a de jure personal union with and was de facto under the control of the Kingdom of Italy."
+      }
+    ],
+    "evidence": "During the Second World War, he was appointed as the leading German foreign ministry official for Greece and the Balkans (including Serbia, Albania, and Montenegro). Albania was occupied by Nazi Germany between 1943 and 1944 during World War II. Before the armistice between Italy and the Allied armed forces on 8 September 1943, Albania had been in a de jure personal union with and was de facto under the control of the Kingdom of Italy."
+  },
+  {
+    "uid": "ddcfb80b-e271-4cd7-9f98-4a5ca5482967",
+    "claim": "Hermann Neubacher held a diplomatic passport as an Austrian Nazi politician in the Albanian Kingdom, when it was under the control of the Kingdom of Italy.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Hermann Neubacher",
+        "sentence_id": 1,
+        "sentence": "During the Second World War, he was appointed as the leading German foreign ministry official for Greece and the Balkans (including Serbia, Albania, and Montenegro)."
+      },
+      {
+        "source": "Albanian Kingdom (1943–44)",
+        "sentence_id": 0,
+        "sentence": "Albania was occupied by Nazi Germany between 1943 and 1944 during World War II."
+      },
+      {
+        "source": "Albanian Kingdom (1943–44)",
+        "sentence_id": 1,
+        "sentence": "Before the armistice between Italy and the Allied armed forces on 8 September 1943, Albania had been in a de jure personal union with and was de facto under the control of the Kingdom of Italy."
+      }
+    ],
+    "evidence": "During the Second World War, he was appointed as the leading German foreign ministry official for Greece and the Balkans (including Serbia, Albania, and Montenegro). Albania was occupied by Nazi Germany between 1943 and 1944 during World War II. Before the armistice between Italy and the Allied armed forces on 8 September 1943, Albania had been in a de jure personal union with and was de facto under the control of the Kingdom of Italy."
+  },
+  {
+    "uid": "0982491f-a8be-4fa2-b45a-dbca2f6ae17b",
+    "claim": "Hermann Neubacher held a diplomatic post as an Austrian Nazi politician in the Albanian Kingdom, when it was under the control of the Kingdom of Italy.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Hermann Neubacher",
+        "sentence_id": 1,
+        "sentence": "During the Second World War, he was appointed as the leading German foreign ministry official for Greece and the Balkans (including Serbia, Albania, and Montenegro)."
+      },
+      {
+        "source": "Albanian Kingdom (1943–44)",
+        "sentence_id": 0,
+        "sentence": "Albania was occupied by Nazi Germany between 1943 and 1944 during World War II."
+      },
+      {
+        "source": "Albanian Kingdom (1943–44)",
+        "sentence_id": 1,
+        "sentence": "Before the armistice between Italy and the Allied armed forces on 8 September 1943, Albania had been in a de jure personal union with and was de facto under the control of the Kingdom of Italy."
+      }
+    ],
+    "evidence": "During the Second World War, he was appointed as the leading German foreign ministry official for Greece and the Balkans (including Serbia, Albania, and Montenegro). Albania was occupied by Nazi Germany between 1943 and 1944 during World War II. Before the armistice between Italy and the Allied armed forces on 8 September 1943, Albania had been in a de jure personal union with and was de facto under the control of the Kingdom of Italy."
+  },
+  {
+    "uid": "992e5b4d-3d54-4b8d-87ea-1faf93a8bcb1",
+    "claim": "Don Ashley Turlington graduated from Saint Joseph's College, a private Catholic liberal arts college in Standish.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Saint Joseph's College of Maine",
+        "sentence_id": 0,
+        "sentence": "Saint Joseph's College of Maine is a private Catholic college in Standish, Maine, United States."
+      }
+    ],
+    "evidence": "Saint Joseph's College of Maine is a private Catholic college in Standish, Maine, United States."
+  },
+  {
+    "uid": "e499796b-0fe1-4a8d-bb57-30625db2b992",
+    "claim": "The previous Vice President of Production at the animation studio that is owned and operated by Viacom, currently works for Cartoon Network Studios.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Brian A. Miller",
+        "sentence_id": 0,
+        "sentence": "Brian A. Miller is an American television producer and former executive at Cartoon Network Studios, Nickelodeon Animation Studio, Hanna-Barbera, and DIC Entertainment."
+      },
+      {
+        "source": "Brian A. Miller",
+        "sentence_id": 1,
+        "sentence": "Career\nMiller was the former Senior Vice President and General Manager of Cartoon Network Studios in Burbank, California, having assumed the title from 2000 to 2021."
+      },
+      {
+        "source": "Nickelodeon Animation Studio",
+        "sentence_id": 0,
+        "sentence": "Nickelodeon Animation Studio Inc. (also known as Nickelodeon Animation Studios or Nick Animation and credited as Nickelodeon Productions on-screen) is an American animation studio owned by Paramount Global through the Nickelodeon Group."
+      }
+    ],
+    "evidence": "Brian A. Miller is an American television producer and former executive at Cartoon Network Studios, Nickelodeon Animation Studio, Hanna-Barbera, and DIC Entertainment. Career\nMiller was the former Senior Vice President and General Manager of Cartoon Network Studios in Burbank, California, having assumed the title from 2000 to 2021. Nickelodeon Animation Studio Inc. (also known as Nickelodeon Animation Studios or Nick Animation and credited as Nickelodeon Productions on-screen) is an American animation studio owned by Paramount Global through the Nickelodeon Group."
+  },
+  {
+    "uid": "c3c53768-5750-4b57-95f9-8040a54fc8ea",
+    "claim": "The British monarch (Elizabeth II) is the head of state of the territory where the Ibrahim-al-Ibrahim Mosque is located.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Ibrahim-al-Ibrahim Mosque",
+        "sentence_id": 0,
+        "sentence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain."
+      },
+      {
+        "source": "British Overseas Territories",
+        "sentence_id": 5,
+        "sentence": "Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base)."
+      }
+    ],
+    "evidence": "The Ibrahim-al-Ibrahim Mosque (Arabic: مسجد ابراهيم الابراهيم), also known as the King Fahd bin Abdulaziz al-Saud Mosque or the Mosque of the Custodian of the Two Holy Mosques, is an Islamic mosque located at Europa Point in the British overseas territory of Gibraltar, a peninsula connected to southern Spain. Population\nMost of the territories retain permanent civilian populations, with the exceptions of the British Antarctic Territory, South Georgia and the South Sandwich Islands (which host only officials and research station staff) and the British Indian Ocean Territory (used as a military base)."
+  },
+  {
+    "uid": "356af093-a986-457b-8f1e-12b3a4e78f86",
+    "claim": "The name of the Dreyse needle gun's succesor was also called Fusil Mle 1886 M93.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Rotating bolt",
+        "sentence_id": 1,
+        "sentence": "Johann Nicolaus von Dreyse developed the first rotating bolt firearm, the \"Dreyse needle gun\", in 1836."
+      },
+      {
+        "source": "Rotating bolt",
+        "sentence_id": 2,
+        "sentence": "The Dreyse locked using the bolt handle rather than lugs on the bolt head like the Mauser M 98 or M16."
+      },
+      {
+        "source": "Rotating bolt",
+        "sentence_id": 3,
+        "sentence": "The first rotating bolt rifle with two lugs on the bolt head was the Lebel Model 1886 rifle."
+      },
+      {
+        "source": "Lebel Model 1886 rifle",
+        "sentence_id": 0,
+        "sentence": "The Lebel Model 1886 rifle (French: Fusil Modèle 1886 dit \"Fusil Lebel\") also known as the \"Fusil Mle 1886 M93\", after a bolt modification was added in 1893, is an 8 mm bolt-action infantry rifle that entered service in the French Army in 1887."
+      }
+    ],
+    "evidence": "Johann Nicolaus von Dreyse developed the first rotating bolt firearm, the \"Dreyse needle gun\", in 1836. The Dreyse locked using the bolt handle rather than lugs on the bolt head like the Mauser M 98 or M16. The first rotating bolt rifle with two lugs on the bolt head was the Lebel Model 1886 rifle. The Lebel Model 1886 rifle (French: Fusil Modèle 1886 dit \"Fusil Lebel\") also known as the \"Fusil Mle 1886 M93\", after a bolt modification was added in 1893, is an 8 mm bolt-action infantry rifle that entered service in the French Army in 1887."
+  },
+  {
+    "uid": "84e38ae2-5015-47f2-ab44-59bd595ff8c7",
+    "claim": "In the 1990's business executive Petrie Dierman Kughn built one of the three mills landmarks in California in 1994.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Ontario Mills",
+        "sentence_id": 2,
+        "sentence": "It is one of three Mills landmarks in California that are now managed by Simon Property Group since April 2007."
+      },
+      {
+        "source": "Great Mall of the Bay Area",
+        "sentence_id": 0,
+        "sentence": "The Great Mall of the Bay Area (often simply called The Great Mall or just Great Mall) is a large indoor outlet shopping mall in Milpitas, California built by Ford Motor Land Development and Petrie Dierman Kughn in 1994."
+      }
+    ],
+    "evidence": "It is one of three Mills landmarks in California that are now managed by Simon Property Group since April 2007. The Great Mall of the Bay Area (often simply called The Great Mall or just Great Mall) is a large indoor outlet shopping mall in Milpitas, California built by Ford Motor Land Development and Petrie Dierman Kughn in 1994."
+  },
+  {
+    "uid": "43734774-4eea-4974-8760-d6c3aee0773b",
+    "claim": "In the 1990's Petrie Dierman Kughn built one of the three mills landmarks in California in 1994.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Ontario Mills",
+        "sentence_id": 2,
+        "sentence": "It is one of three Mills landmarks in California that are now managed by Simon Property Group since April 2007."
+      },
+      {
+        "source": "Great Mall of the Bay Area",
+        "sentence_id": 0,
+        "sentence": "The Great Mall of the Bay Area (often simply called The Great Mall or just Great Mall) is a large indoor outlet shopping mall in Milpitas, California built by Ford Motor Land Development and Petrie Dierman Kughn in 1994."
+      }
+    ],
+    "evidence": "It is one of three Mills landmarks in California that are now managed by Simon Property Group since April 2007. The Great Mall of the Bay Area (often simply called The Great Mall or just Great Mall) is a large indoor outlet shopping mall in Milpitas, California built by Ford Motor Land Development and Petrie Dierman Kughn in 1994."
+  },
+  {
+    "uid": "d2ae0dea-8486-415a-a029-9d6e9d64c53d",
+    "claim": "Jem Finer was a banjo player in the band The Pogues.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Misty Morning, Albert Bridge",
+        "sentence_id": 1,
+        "sentence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love."
+      },
+      {
+        "source": "Jem Finer",
+        "sentence_id": 1,
+        "sentence": "He was one of the founding members of the Pogues."
+      }
+    ],
+    "evidence": "It was composed by banjo player Jem Finer and featured on the band's fourth album, Peace and Love. He was one of the founding members of the Pogues."
+  },
+  {
+    "uid": "7b1c5f38-b0c8-4356-bffa-143cc4176bcf",
+    "claim": "Mashorey is located in Afghanistan.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Mashorey",
+        "sentence_id": 0,
+        "sentence": "Wāzakhwā (Pashto: وازه خوا), also known as Mashōṟêy (مشوړۍ) or Marjān (مرجان), is a village in Paktika Province, in southeastern-central Afghanistan."
+      },
+      {
+        "source": "Paktika Province",
+        "sentence_id": 0,
+        "sentence": "Paktika (Pashto: پکتیکا) is one of the 34 provinces of Afghanistan, located in the eastern part of the country."
+      }
+    ],
+    "evidence": "Wāzakhwā (Pashto: وازه خوا), also known as Mashōṟêy (مشوړۍ) or Marjān (مرجان), is a village in Paktika Province, in southeastern-central Afghanistan. Paktika (Pashto: پکتیکا) is one of the 34 provinces of Afghanistan, located in the eastern part of the country."
+  },
+  {
+    "uid": "e83fe6c2-d14b-4b30-a245-fa66e7c786e5",
+    "claim": "Mashorey is located in Paktika Province.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Mashorey",
+        "sentence_id": 0,
+        "sentence": "Wāzakhwā (Pashto: وازه خوا), also known as Mashōṟêy (مشوړۍ) or Marjān (مرجان), is a village in Paktika Province, in southeastern-central Afghanistan."
+      },
+      {
+        "source": "Paktika Province",
+        "sentence_id": 0,
+        "sentence": "Paktika (Pashto: پکتیکا) is one of the 34 provinces of Afghanistan, located in the eastern part of the country."
+      }
+    ],
+    "evidence": "Wāzakhwā (Pashto: وازه خوا), also known as Mashōṟêy (مشوړۍ) or Marjān (مرجان), is a village in Paktika Province, in southeastern-central Afghanistan. Paktika (Pashto: پکتیکا) is one of the 34 provinces of Afghanistan, located in the eastern part of the country."
+  },
+  {
+    "uid": "91d7de7e-19c2-4db2-b1d7-dc1a21ee8451",
+    "claim": "Mashorey is located in southern Afghanistan.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Mashorey",
+        "sentence_id": 0,
+        "sentence": "Wāzakhwā (Pashto: وازه خوا), also known as Mashōṟêy (مشوړۍ) or Marjān (مرجان), is a village in Paktika Province, in southeastern-central Afghanistan."
+      },
+      {
+        "source": "Paktika Province",
+        "sentence_id": 0,
+        "sentence": "Paktika (Pashto: پکتیکا) is one of the 34 provinces of Afghanistan, located in the eastern part of the country."
+      }
+    ],
+    "evidence": "Wāzakhwā (Pashto: وازه خوا), also known as Mashōṟêy (مشوړۍ) or Marjān (مرجان), is a village in Paktika Province, in southeastern-central Afghanistan. Paktika (Pashto: پکتیکا) is one of the 34 provinces of Afghanistan, located in the eastern part of the country."
+  },
+  {
+    "uid": "11b73596-e492-471e-a208-5a4365aa3ab1",
+    "claim": "Mario Mazzacurati won the 1936 South African Grand Prix with the Bugatti, a type of two door car that was founded in 1909 in the then German city of Molsheim, Alsace.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Mario Mazzacurati",
+        "sentence_id": 0,
+        "sentence": "Mario Mazzacurati (21 October 1903 – 17 April 1985) was an Italian engineer and auto racer driver active in South Africa, winner of the 1936 South African Grand Prix in Bugatti cars with pseudonym Mario Massacuratti."
+      },
+      {
+        "source": "Bugatti",
+        "sentence_id": 0,
+        "sentence": "Automobiles Ettore Bugatti was a German then French manufacturer of high-performance automobiles."
+      }
+    ],
+    "evidence": "Mario Mazzacurati (21 October 1903 – 17 April 1985) was an Italian engineer and auto racer driver active in South Africa, winner of the 1936 South African Grand Prix in Bugatti cars with pseudonym Mario Massacuratti. Automobiles Ettore Bugatti was a German then French manufacturer of high-performance automobiles."
+  },
+  {
+    "uid": "adb8672f-0d2e-45da-8c42-20f7f5c4e7bb",
+    "claim": "Mario Mazzacurati won the 1936 South African Grand Prix with the Bugatti, a type of car that was founded in 1909 in the then German city of Molsheim, Alsace.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Mario Mazzacurati",
+        "sentence_id": 0,
+        "sentence": "Mario Mazzacurati (21 October 1903 – 17 April 1985) was an Italian engineer and auto racer driver active in South Africa, winner of the 1936 South African Grand Prix in Bugatti cars with pseudonym Mario Massacuratti."
+      },
+      {
+        "source": "Bugatti",
+        "sentence_id": 0,
+        "sentence": "Automobiles Ettore Bugatti was a German then French manufacturer of high-performance automobiles."
+      }
+    ],
+    "evidence": "Mario Mazzacurati (21 October 1903 – 17 April 1985) was an Italian engineer and auto racer driver active in South Africa, winner of the 1936 South African Grand Prix in Bugatti cars with pseudonym Mario Massacuratti. Automobiles Ettore Bugatti was a German then French manufacturer of high-performance automobiles."
+  },
+  {
+    "uid": "11670eea-bbc5-412b-8bf6-e1966b743fbe",
+    "claim": "Bambi, is based on a book by the Austrian author Felix Salten, The Country Bears is not.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+  },
+  {
+    "uid": "115a1123-db02-4e93-9727-63e6ec22e34d",
+    "claim": "Bambi, is based on a book by the American author Felix Salten, The Country Bears is not.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+  },
+  {
+    "uid": "f68fce7f-80bf-4cdb-8ed8-96cb00e88362",
+    "claim": "Bambi, is based on a book by the Austrian photographer Felix Salten, The Country Bears is not.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Bambi",
+        "sentence_id": 0,
+        "sentence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures."
+      },
+      {
+        "source": "The Country Bears",
+        "sentence_id": 0,
+        "sentence": "The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+      }
+    ],
+    "evidence": "Bambi is a 1942 American animated coming-of-age drama film produced by Walt Disney Productions and released by RKO Radio Pictures. The Country Bears is a 2002 American musical road comedy film directed by Peter Hastings (in his directorial debut), produced by Walt Disney Pictures, and based on the Disney theme park attraction Country Bear Jamboree."
+  },
+  {
+    "uid": "afe71f12-340c-4d2e-808c-07d541d8220d",
+    "claim": "In the 2004 Hockey film produced by a former major league baseball pitcher Kurt Russell played the USA coach.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Mark Ciardi",
+        "sentence_id": 0,
+        "sentence": "Mark Thomas Ciardi (pronounced CHAR-dee; born August 19, 1961) is an American film producer and former Major League Baseball pitcher."
+      },
+      {
+        "source": "Mark Ciardi",
+        "sentence_id": 5,
+        "sentence": "At Mayhem, Ciardi produced several sports films for Walt Disney Pictures including The Rookie, Miracle, Invincible, The Game Plan, Secretariat, Million Dollar Arm, McFarland, USA, and Safety."
+      },
+      {
+        "source": "Miracle (2004 film)",
+        "sentence_id": 0,
+        "sentence": "Miracle is a 2004 American sports film directed by Gavin O'Connor and written by Eric Guggenheim."
+      }
+    ],
+    "evidence": "Mark Thomas Ciardi (pronounced CHAR-dee; born August 19, 1961) is an American film producer and former Major League Baseball pitcher. At Mayhem, Ciardi produced several sports films for Walt Disney Pictures including The Rookie, Miracle, Invincible, The Game Plan, Secretariat, Million Dollar Arm, McFarland, USA, and Safety. Miracle is a 2004 American sports film directed by Gavin O'Connor and written by Eric Guggenheim."
+  },
+  {
+    "uid": "58888919-18ea-481a-ad64-011738579544",
+    "claim": "Gael and Fitness are not published in the same country.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Gael (magazine)",
+        "sentence_id": 0,
+        "sentence": "Gael is a French language monthly women's and lifestyle magazine published monthly in Mechelen, Belgium."
+      },
+      {
+        "source": "Fitness (magazine)",
+        "sentence_id": 0,
+        "sentence": "Fitness is a United States–based women's magazine, focusing on health, exercise, and nutrition."
+      }
+    ],
+    "evidence": "Gael is a French language monthly women's and lifestyle magazine published monthly in Mechelen, Belgium. Fitness is a United States–based women's magazine, focusing on health, exercise, and nutrition."
+  },
+  {
+    "uid": "b3ab6007-f2e8-4e27-a4ea-73c7b69b2fc5",
+    "claim": "Blackstar is the name of the album released by David Bowie that was recorded in secret.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Death of David Bowie",
+        "sentence_id": 0,
+        "sentence": "On 10 January 2016, the English musician David Bowie died at his Lafayette Street home in New York City, having been diagnosed with liver cancer 18 months earlier."
+      },
+      {
+        "source": "Death of David Bowie",
+        "sentence_id": 1,
+        "sentence": "He died two days after the release of his twenty-sixth and final studio album, Blackstar, which coincided with his 69th birthday."
+      },
+      {
+        "source": "Blackstar (album)",
+        "sentence_id": 2,
+        "sentence": "Ben Monder and James Murphy contributed additional guitar and percussion, respectively."
+      }
+    ],
+    "evidence": "On 10 January 2016, the English musician David Bowie died at his Lafayette Street home in New York City, having been diagnosed with liver cancer 18 months earlier. He died two days after the release of his twenty-sixth and final studio album, Blackstar, which coincided with his 69th birthday. Ben Monder and James Murphy contributed additional guitar and percussion, respectively."
+  },
+  {
+    "uid": "131cacf8-3bf9-440f-98c9-2b75c189d405",
+    "claim": "Along with the New York Islanders and the New York Rangers, the New Jersey Devils NHL franchise is popular in the New York metropolitan area.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+  },
+  {
+    "uid": "ca4dbf2c-7295-4e39-8085-2d990b270e0e",
+    "claim": "Along with the New York Islanders and the New York Rangers, the New Jersey Devils NFL franchise is popular in the New York metropolitan area.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "1974–75 New York Islanders season",
+        "sentence_id": 2,
+        "sentence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three."
+      },
+      {
+        "source": "New York Rangers",
+        "sentence_id": 3,
+        "sentence": "They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+      }
+    ],
+    "evidence": "In the first round of the playoffs, New York defeated the New York Rangers in three games to advance to the Quarter-finals, where the team defeated the Pittsburgh Penguins in seven games, after they had lost the first three. They are one of three NHL franchises located in the New York metropolitan area; the others being the New Jersey Devils and New York Islanders."
+  },
+  {
+    "uid": "a152b7c4-4c78-4342-bcb8-2220a717ae35",
+    "claim": "Robert Earl Holding owned an oil company that was originally founded by Harry F. Sinclair.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Robert Holding",
+        "sentence_id": 0,
+        "sentence": "Robert Earl Holding (November 29, 1926 – April 19, 2013) was an American businessman who owned Sinclair Oil Corporation, the Grand America Hotels & Resorts, the Grand America Hotel, the Westgate Hotel in San Diego, California (directed by Georg Hochfilzer), and two ski resorts, Sun Valley in central Idaho since 1977, and Snowbasin near Ogden, Utah, since 1984."
+      },
+      {
+        "source": "Sinclair Oil Corporation",
+        "sentence_id": 0,
+        "sentence": "Sinclair Oil Corporation was an American petroleum corporation founded by Harry F. Sinclair on May 1, 1916."
+      }
+    ],
+    "evidence": "Robert Earl Holding (November 29, 1926 – April 19, 2013) was an American businessman who owned Sinclair Oil Corporation, the Grand America Hotels & Resorts, the Grand America Hotel, the Westgate Hotel in San Diego, California (directed by Georg Hochfilzer), and two ski resorts, Sun Valley in central Idaho since 1977, and Snowbasin near Ogden, Utah, since 1984. Sinclair Oil Corporation was an American petroleum corporation founded by Harry F. Sinclair on May 1, 1916."
+  },
+  {
+    "uid": "08e84a3c-b7be-4d3a-8ab8-783bb711c4c5",
+    "claim": "Philip Cortez and Julian Castro are democratic and not Republican.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Philip Cortez",
+        "sentence_id": 0,
+        "sentence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives."
+      },
+      {
+        "source": "Julian Castro",
+        "sentence_id": 0,
+        "sentence": "Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas."
+      }
+    ],
+    "evidence": "Philip Adam Cortez (born July 7, 1978) is a Democratic member of the Texas House of Representatives. Julián Castro ( HOO-lee-AHN, Spanish: [xuˈljan];  born September 16, 1974) is an American lawyer and politician from San Antonio, Texas."
+  },
+  {
+    "uid": "1ecece55-903e-4870-9f58-c1078ed2d4a6",
+    "claim": "The nationality of the dancer who partnered Tom Chambers in the sixth season of Strictly Come Dancing is Danish.",
+    "label": "SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Tom Chambers (actor)",
+        "sentence_id": 1,
+        "sentence": "He also won the sixth series of Strictly Come Dancing with his partner Camilla Dallerup."
+      },
+      {
+        "source": "Camilla Dallerup",
+        "sentence_id": 0,
+        "sentence": "Camilla Sacre-Dallerup (born 6 April 1974) is a Danish author, life coach, hypnotherapist and former ballroom dancer."
+      }
+    ],
+    "evidence": "He also won the sixth series of Strictly Come Dancing with his partner Camilla Dallerup. Camilla Sacre-Dallerup (born 6 April 1974) is a Danish author, life coach, hypnotherapist and former ballroom dancer."
+  },
+  {
+    "uid": "e95b3253-608a-4ac9-ad47-a5bf0dd48d01",
+    "claim": "The nationality of the dancer who represented Tom Chambers in the fifth season of Strictly Come Dancing is Danish.",
+    "label": "NOT_SUPPORTED",
+    "num_hops": 2,
+    "evidence_sentences": [
+      {
+        "source": "Tom Chambers (actor)",
+        "sentence_id": 1,
+        "sentence": "He also won the sixth series of Strictly Come Dancing with his partner Camilla Dallerup."
+      },
+      {
+        "source": "Camilla Dallerup",
+        "sentence_id": 0,
+        "sentence": "Camilla Sacre-Dallerup (born 6 April 1974) is a Danish author, life coach, hypnotherapist and former ballroom dancer."
+      }
+    ],
+    "evidence": "He also won the sixth series of Strictly Come Dancing with his partner Camilla Dallerup. Camilla Sacre-Dallerup (born 6 April 1974) is a Danish author, life coach, hypnotherapist and former ballroom dancer."
+  }
+]

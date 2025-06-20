@@ -1,0 +1,212 @@
+[
+  {
+    "claim": "\"The non-partisan Congressional Budget Office concluded ObamaCare will cost the U.S. more than 800,000 jobs.\"",
+    "justification": "The claim that hedgehogs can shoot their spines at predators is false. While both hedgehogs and porcupines use spines or quills for defense, their mechanisms are very different. Hedgehogs have fixed spines that do not detach or project. Instead of offensive projection, hedgehogs rely on a passive defense strategy \u2014 curling into a ball to protect vulnerable areas. In contrast, porcupines have barbed quills that can easily detach and may lodge into a predator, giving rise to the misconception that they shoot their quills. However, even porcupines do not actively shoot them. Therefore, the claim is biologically inaccurate.",
+    "score": "5",
+    "score_justification": "The explanation accurately and comprehensively reflects all aspects of the provided evidence without introducing any new or unmentioned information."
+  },
+  {
+    "claim": "\"More than 50 percent of immigrants from (El Salvador, Guatemala and Honduras) use at least one major welfare program once they get here.\"",
+    "justification": "This is a common myth. Ostriches do not bury their heads in the sand. They may lower their heads to the ground to care for their eggs or blend in with their environment when hiding, which creates the illusion. In reality, they rely on running or lying low as primary defense mechanisms.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the information in the evidence, including the statistics and caveats mentioned by researchers, without introducing any new or unmentioned facts."
+  },
+  {
+    "claim": "Says Arizona, Missouri and Texas residents have a two-pet limit, so the public must \"surrender their third pet to the Humane Society.\"",
+    "justification": "Octopuses do indeed have three hearts: two branchial hearts that circulate blood through the gills, and a systemic heart that sends oxygenated blood to the body. This is a well-documented biological trait observed in cephalopods.",
+    "score": "4",
+    "score_justification": "The explanation is mostly faithful but may have minor issues (e.g., slight misinterpretation of evidence or a very tangential connection). It accurately reflects most of the evidence but misses one key detail that affects the conclusion."
+  },
+  {
+    "claim": "Said, \"The Seven Years\u2019 Warled to near bankruptcy for many countries; Britain\u2019s need to raise taxes fueled the American desire for independence.\"",
+    "justification": "Cows are ruminants with a single stomach divided into four compartments that aid in digesting fibrous plant material. This structure supports fermentation and regurgitation (chewing cud), but it\u2019s still one stomach, not four separate ones.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all of the evidence presented and correctly interprets the historical context to support the claim made by Rep. Kelly Hastings."
+  },
+  {
+    "claim": "\"Just on Jan. 1 of this year, there were 40,000 new laws put on the books in one day.\"",
+    "justification": "The belief that sharks are immune to cancer is not true. While sharks may have some resilience to disease, numerous studies and specimen reports confirm they can develop tumors and cancer, just like other animals.",
+    "score": "-5",
+    "score_justification": "Did not find it"
+  },
+  {
+    "claim": "Says a picture he posted on Facebook of a man posing in front of five decapitated human heads is \"one of the subhuman mongrels our president set free.\"",
+    "justification": "Among seahorses, males carry and give birth to offspring. The female transfers eggs to the male\u2019s brood pouch, where he fertilizes and nurtures them until they hatch\u2014a rare case of male pregnancy in the animal kingdom.",
+    "score": "1",
+    "score_justification": "The explanation introduces unrelated information about seahorses and male pregnancy, which are not present in the provided evidence."
+  },
+  {
+    "claim": "As a sign of \"extraordinary progress,\" \"there are half as many (primary-age) children out of school today as there were 15 years ago.\"",
+    "justification": "Penguins do not live in the Arctic. They are found primarily in the Southern Hemisphere, with the highest concentration in Antarctica. The Arctic ecosystem lacks native penguin species.",
+    "score": "4.5",
+    "score_justification": "The explanation accurately reflects most of the evidence but does not provide a complete picture by mentioning that current trends could be negative and that regional variation is significant.\n\nNote: The explanation only uses information present in the evidence, does not hallucinate facts, and is factually correct and relevant. However, it does not fully capture the nuances of the evidence regarding regional variation and potential future trends."
+  },
+  {
+    "claim": "Says in Newark \"we\u2019re paying 80 percent of the school budget from local property taxes.\"",
+    "justification": "The claim that hedgehogs can shoot their spines at predators is false. While both hedgehogs and porcupines use spines or quills for defense, their mechanisms are very different. Hedgehogs have fixed spines that do not detach or project. Instead of offensive projection, hedgehogs rely on a passive defense strategy \u2014 curling into a ball to protect vulnerable areas. In contrast, porcupines have barbed quills that can easily detach and may lodge into a predator, giving rise to the misconception that they shoot their quills. However, even porcupines do not actively shoot them. Therefore, the claim is biologically inaccurate.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the evidence provided, correctly interpreting the figures regarding local property taxes in relation to the school budget in Newark."
+  },
+  {
+    "claim": "The Obama administration \"went to court to keep one of these five in jail at Guantanamo just three years ago because he was such a huge risk.\"",
+    "justification": "This is a common myth. Ostriches do not bury their heads in the sand. They may lower their heads to the ground to care for their eggs or blend in with their environment when hiding, which creates the illusion. In reality, they rely on running or lying low as primary defense mechanisms.",
+    "score": "5",
+    "score_justification": "The explanation accurately uses the provided evidence to refute Hayes' claim, without any hallucinations or irrelevance."
+  },
+  {
+    "claim": "Say\"71 percent of doctors say Hillary's health concerns are 'serious' and 'could be disqualifying.' \"",
+    "justification": "Octopuses do indeed have three hearts: two branchial hearts that circulate blood through the gills, and a systemic heart that sends oxygenated blood to the body. This is a well-documented biological trait observed in cephalopods.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the details presented in the evidence without introducing any new or unmentioned information."
+  },
+  {
+    "claim": "Says of El Paso that some years, \"in a city of almost 700,000, we had five murders the entire year. Our average over the last 10 years is 18 (murders per year). We exceeded that average just on one day\" after a gunman opened fire at a Walmart in the city.",
+    "justification": "Cows are ruminants with a single stomach divided into four compartments that aid in digesting fibrous plant material. This structure supports fermentation and regurgitation (chewing cud), but it\u2019s still one stomach, not four separate ones.",
+    "score": "5",
+    "score_justification": "The explanation correctly interprets O'Rourke's claim about El Paso's crime rate based on the provided evidence from the city of El Paso and FBI data."
+  },
+  {
+    "claim": "In Libya, \"America spent $2 billion total and didn\u2019t lose a single life.\"",
+    "justification": "The belief that sharks are immune to cancer is not true. While sharks may have some resilience to disease, numerous studies and specimen reports confirm they can develop tumors and cancer, just like other animals.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the information in the evidence, including the Department of Defense's estimate of costs and the Vice President's office concession that the $2 billion figure was too high."
+  },
+  {
+    "claim": "\"For every Kentuckian that has enrolled in Obamacare, 40 have been dropped from their coverage.\"",
+    "justification": "Among seahorses, males carry and give birth to offspring. The female transfers eggs to the male\u2019s brood pouch, where he fertilizes and nurtures them until they hatch\u2014a rare case of male pregnancy in the animal kingdom.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the information in the provided evidence and correctly evaluates the claim made by Sen. Rand Paul using these data points."
+  },
+  {
+    "claim": "Says Donald Trump'sfoundation \"took money other people gave to his charity and then bought a six-foot-tall painting of himself.\"",
+    "justification": "Penguins do not live in the Arctic. They are found primarily in the Southern Hemisphere, with the highest concentration in Antarctica. The Arctic ecosystem lacks native penguin species.",
+    "score": "1",
+    "score_justification": "The explanation is entirely unfaithful because it discusses a completely different topic (penguins) not related to Donald Trump's foundation or the evidence provided."
+  },
+  {
+    "claim": "Says Bill Nelson voted to cut $700 billion out of Medicare to pay for Obamacare.",
+    "justification": "The claim that hedgehogs can shoot their spines at predators is false. While both hedgehogs and porcupines use spines or quills for defense, their mechanisms are very different. Hedgehogs have fixed spines that do not detach or project. Instead of offensive projection, hedgehogs rely on a passive defense strategy \u2014 curling into a ball to protect vulnerable areas. In contrast, porcupines have barbed quills that can easily detach and may lodge into a predator, giving rise to the misconception that they shoot their quills. However, even porcupines do not actively shoot them. Therefore, the claim is biologically inaccurate.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the key points in the evidence, correctly interpreting how the Affordable Care Act's cost-saving measures reduce Medicare outlays and were counted against the law's new spending."
+  },
+  {
+    "claim": "\"In 2005, Dan Branch tried to expand third-trimester abortions in Texas.\"",
+    "justification": "This is a common myth. Ostriches do not bury their heads in the sand. They may lower their heads to the ground to care for their eggs or blend in with their environment when hiding, which creates the illusion. In reality, they rely on running or lying low as primary defense mechanisms.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the details in the evidence without introducing any new information or misinterpreting the facts."
+  },
+  {
+    "claim": "In 2006, Planned Parenthood performed more prevention services and cancer screenings than abortions, but in 2013, there were more abortions.",
+    "justification": "Octopuses do indeed have three hearts: two branchial hearts that circulate blood through the gills, and a systemic heart that sends oxygenated blood to the body. This is a well-documented biological trait observed in cephalopods.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the information in the evidence without introducing any new or incorrect claims."
+  },
+  {
+    "claim": "Says Donald Trump's abortion rule \"puts at risk 15 times more funding and millions more women and families ... than previous similar policies by Republican presidents.\"",
+    "justification": "Cows are ruminants with a single stomach divided into four compartments that aid in digesting fibrous plant material. This structure supports fermentation and regurgitation (chewing cud), but it\u2019s still one stomach, not four separate ones.",
+    "score": "1",
+    "score_justification": "The explanation does not rely on any part of the provided evidence but instead introduces entirely unrelated information."
+  },
+  {
+    "claim": "Says Haley Stevens\u2019 plan for \u201csocialized medicine\u201d would \u201celiminate 100,000 doctors and nurses.\u201d",
+    "justification": "The belief that sharks are immune to cancer is not true. While sharks may have some resilience to disease, numerous studies and specimen reports confirm they can develop tumors and cancer, just like other animals.",
+    "score": "4",
+    "score_justification": "The explanation accurately reflects the general content of the evidence regarding job losses under Medicare for All or a public option but slightly misrepresents the specific numbers mentioned in the reports."
+  },
+  {
+    "claim": "Says if Texas abortion measure passes, \"someone living in El Paso would have to drive 550 miles each way to San Antonio for something as simple as cervical cancer screening.\"",
+    "justification": "Among seahorses, males carry and give birth to offspring. The female transfers eggs to the male\u2019s brood pouch, where he fertilizes and nurtures them until they hatch\u2014a rare case of male pregnancy in the animal kingdom.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all aspects of the evidence without introducing new information or misinterpreting the data."
+  },
+  {
+    "claim": "The Obama administration is \"proposing to mine another 10 billion tons of Wyoming coal, which would unleash three times more carbon pollution than Obama's Clean Power Plan would even save through 2030.\"",
+    "justification": "Penguins do not live in the Arctic. They are found primarily in the Southern Hemisphere, with the highest concentration in Antarctica. The Arctic ecosystem lacks native penguin species.",
+    "score": "1",
+    "score_justification": "The explanation introduces new, unmentioned information (about penguins) and does not use any facts from the provided evidence to address the claim about coal mining and carbon pollution."
+  },
+  {
+    "claim": "Says the federal government hosted a conference and \"ordered 250 muffins at 16 bucks a piece.\"",
+    "justification": "The claim that hedgehogs can shoot their spines at predators is false. While both hedgehogs and porcupines use spines or quills for defense, their mechanisms are very different. Hedgehogs have fixed spines that do not detach or project. Instead of offensive projection, hedgehogs rely on a passive defense strategy \u2014 curling into a ball to protect vulnerable areas. In contrast, porcupines have barbed quills that can easily detach and may lodge into a predator, giving rise to the misconception that they shoot their quills. However, even porcupines do not actively shoot them. Therefore, the claim is biologically inaccurate.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the details in the provided evidence about the federal government conference and the cost of muffins, showing no signs of hallucinated facts or irrelevance."
+  },
+  {
+    "claim": "Says Donald Trump has written 10 checks to Hillary Clinton \"and four of those checks were not to her Senate campaign. \u2026 It was to her presidential campaign.\"",
+    "justification": "This is a common myth. Ostriches do not bury their heads in the sand. They may lower their heads to the ground to care for their eggs or blend in with their environment when hiding, which creates the illusion. In reality, they rely on running or lying low as primary defense mechanisms.",
+    "score": "5",
+    "score_justification": "The explanation is completely faithful to the provided evidence, using only the information presented in the text to evaluate the claim about Donald Trump's donations to Hillary Clinton."
+  },
+  {
+    "claim": "\"Right now, America has $1.1 trillion of student debt. That\u2019s more than credit card debt.\"",
+    "justification": "Octopuses do indeed have three hearts: two branchial hearts that circulate blood through the gills, and a systemic heart that sends oxygenated blood to the body. This is a well-documented biological trait observed in cephalopods.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the evidence presented to support the claim about student debt surpassing credit card debt."
+  },
+  {
+    "claim": "\"Nearly 45 percent of the women who receive health screenings through (the Women\u2019s Health Program) do so at a Planned Parenthood health center.\"",
+    "justification": "Cows are ruminants with a single stomach divided into four compartments that aid in digesting fibrous plant material. This structure supports fermentation and regurgitation (chewing cud), but it\u2019s still one stomach, not four separate ones.",
+    "score": "1",
+    "score_justification": "The explanation is entirely unrelated to the provided evidence and claims, hallucinates no facts but is irrelevant to the topic at hand."
+  },
+  {
+    "claim": "\"The Providence Economic Development Partnership . . .which you [Cicilline] chaired, loaned $103,000 in taxpayer funds to one of your campaign workers. The worker never paid back the loan.\"",
+    "justification": "The belief that sharks are immune to cancer is not true. While sharks may have some resilience to disease, numerous studies and specimen reports confirm they can develop tumors and cancer, just like other animals.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all details of the loan and its outcome as presented in the evidence."
+  },
+  {
+    "claim": "Every dollar of foreign aid for agricultural research \"will bring $4 in trade with the countries and the United States ... generating employment back in the U.S.\"",
+    "justification": "Among seahorses, males carry and give birth to offspring. The female transfers eggs to the male\u2019s brood pouch, where he fertilizes and nurtures them until they hatch\u2014a rare case of male pregnancy in the animal kingdom.",
+    "score": "4",
+    "score_justification": "The explanation accurately reflects some key points from the evidence but does not fully capture the nuances and limitations mentioned by Fan's office and other experts."
+  },
+  {
+    "claim": "\"We have at least 200,000 to 300,000 hate crimes in a given year.\"",
+    "justification": "Penguins do not live in the Arctic. They are found primarily in the Southern Hemisphere, with the highest concentration in Antarctica. The Arctic ecosystem lacks native penguin species.",
+    "score": "3.5",
+    "score_justification": "The explanation accurately describes the methods of collecting data on hate crimes and their limitations but does not provide direct support for or refutation of the claim regarding the number of hate crimes per year.\n\nNote that this score is based solely on the provided evidence and the explanation's relevance to it, without considering external knowledge about hate crime statistics."
+  },
+  {
+    "claim": "Israel cut its illegal immigration rate by \"99 percent\" by constructing a 143-mile fence along its southern border.",
+    "justification": "The claim that hedgehogs can shoot their spines at predators is false. While both hedgehogs and porcupines use spines or quills for defense, their mechanisms are very different. Hedgehogs have fixed spines that do not detach or project. Instead of offensive projection, hedgehogs rely on a passive defense strategy \u2014 curling into a ball to protect vulnerable areas. In contrast, porcupines have barbed quills that can easily detach and may lodge into a predator, giving rise to the misconception that they shoot their quills. However, even porcupines do not actively shoot them. Therefore, the claim is biologically inaccurate.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all details of the evidence presented."
+  },
+  {
+    "claim": "Says most of Austin\u2019s biggest parks have recycling though as \"many as 293 out of 300\" Austin city \"parks have no recycling, including almost every neighborhood park.\"",
+    "justification": "This is a common myth. Ostriches do not bury their heads in the sand. They may lower their heads to the ground to care for their eggs or blend in with their environment when hiding, which creates the illusion. In reality, they rely on running or lying low as primary defense mechanisms.",
+    "score": "4",
+    "score_justification": "The explanation accurately reflects most of the evidence regarding the TCE's statement about recycling in Austin's parks but misses addressing a specific point made in the original claim."
+  },
+  {
+    "claim": "Chinese tire imports threatened 1,000 American jobs, so President Obama \"stood up to China and protected American workers. Mitt Romney attacked Obama's decision.\"",
+    "justification": "Octopuses do indeed have three hearts: two branchial hearts that circulate blood through the gills, and a systemic heart that sends oxygenated blood to the body. This is a well-documented biological trait observed in cephalopods.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all aspects of the evidence, including the claim, the trade dispute, and the reactions from various parties."
+  },
+  {
+    "claim": "Says New Jersey has gained \"143,000 new private-sector jobs.\"",
+    "justification": "Cows are ruminants with a single stomach divided into four compartments that aid in digesting fibrous plant material. This structure supports fermentation and regurgitation (chewing cud), but it\u2019s still one stomach, not four separate ones.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the information in the provided evidence without introducing any new or unmentioned facts."
+  },
+  {
+    "claim": "North Korea has a \"substantial standing army, one of the largest, certainly the largest per capita, in the world.\"",
+    "justification": "The belief that sharks are immune to cancer is not true. While sharks may have some resilience to disease, numerous studies and specimen reports confirm they can develop tumors and cancer, just like other animals.",
+    "score": "5",
+    "score_justification": "The explanation accurately reflects all the evidence provided and does not introduce any new or unmentioned information."
+  },
+  {
+    "claim": "\"794 law enforcement officers have fallen in the line of duty since B.H. Obama took office, with no special recognition from the White House.\"",
+    "justification": "Among seahorses, males carry and give birth to offspring. The female transfers eggs to the male\u2019s brood pouch, where he fertilizes and nurtures them until they hatch\u2014a rare case of male pregnancy in the animal kingdom.",
+    "score": "5",
+    "score_justification": "The explanation accurately uses only the provided evidence to evaluate the claim made by the meme, without introducing new or unmentioned information."
+  },
+  {
+    "claim": "Says Mitt Romney said at a January 2012 debate that under Paul Ryan\u2019s tax plan, \"I\u2019d have paid no taxes in the last two years.\"",
+    "justification": "Penguins do not live in the Arctic. They are found primarily in the Southern Hemisphere, with the highest concentration in Antarctica. The Arctic ecosystem lacks native penguin species.",
+    "score": "5",
+    "score_justification": "The explanation correctly uses only the provided evidence, does not hallucinate facts, and is factually correct and relevant."
+  }
+]

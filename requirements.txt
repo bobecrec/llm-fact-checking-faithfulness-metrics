@@ -1,0 +1,15 @@
+transformers==4.52.2
+torch==2.7.0+cu126
+spacy==3.8.6
+tqdm==4.67.1
+nltk==3.9.1
+Wikipedia-API==0.8.1
+pandas==2.2.3
+numpy==2.1.2
+scipy==1.14.1
+matplotlib==3.9.2
+seaborn==0.13.2
+sentence-transformers==4.1.0
+langchain==0.3.25
+langchain-core==0.3.59
+langchain-ollama==0.3.2

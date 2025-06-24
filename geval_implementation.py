@@ -160,7 +160,6 @@ Task: You are given a claim, evidence, and explanation. Generate 5 steps to rate
     data = read_json_utf(file)
     filtered_file_name = file.replace('/', "_")
     count = 0
-    data = data[300:]
     for explanation in tqdm(data, desc=f"Evaluating {file} with G-Eval"):
         prompt = build_faithfulness_prompt(
             explanation['claim'],
@@ -214,10 +213,10 @@ Task: You are given a claim, evidence, and explanation. Generate 5 steps to rate
         all_scores.append(record_2)
         count += 1
 
-        # if count % 50 == 0:
-        #     os.makedirs("evaluations/G-Eval", exist_ok=True)
-        #     write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_while_loop_final_scores_200_backup.json", scores)
-        #     write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_set_scores_200_backup.json", all_scores)
+        if count % 50 == 0:
+            os.makedirs("evaluations/G-Eval", exist_ok=True)
+            write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_while_loop_final_scores_200_backup.json", scores)
+            write_json_utf(f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_set_scores_200_backup.json", all_scores)
 
     write_json_utf(
         f"evaluations/G-Eval/exp_capture_faults/unsupported/{filtered_file_name}_while_loop_final_scores.json", scores)

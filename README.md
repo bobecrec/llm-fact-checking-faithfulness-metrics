@@ -5,7 +5,7 @@ Claims: Are Current Metrics Effective?"**.
 
 **Paper Abstract**
 
-> Large Language models (LLMs) are increasingly used to generate fact-checking explanations, yet evaluating the faithfulness of these justifications remains an open challenge. This paper investigates how well current automatic metrics—G-Eval, UniEval, FactCC, and QAGs—capture faithfulness when compared to journalist-written expert justifications. We analyze metric agreement, correlation with explanation similarity, and robustness under targeted perturbations, including unrelated or unsupported sentence insertions. Our results show that while some metrics (e.g., UniEval, FactCC) partially align with expert reasoning and are sensitive to noise, none reliably identify hallucinations or consistently reflect explanation correctness. Manual inspection further reveals metric-specific behavior based on claim type and structure. We conclude that current metrics are only moderately effective and often biased toward LLM-style outputs. Our study highlights the need for more reliable, context-sensitive evaluation strategies and contributes empirical insights to guide the development of future faithfulness metrics in fact-checking applications.
+> Large Language Models (LLMs) are increasingly used to generate fact-checking explanations, but evaluating how faithful these justifications are remains a major challenge. In this paper, we examine how well four popular automatic metrics—G-Eval, UniEval, FactCC, and QAGs—capture faithfulness compared to expert-written explanations. We look at how these metrics agree with each other, how they correlate with explanation similarity, and how they respond to controlled errors.Our findings show that while some metrics like UniEval and FactCC show some sensitivity to noise and partial alignment with expert reasoning, none of them reliably catch hallucinations or consistently reflect true faithfulness. Manual analysis also reveals that metric behavior varies depending on the type and structure of the claim. Overall, current metrics are only moderately effective and often biased toward the style of LLM-generated text. This study points to the need for more reliable, context-aware evaluation methods and offers practical insights for improving how we measure faithfulness in fact-checking tasks.
 
 ---
 ## Repository Structure
@@ -146,6 +146,6 @@ Wikipedia API / Ollama / HuggingFace API use
 ## Citation
 
 ---
-Please access the full paper and citation in this link from the TU Delft Repository for my paper for the course Research Project (CSE 3000): [link]
+Please access the full paper and citation in this link from the TU Delft Repository for my paper for the course Research Project 2024/25 (CSE 3000): [[https://resolver.tudelft.nl/uuid:085205d5-62ba-4395-a160-eae4b7259e51](https://resolver.tudelft.nl/uuid:085205d5-62ba-4395-a160-eae4b7259e51)]
 
 The paper and poster with contact information can be found here: [link]

@@ -146,6 +146,6 @@ Wikipedia API / Ollama / HuggingFace API use
 ## Citation
 
 ---
-Please access the full paper and citation in this link from the TU Delft Repository for my paper for the course Research Project (CSE 3000): [[https://resolver.tudelft.nl/uuid:085205d5-62ba-4395-a160-eae4b7259e51](https://resolver.tudelft.nl/uuid:085205d5-62ba-4395-a160-eae4b7259e51)]
+Please access the full paper and citation in this link from the TU Delft Repository for my paper for the course Research Project 2024/25 (CSE 3000): [[https://resolver.tudelft.nl/uuid:085205d5-62ba-4395-a160-eae4b7259e51](https://resolver.tudelft.nl/uuid:085205d5-62ba-4395-a160-eae4b7259e51)]
 
 The paper and poster with contact information can be found here: [link]
